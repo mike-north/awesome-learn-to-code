@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "checkJs": true,
+    "allowJs": true,
+    "target": "es2017",
+    "moduleResolution": "node"
+  },
+  "include": ["types", "src"]
+}

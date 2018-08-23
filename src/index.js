@@ -2,7 +2,7 @@
 const fs = require('fs');
 
 /**
- * Update README.md with new content
+ * Update new content
  *
  * @param {string} existingContent
  * @returns {Promise<string>} updated content
@@ -11,6 +11,9 @@ async function updateReadme(existingContent) {
   return existingContent;
 }
 
+/**
+ * Update all rendered files (HTML and Markdown)
+ */
 async function update() {
   const readmeContents = fs.readFileSync('README.md').toString();
   const newConent = await updateReadme(readmeContents);
