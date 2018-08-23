@@ -2,17 +2,22 @@
   "name": "awesome-programming-games",
   "version": "1.0.0",
   "description": "A list of awesome games that teach you things about programming",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "https://github.com/mike-north/awesome-programming-games.git",
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
   "license": "MIT",
   "scripts": {
+    "lint:js": "./node_modules/.bin/eslint .",
     "build": "node --experimental-modules ./index.js",
-    "test": "yarn build"
+    "test": "yarn lint:js && yarn build"
   },
   "private": false,
   "devDependencies": {
     "@types/node": "^10.7.1",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
     "ts-node": "^7.0.1"
   }
 }
