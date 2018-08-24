@@ -2,6 +2,7 @@
 import { Game } from '../games';
 
 const ALL_LANGUAGES = {
+  assembly: { id: 'assembly', name: 'Assembly', url: 'http://www.azillionmonkeys.com/qed/asmexample.html' },
   bash: { id: 'bash', name: 'Bash', url: 'https://www.gnu.org/software/bash/' },
   c: { id: 'c', name: 'C', url: 'https://en.wikipedia.org/wiki/C_(programming_language)' },
   'c++': { id: 'c++', name: 'C++', url: 'https://en.cppreference.com/w/' },

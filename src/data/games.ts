@@ -2,11 +2,15 @@
 import ALL_CATEGORIES from './categories';
 import { ProgrammingLanguage } from './categories/languages';
 import codeCombat from './games/code-combat';
+import codeHunt from './games/code-hunt';
+import codeWars from './games/code-wars';
 import codingGame from './games/coding-game';
 import flexboxFrogger from './games/flexbox-frogger';
 import hrMachine from './games/human-resource-machine';
 import robocode from './games/robocode';
+import shenzhenIo from './games/shenzhen-io';
 import swiftPlaygrounds from './games/swift-playgrounds';
+import tis100 from './games/tis-100';
 import vimAdventures from './games/vim-adventures';
 
 export interface Game {
@@ -59,6 +63,10 @@ const ALL_GAMES = [
   robocode,
   hrMachine,
   swiftPlaygrounds,
+  codeHunt,
+  codeWars,
+  shenzhenIo,
+  tis100,
 ];
 
 function gameMap(games: Game[]): { [k: string]: Game[] } {
