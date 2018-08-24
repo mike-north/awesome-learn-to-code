@@ -1,7 +1,6 @@
 # Awesome Programming Games
 
-A collection of games that teach you things about programming
-
+A collection of games that teach you things 
 <!-- BEGIN_LIST -->
 
 # [General Programming](https://en.wikipedia.org/wiki/Computer_programming)
@@ -265,6 +264,7 @@ Programming languages
 
 
 <!-- END_LIST -->
+
 
 
 

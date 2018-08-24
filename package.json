@@ -8,12 +8,12 @@
   "license": "MIT",
   "scripts": {
     "lint": "./node_modules/.bin/tslint --project .",
-    "start": "yarn build:markdown && yarn build:html",
+    "build": "yarn build:markdown && yarn build:html",
     "start:debug": "yarn debug:markdown && yarn build:html",
     "debug:markdown": "node --inspect-brk -r ts-node/register ./src/index.ts",
     "build:markdown": "node -r ts-node/register ./src/index.ts",
     "build:html": "scripty",
-    "test": "yarn lint:js && yarn build",
+    "test": "yarn lint && yarn build",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
   },
@@ -21,9 +21,7 @@
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.0",
     "@semantic-release/git": "^7.0.1",
-    "@types/marked": "^0.4.0",
     "@types/node": "^10.7.1",
-    "marked": "^0.5.0",
     "scripty": "^1.7.2",
     "semantic-release": "^15.9.9",
     "travis-deploy-once": "^5.0.2",

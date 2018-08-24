@@ -9,7 +9,7 @@ node_js:
 after_success:
   - yarn travis-deploy-once "yarn semantic-release"
 
-script: yarn start
+script: yarn test
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
