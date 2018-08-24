@@ -5,8 +5,8 @@ const humanResourceMachine: Game = {
   id: 'humanResourceMachine',
   name: 'Human Resource Machine',
   url: 'https://tomorrowcorporation.com/humanresourcemachine',
-  platforms: ['web'],
+  platforms: ['ios', 'android'],
   description: 'A mobile game that teaches you how low-level programming (i.e., Assembler) works',
-  categoryIds: [['languages', 'assembler'], ['generalProgramming']],
+  categoryIds: [['languages', 'assembly'], ['generalProgramming']],
 };
 export default humanResourceMachine;

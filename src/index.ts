@@ -41,7 +41,7 @@ const ICONS = {
   linux: '/img/16/linux.png',
   android: '/img/16/android.png',
 };
-const icon = (key: keyof typeof ICONS, title: string) => `![${title}](${ICONS[key]})
+const icon = (key: keyof typeof ICONS, title: string) => `[![${title}](${ICONS[key]})](#)
 `;
 
 const mdGameIcons = (game: Game): string => {
