@@ -63,9 +63,9 @@ Programming languages
 
 ## [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-* [Flexbox Defense](http://www.flexboxdefense.com/) - Use flexbox to move your defenses into position and defend against waves of incoming enemies
-* [CodinGame](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 * [CSS Diner](https://flukeout.github.io/) - Practice your advanced CSS3 selectors with 32 levels of interactive challenges
+* [CodinGame](https://www.codingame.com/) - Games and Programming Challenges to Code Better
+* [Flexbox Defense](http://www.flexboxdefense.com/) - Use flexbox to move your defenses into position and defend against waves of incoming enemies
 * [Flexbox Froggy](https://flexboxfroggy.com/) - A game for learning CSS flexbox
 
 
@@ -169,8 +169,8 @@ Programming languages
 ## [Ruby](https://www.ruby-lang.org/)
 
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
-* [Ruby Warrior](https://www.bloc.io/ruby-warrior#/) - A triumphant quest of adventure, love & destiny all within a few lines of code
 * [CodinGame](https://www.codingame.com/) - Games and Programming Challenges to Code Better
+* [Ruby Warrior](https://www.bloc.io/ruby-warrior#/) - A triumphant quest of adventure, love & destiny all within a few lines of code
 
 
 ## [Rust](https://rust-lang.org)
@@ -215,6 +215,8 @@ Programming languages
 
 
 <!-- END_LIST -->
+
+
 
 
 

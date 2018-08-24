@@ -81,7 +81,7 @@ const mdGame = (game: Game): string => [`* [${game.name}](${game.url})`, mdGameD
 function mdCategoryGameList(og: OrganizedGames, level: number): string {
   const parts = [mdCategory(og.category, level)];
   if (og.items) {
-    parts.push(...og.items.map(game => mdGame(game)));
+    parts.push(...og.items.sort((a, b) => (b.name > a.name ? -1 : 1)).map(game => mdGame(game)));
     parts.push('\n');
   }
   if (og.children) {
