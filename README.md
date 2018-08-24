@@ -11,6 +11,8 @@ General computer programming skills & techniques
 
 Build tools, text editors, IDEs and more
     
+* [Git Games](https://git-game.com/) - A terminal based game that teaches both new and advances users some pretty cool features of the git scm (source control management) system
+* [Learn Git Branching](https://learngitbranching.js.org/) - "The most visual and interactive way to learn Git on the web"
 * [Untrusted](https://alexnisnevich.github.io/untrusted/) - Use JavaScript to guide Dr. Eval through a machine continuum!
 * [Vim Adventures](https://vim-adventures.com/) - an online game based on VIM's keyboard shortcuts. It's the "Zelda meets text editing" game. So come have some fun and learn some VIM!
 
@@ -167,7 +169,7 @@ Programming languages
 * [CodinGame](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 
 
-## [objectiveC](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html)
+## [Objective-C](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html)
 
 * [CodinGame](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 
@@ -259,6 +261,7 @@ Programming languages
 
 
 <!-- END_LIST -->
+
 
 
 

@@ -1,6 +1,7 @@
 // @ts-check
 import ALL_CATEGORIES from './categories';
 import { ProgrammingLanguage } from './categories/languages';
+import learnGitBranching from './games/branching-game';
 import checkIO from './games/check-io';
 import codeCombat from './games/code-combat';
 import codeHunt from './games/code-hunt';
@@ -11,6 +12,8 @@ import cssDiner from './games/css-diner';
 import cyberDojo from './games/cyber-dojo';
 import flexboxDefense from './games/flexbox-defense';
 import flexboxFrogger from './games/flexbox-frogger';
+import gitGame from './games/git-game';
+import grasshopper from './games/grasshopper';
 import hrMachine from './games/human-resource-machine';
 import robocode from './games/robocode';
 import rubyWarrior from './games/ruby-warrior';
@@ -68,6 +71,9 @@ const ALL_GAMES = [
   codeHunt,
   codeWars,
   rubyWarrior,
+  gitGame,
+  grasshopper,
+  learnGitBranching,
   flexboxDefense,
   codingGame,
   cssDiner,

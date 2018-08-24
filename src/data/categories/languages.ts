@@ -34,7 +34,7 @@ const ALL_LANGUAGES = {
   lua: { id: 'lua', name: 'Lua', url: 'https://www.lua.org/' },
   objectiveC: {
     id: 'objectiveC',
-    name: 'objectiveC',
+    name: 'Objective-C',
     url:
       'https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html',
   },
