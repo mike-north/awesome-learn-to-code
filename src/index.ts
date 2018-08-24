@@ -34,40 +34,38 @@ const mdCategory = (cat: Game.Category, level: number): string => {
 };
 
 const ICONS = {
-  notFree: '/img/24/pay-wall.png',
-  osx: '/img/24/osx.png',
-  ios: '/img/24/ios.png',
-  windows: '/img/24/windows.png',
-  linux: '/img/24/linux.png',
-  android: '/img/24/android.png',
+  notFree: '/img/16/pay.png',
+  osx: '/img/16/osx.png',
+  ios: '/img/16/ios.png',
+  windows: '/img/16/windows.png',
+  linux: '/img/16/linux.png',
+  android: '/img/16/android.png',
 };
-const icon = (name: keyof typeof ICONS) => `![](${ICONS[name]})
+const icon = (key: keyof typeof ICONS, title: string) => `![${title}](${ICONS[key]})
 `;
 
 const mdGameIcons = (game: Game): string => {
   const icons: string[] = [];
   if (game.price > 0) {
-    icons.push(icon('notFree'));
+    icons.push(icon('notFree', 'not free'));
   }
   if (icons.length === 0) {
     return '';
   }
   if (game.platforms.includes('windows')) {
-    icons.push(icon('windows'));
+    icons.push(icon('windows', 'Runs on Windows'));
   }
   if (game.platforms.includes('os x')) {
-    icons.push(icon('osx'));
+    icons.push(icon('osx', 'Runs on OS X'));
   }
   if (game.platforms.includes('ios')) {
-    icons.push(icon('ios'));
+    icons.push(icon('ios', 'Runs on iOS'));
   }
   if (game.platforms.includes('android')) {
-    icons.push(icon('android'));
+    icons.push(icon('android', 'Runs on Android'));
   }
   if (game.platforms.includes('linux')) {
-    icons.push(
-      '![linux](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEmSURBVDhPldO/S0JRGMbx69LQ0BKENUgQDuESQYIN0ihUU1Cjo3+AW5PQD5oCIQTBIJqkoKkpGmppaApa6x/ItIRA0bC+z7le8h65eX3gA77v1fcczj06/2QW20gjosY40Y9r+Ok7w1jJ4xp13KKHGYROETs4RA7aRQahU8I9jvAEDSggdKq4QxbP0IBXTGBkFtHFCTYQwwc0ZB8jc4UGpkzlRoeqAR0sqBGUOXxjz1R/mcQXNKSiRlB0cfSlVVP5cwM9ezNVQBLQG0iZyp9l6NUem8qKtriFT+ziFPaQJVxixVRW1qHtSRs6/RcM5gEX0CKbagxmDd4A0R3QSlHMI44WvOfn8EV/ngM8Qve+iSTKfVpA/XcMrW5HF0fs6Aym3Y9eHOcXp35B29x1KcsAAAAASUVORK5CYII=)',
-    );
+    icons.push(icon('linux', 'Runs on Linux'));
   }
   return icons.join('');
 };
