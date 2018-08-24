@@ -33,8 +33,8 @@ Programming languages
 
 ## [C](https://en.wikipedia.org/wiki/C_(programming_language))
 
-* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
+* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 
 
 ## [C++](https://en.cppreference.com/w/)
@@ -44,17 +44,16 @@ Programming languages
 
 ## [cSharp](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/)
 
-* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
-* [Robocode](http://robocode.sourceforge.net/) - Develop a robot battle tank to battle against others in Java or .NET
-* [Robocode](http://robocode.sourceforge.net/) - Develop a robot battle tank to battle against others in Java or .NET
 * [Codehunt](https://www.codehunt.com/) - Learn how to code by playing a game
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
+* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
+* [Robocode](http://robocode.sourceforge.net/) - Develop a robot battle tank to battle against others in Java or .NET
 
 
 ## [Clojure](https://clojure.org/)
 
-* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
+* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 
 
 ## [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -70,8 +69,8 @@ Programming languages
 
 ## [Dart](https://www.dartlang.org/)
 
-* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
+* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 
 
 ## [Elixir](https://elixir-lang.org/)
@@ -81,14 +80,14 @@ Programming languages
 
 ## [F#](https://fsharp.org/)
 
-* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
+* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 
 
 ## [Go](https://golang.org/)
 
-* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
+* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 
 
 ## [Groovy](http://groovy-lang.org/)
@@ -98,25 +97,24 @@ Programming languages
 
 ## [Haskell](https://www.haskell.org/)
 
-* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
+* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 
 
 ## [Java](https://www.java.com/)
 
-* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
-* [Robocode](http://robocode.sourceforge.net/) - Develop a robot battle tank to battle against others in Java or .NET
 * [CodeCombat](https://codecombat.com/play) - Learn how to code by playing a game
-* [Robocode](http://robocode.sourceforge.net/) - Develop a robot battle tank to battle against others in Java or .NET
 * [Codehunt](https://www.codehunt.com/) - Learn how to code by playing a game
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
+* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
+* [Robocode](http://robocode.sourceforge.net/) - Develop a robot battle tank to battle against others in Java or .NET
 
 
 ## [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 * [CodeCombat](https://codecombat.com/play) - Learn how to code by playing a game
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
+* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 
 
 ## [Kotlin](https://kotlinlang.org/)
@@ -150,8 +148,8 @@ Programming languages
 
 ## [Php](https://secure.php.net/)
 
-* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
+* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 
 
 ## [Python](https://www.python.org/)
@@ -162,28 +160,27 @@ Programming languages
 
 ## [Ruby](https://www.ruby-lang.org/)
 
-* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
+* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 
 
 ## [Rust](https://rust-lang.org)
 
-* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
+* [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 
 
 ## [Scala](https://www.scala-lang.org/)
 
 * [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 * [Robocode](http://robocode.sourceforge.net/) - Develop a robot battle tank to battle against others in Java or .NET
-* [Robocode](http://robocode.sourceforge.net/) - Develop a robot battle tank to battle against others in Java or .NET
 
 
 ## [Swift](https://developer.apple.com/swift/)
 
+* [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
 * [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 * [Swift Playgrounds](https://www.apple.com/swift/playgrounds/) - Learn swift by playing games on your iPad
-* [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
 
 
 ## [Shell](https://help.ubuntu.com/community/Beginners/BashScripting)
@@ -205,11 +202,11 @@ Programming languages
 
 * [Coding Game](https://www.codingame.com/) - Games and Programming Challenges to Code Better
 * [Robocode](http://robocode.sourceforge.net/) - Develop a robot battle tank to battle against others in Java or .NET
-* [Robocode](http://robocode.sourceforge.net/) - Develop a robot battle tank to battle against others in Java or .NET
 
 
 
 <!-- END_LIST -->
+
 
 
 

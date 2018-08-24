@@ -55,18 +55,17 @@ export declare namespace Game {
  * @type {Game[]}
  */
 const ALL_GAMES = [
-  codingGame,
-  robocode,
-  flexboxFrogger,
   codeCombat,
-  vimAdventures,
-  robocode,
-  hrMachine,
-  swiftPlaygrounds,
   codeHunt,
   codeWars,
+  codingGame,
+  flexboxFrogger,
+  hrMachine,
+  robocode,
   shenzhenIo,
+  swiftPlaygrounds,
   tis100,
+  vimAdventures,
 ];
 
 function gameMap(games: Game[]): { [k: string]: Game[] } {
