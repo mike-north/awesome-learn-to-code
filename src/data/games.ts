@@ -3,11 +3,16 @@ import ALL_CATEGORIES from './categories';
 import { ProgrammingLanguage } from './categories/languages';
 import codeCombat from './games/code-combat';
 import codeHunt from './games/code-hunt';
+import codeMonkey from './games/code-monkey';
 import codeWars from './games/code-wars';
-import codingGame from './games/coding-game';
+import codingGame from './games/codin-game';
+import cssDiner from './games/css-diner';
+import flexboxDefense from './games/flexbox-defense';
 import flexboxFrogger from './games/flexbox-frogger';
 import hrMachine from './games/human-resource-machine';
 import robocode from './games/robocode';
+import rubyWarrior from './games/ruby-warrior';
+import screeps from './games/screeps';
 import shenzhenIo from './games/shenzhen-io';
 import swiftPlaygrounds from './games/swift-playgrounds';
 import tis100 from './games/tis-100';
@@ -18,6 +23,7 @@ export interface Game {
   platforms: Game.Platform[];
   categoryIds: Array<['languages', ProgrammingLanguage] | ['generalProgramming'] | ['tools']>;
   name: string;
+  kidOriented?: boolean;
   description: string;
   url: string;
   price: number;
@@ -58,12 +64,17 @@ const ALL_GAMES = [
   codeCombat,
   codeHunt,
   codeWars,
+  rubyWarrior,
+  flexboxDefense,
   codingGame,
+  cssDiner,
+  codeMonkey,
   flexboxFrogger,
   hrMachine,
   robocode,
   shenzhenIo,
   swiftPlaygrounds,
+  screeps,
   tis100,
   vimAdventures,
 ];

@@ -12,6 +12,7 @@ const ALL_LANGUAGES = {
     url: 'https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/',
   },
   clojure: { id: 'clojure', name: 'Clojure', url: 'https://clojure.org/' },
+  coffeescript: { id: 'coffeescript', name: 'Coffeescript', url: 'https://coffeescript.org/' },
   css: { id: 'css', name: 'CSS', url: 'https://developer.mozilla.org/en-US/docs/Web/CSS' },
   crystal: { id: 'crystal', name: 'Crystal', url: 'https://crystal-lang.org/' },
   dart: { id: 'dart', name: 'Dart', url: 'https://www.dartlang.org/' },

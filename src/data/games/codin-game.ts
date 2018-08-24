@@ -1,9 +1,9 @@
 import { Game } from '../games';
 
-const codingGame: Game = {
+const codinGame: Game = {
   price: 0,
-  id: 'codingGame',
-  name: 'Coding Game',
+  id: 'codinGame',
+  name: 'CodinGame',
   url: 'https://www.codingame.com/',
   description: 'Games and Programming Challenges to Code Better',
   platforms: ['web'],
@@ -34,4 +34,4 @@ const codingGame: Game = {
   ],
 };
 
-export default codingGame;
+export default codinGame;
