@@ -11,6 +11,7 @@ General computer programming skills & techniques
 
 Build tools, text editors, IDEs and more
     
+* [Untrusted](https://alexnisnevich.github.io/untrusted/) - Use JavaScript to guide Dr. Eval through a machine continuum!
 * [Vim Adventures](https://vim-adventures.com/) - an online game based on VIM's keyboard shortcuts. It's the "Zelda meets text editing" game. So come have some fun and learn some VIM!
 
 # [Languages](https://en.wikipedia.org/wiki/Programming_languages)
@@ -119,6 +120,7 @@ Programming languages
 
 ## [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
+* [Check I/O](https://checkio.org/) - Improve your coding skills by solving engaging challenges and fun task using Python and JavaScript
 * [CodeCombat](https://codecombat.com/play) - Learn how to code by playing a game
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - Games and Programming Challenges to Code Better
@@ -162,6 +164,7 @@ Programming languages
 
 ## [Python](https://www.python.org/)
 
+* [Check I/O](https://checkio.org/) - Improve your coding skills by solving engaging challenges and fun task using Python and JavaScript
 * [CodeCombat](https://codecombat.com/play) - Learn how to code by playing a game
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
 
@@ -215,6 +218,7 @@ Programming languages
 
 
 <!-- END_LIST -->
+
 
 
 

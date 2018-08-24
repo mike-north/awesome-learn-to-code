@@ -1,6 +1,7 @@
 // @ts-check
 import ALL_CATEGORIES from './categories';
 import { ProgrammingLanguage } from './categories/languages';
+import checkIO from './games/check-io';
 import codeCombat from './games/code-combat';
 import codeHunt from './games/code-hunt';
 import codeMonkey from './games/code-monkey';
@@ -75,6 +76,7 @@ const ALL_GAMES = [
   robocode,
   untrusted,
   shenzhenIo,
+  checkIO,
   swiftPlaygrounds,
   screeps,
   tis100,
