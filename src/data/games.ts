@@ -16,12 +16,13 @@ import screeps from './games/screeps';
 import shenzhenIo from './games/shenzhen-io';
 import swiftPlaygrounds from './games/swift-playgrounds';
 import tis100 from './games/tis-100';
+import untrusted from './games/untrusted';
 import vimAdventures from './games/vim-adventures';
 
 export interface Game {
   id: string;
   platforms: Game.Platform[];
-  categoryIds: Array<['languages', ProgrammingLanguage] | ['generalProgramming'] | ['tools']>;
+  categoryIds: Array<['languages', ProgrammingLanguage] | ['generalProgramming'] | ['toolsAndEditors']>;
   name: string;
   kidOriented?: boolean;
   description: string;
@@ -72,6 +73,7 @@ const ALL_GAMES = [
   flexboxFrogger,
   hrMachine,
   robocode,
+  untrusted,
   shenzhenIo,
   swiftPlaygrounds,
   screeps,
