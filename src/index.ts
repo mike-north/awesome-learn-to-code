@@ -47,27 +47,24 @@ const icon = (key: keyof typeof ICONS, title: string) => `[![${title}](${ICONS[k
 const mdGameIcons = (game: Game): string => {
   const icons: string[] = [];
   if (game.price > 0) {
-    icons.push(icon('notFree', 'not free'));
+    icons.push('💰');
   }
   if (icons.length === 0) {
     return '';
   }
   if (game.platforms.includes('windows')) {
-    icons.push(icon('windows', 'Runs on Windows'));
+    icons.push('❖');
   }
   if (game.platforms.includes('os x')) {
-    icons.push(icon('osx', 'Runs on OS X'));
+    icons.push('');
   }
-  if (game.platforms.includes('ios')) {
-    icons.push(icon('ios', 'Runs on iOS'));
+  if (game.platforms.includes('ios') || game.platforms.includes('android')) {
+    icons.push('📱');
   }
-  if (game.platforms.includes('android')) {
-    icons.push(icon('android', 'Runs on Android'));
-  }
-  if (game.platforms.includes('linux')) {
-    icons.push(icon('linux', 'Runs on Linux'));
-  }
-  return icons.join('');
+  // if (game.platforms.includes('linux')) {
+  //   icons.push('Linux');
+  // }
+  return `(${icons.join('')})`;
 };
 
 const mdGameDetails = (game: Game): string => {

@@ -1,14 +1,11 @@
-# Aweso
+
 <!-- BEGIN_LIST -->
 
 # [General Programming](https://en.wikipedia.org/wiki/Computer_programming)
 
 General computer programming skills & techniques
     
-* [Human Resource Machine](https://tomorrowcorporation.com/humanresourcemachine) - [![not free](/img/16/pay.png)](#)
-[![Runs on iOS](/img/16/ios.png)](#)
-[![Runs on Android](/img/16/android.png)](#)
- A mobile game that teaches you how low-level programming (i.e., Assembler) works
+* [Human Resource Machine](https://tomorrowcorporation.com/humanresourcemachine) - (💰📱) A mobile game that teaches you how low-level programming (i.e., Assembler) works
 
 # [Tools & Editors](https://en.wikipedia.org/wiki/Programming_tool)
 
@@ -24,15 +21,9 @@ Programming languages
 
 ## [Assembly](http://www.azillionmonkeys.com/qed/asmexample.html)
 
-* [Human Resource Machine](https://tomorrowcorporation.com/humanresourcemachine) - [![not free](/img/16/pay.png)](#)
-[![Runs on iOS](/img/16/ios.png)](#)
-[![Runs on Android](/img/16/android.png)](#)
- A mobile game that teaches you how low-level programming (i.e., Assembler) works
+* [Human Resource Machine](https://tomorrowcorporation.com/humanresourcemachine) - (💰📱) A mobile game that teaches you how low-level programming (i.e., Assembler) works
 * [Shenzhen I/O](https://store.steampowered.com/app/504210/SHENZHEN_IO/) - BUILD CIRCUITS. WRITE CODE. RTFM.
-* [TIS-100](https://store.steampowered.com/app/370360/TIS100/) - [![not free](/img/16/pay.png)](#)
-[![Runs on Windows](/img/16/windows.png)](#)
-[![Runs on OS X](/img/16/osx.png)](#)
- Rewrite corrupted code segments to repair the TIS-100 and unlock its secrets.
+* [TIS-100](https://store.steampowered.com/app/370360/TIS100/) - (💰❖) Rewrite corrupted code segments to repair the TIS-100 and unlock its secrets.
 
 
 ## [Bash](https://www.gnu.org/software/bash/)
@@ -219,6 +210,7 @@ Programming languages
 
 
 <!-- END_LIST -->
+
 
 
 
