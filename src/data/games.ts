@@ -31,7 +31,7 @@ export interface OrganizedGames {
 
 // tslint:disable-next-line:no-namespace
 export declare namespace Game {
-  type Platform = 'ios' | 'android' | 'web' | 'windows' | 'os x' | 'linx';
+  type Platform = 'ios' | 'android' | 'web' | 'windows' | 'os x' | 'linux';
   interface Category<ID extends string = string> {
     id: ID;
     name: string;
