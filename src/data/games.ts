@@ -1,23 +1,25 @@
 // @ts-check
 import ALL_CATEGORIES from './categories';
+import { ProgrammingLanguage } from './categories/languages';
 import codeCombat from './games/code-combat';
 import codingGame from './games/coding-game';
 import flexboxFrogger from './games/flexbox-frogger';
 import hrMachine from './games/human-resource-machine';
+import robocode from './games/robocode';
 import swiftPlaygrounds from './games/swift-playgrounds';
 import vimAdventures from './games/vim-adventures';
 
 export interface Game {
   id: string;
   platforms: Game.Platform[];
-  categoryIds: string[][];
+  categoryIds: Array<['languages', ProgrammingLanguage] | ['generalProgramming'] | ['tools']>;
   name: string;
   description: string;
   url: string;
   price: number;
 }
 
-interface OrganizedGames {
+export interface OrganizedGames {
   category: Game.Category;
   items: Game[];
   children?: OrganizedGames[];
@@ -30,6 +32,8 @@ export declare namespace Game {
     id: ID;
     name: string;
     description?: string;
+    order?: number | string;
+    img?: string;
     url: string;
   }
   type Categories<P extends string = ''> = {
@@ -46,7 +50,16 @@ export declare namespace Game {
 /**
  * @type {Game[]}
  */
-const ALL_GAMES = [codingGame, vimAdventures, flexboxFrogger, codeCombat, hrMachine, swiftPlaygrounds];
+const ALL_GAMES = [
+  codingGame,
+  robocode,
+  flexboxFrogger,
+  codeCombat,
+  vimAdventures,
+  robocode,
+  hrMachine,
+  swiftPlaygrounds,
+];
 
 function gameMap(games: Game[]): { [k: string]: Game[] } {
   const m: { [k: string]: Game[] } = {};
@@ -79,7 +92,6 @@ function organizeGames<K extends string>(
   for (const c in categories) {
     const cpair = parentCatName.concat(c);
     const catKey = cpair.join('/');
-    console.log(catKey);
     const catGames = gmap[catKey];
     const og: OrganizedGames = {
       category: categories[c],
