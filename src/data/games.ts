@@ -8,6 +8,7 @@ import codeMonkey from './games/code-monkey';
 import codeWars from './games/code-wars';
 import codingGame from './games/codin-game';
 import cssDiner from './games/css-diner';
+import cyberDojo from './games/cyber-dojo';
 import flexboxDefense from './games/flexbox-defense';
 import flexboxFrogger from './games/flexbox-frogger';
 import hrMachine from './games/human-resource-machine';
@@ -72,6 +73,7 @@ const ALL_GAMES = [
   cssDiner,
   codeMonkey,
   flexboxFrogger,
+  cyberDojo,
   hrMachine,
   robocode,
   untrusted,

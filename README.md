@@ -30,17 +30,21 @@ Programming languages
 ## [Bash](https://www.gnu.org/software/bash/)
 
 * [CodinGame](https://www.codingame.com/) - Games and Programming Challenges to Code Better
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 
 
 ## [C](https://en.wikipedia.org/wiki/C_(programming_language))
 
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - Games and Programming Challenges to Code Better
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 
 
 ## [C++](https://en.cppreference.com/w/)
 
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 
 
 ## [cSharp](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/)
@@ -48,6 +52,7 @@ Programming languages
 * [Codehunt](https://www.codehunt.com/) - Learn how to code by playing a game
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - Games and Programming Challenges to Code Better
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 * [Robocode](http://robocode.sourceforge.net/) - Develop a robot battle tank to battle against others in Java or .NET
 
 
@@ -55,11 +60,13 @@ Programming languages
 
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - Games and Programming Challenges to Code Better
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 
 
 ## [Coffeescript](https://coffeescript.org/)
 
 * [Code Monkey](https://www.playcodemonkey.com/) - Using CoffeeScript, build your own games in HTML5.
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 
 
 ## [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -75,6 +82,11 @@ Programming languages
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
 
 
+## [D](https://dlang.org/)
+
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
+
+
 ## [Dart](https://www.dartlang.org/)
 
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
@@ -84,29 +96,44 @@ Programming languages
 ## [Elixir](https://elixir-lang.org/)
 
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
+
+
+## [Erlang](https://www.erlang.org/)
+
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 
 
 ## [F#](https://fsharp.org/)
 
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - Games and Programming Challenges to Code Better
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
+
+
+## [Fortran](https://en.wikibooks.org/wiki/Fortran/Fortran_examples)
+
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 
 
 ## [Go](https://golang.org/)
 
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - Games and Programming Challenges to Code Better
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 
 
 ## [Groovy](http://groovy-lang.org/)
 
 * [CodinGame](https://www.codingame.com/) - Games and Programming Challenges to Code Better
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 
 
 ## [Haskell](https://www.haskell.org/)
 
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - Games and Programming Challenges to Code Better
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 
 
 ## [Java](https://www.java.com/)
@@ -115,6 +142,7 @@ Programming languages
 * [Codehunt](https://www.codehunt.com/) - Learn how to code by playing a game
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - Games and Programming Challenges to Code Better
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 * [Robocode](http://robocode.sourceforge.net/) - Develop a robot battle tank to battle against others in Java or .NET
 
 
@@ -124,12 +152,14 @@ Programming languages
 * [CodeCombat](https://codecombat.com/play) - Learn how to code by playing a game
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - Games and Programming Challenges to Code Better
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 * [Screeps](https://store.steampowered.com/app/464350/Screeps/) - (💰❖) Screeps is an open source MMO RTS sandbox game for programmers, wherein the core mechanic is programming your units AI. You control your colony by writing JavaScript which operate 24/7 in the single persistent world filled by other players on par with you.
 
 
 ## [Kotlin](https://kotlinlang.org/)
 
 * [CodinGame](https://www.codingame.com/) - Games and Programming Challenges to Code Better
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 
 
 ## [Lua](https://www.lua.org/)
@@ -154,12 +184,14 @@ Programming languages
 
 ## [Perl](https://www.perl.org/)
 
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 
 
 ## [Php](https://secure.php.net/)
 
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - Games and Programming Challenges to Code Better
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 
 
 ## [Python](https://www.python.org/)
@@ -167,12 +199,19 @@ Programming languages
 * [Check I/O](https://checkio.org/) - Improve your coding skills by solving engaging challenges and fun task using Python and JavaScript
 * [CodeCombat](https://codecombat.com/play) - Learn how to code by playing a game
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
+
+
+## [R](https://www.r-project.org/)
+
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 
 
 ## [Ruby](https://www.ruby-lang.org/)
 
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - Games and Programming Challenges to Code Better
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 * [Ruby Warrior](https://www.bloc.io/ruby-warrior#/) - A triumphant quest of adventure, love & destiny all within a few lines of code
 
 
@@ -180,6 +219,7 @@ Programming languages
 
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - Games and Programming Challenges to Code Better
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 
 
 ## [Scala](https://www.scala-lang.org/)
@@ -192,6 +232,7 @@ Programming languages
 
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - Games and Programming Challenges to Code Better
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 * [Swift Playgrounds](https://www.apple.com/swift/playgrounds/) - Learn swift by playing games on your iPad
 
 
@@ -218,6 +259,7 @@ Programming languages
 
 
 <!-- END_LIST -->
+
 
 
 
