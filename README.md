@@ -2,25 +2,10 @@
 
 A curated list of sites, tools, resources and other things that help when learning about programming
 
-<table borders="0">
-<tr valign="top">
-  <td>
-    <table>
-      <thead><tr><th>Table of Contents</th></tr></thead>
-      <tbody>
-        <tr>
-          <td>
-            <!-- BEGIN_TOC -->
-              foo
-            <!-- END_TOC -->
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </td>
-  <td>
+<details>
+  <summary>Legend</summary>
 
-  | Legend |  |
+  | Icon | Meaning  |
   | ---:| :---|
   | 💰  | Not Free | 
   | ❖  | Windows   |
@@ -29,6 +14,9 @@ A curated list of sites, tools, resources and other things that help when learni
   | 📱  | Mobile   |
   | 🎮  | Game     |
   | 🏗  | Playground |
+
+</details>
+
 <!-- BEGIN_LIST -->
 
 # [General Programming](https://en.wikipedia.org/wiki/Computer_programming)

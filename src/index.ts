@@ -110,7 +110,7 @@ function generateSiteListMarkdown(sites: OrganizedSites[], level: number = 1): s
 }
 
 function updateSiteList(existingContent: string, listContent: string): string {
-  const begin = existingContent.indexOf(LIST_BEGIN_TAG) - LIST_BEGIN_TAG.length;
+  const begin = existingContent.indexOf(LIST_BEGIN_TAG);
   const end = existingContent.indexOf(LIST_END_TAG, begin) + LIST_END_TAG.length;
   return `${existingContent.substr(0, begin)}
 ${wrapList(listContent)}
