@@ -1,30 +1,30 @@
 import ALL_LANGUAGES_WITH_ID from './categories/languages';
-import { Game } from './games';
+import { Site } from './sites';
 
 // @ts-check
 
-const ALL_CATEGORIES: Game.Categories = {
+const ALL_CATEGORIES: Site.Categories = {
   generalProgramming: {
-    order: 1,
+    description: 'General computer programming skills & techniques',
     id: 'generalProgramming',
     name: 'General Programming',
+    order: 1,
     url: 'https://en.wikipedia.org/wiki/Computer_programming',
-    description: 'General computer programming skills & techniques',
-  },
-  toolsAndEditors: {
-    order: 2,
-    id: 'toolsAndEditors',
-    name: 'Tools & Editors',
-    description: 'Build tools, text editors, IDEs and more',
-    url: 'https://en.wikipedia.org/wiki/Programming_tool',
   },
   languages: {
-    order: 3,
+    children: ALL_LANGUAGES_WITH_ID,
+    description: 'Programming languages',
     id: 'languages',
     name: 'Languages',
-    description: 'Programming languages',
+    order: 3,
     url: 'https://en.wikipedia.org/wiki/Programming_languages',
-    children: ALL_LANGUAGES_WITH_ID,
+  },
+  toolsAndEditors: {
+    description: 'Build tools, text editors, IDEs and more',
+    id: 'toolsAndEditors',
+    name: 'Tools & Editors',
+    order: 2,
+    url: 'https://en.wikipedia.org/wiki/Programming_tool',
   },
 };
 

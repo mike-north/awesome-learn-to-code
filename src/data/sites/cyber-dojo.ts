@@ -1,12 +1,6 @@
-import { Game } from '../games';
+import { Site } from '../sites';
 
-const cyberDojo: Game = {
-  price: 0,
-  id: 'cyberDojo',
-  name: 'Cyber Dojo',
-  url: 'http://cyber-dojo.org/',
-  description: 'Hone your programming skills in a huge range of languages, writing code to pass tests',
-  platforms: ['web'],
+const cyberDojo: Site = {
   categoryIds: [
     ['languages', 'bash'],
     ['languages', 'c'],
@@ -34,6 +28,13 @@ const cyberDojo: Game = {
     ['languages', 'rust'],
     ['languages', 'swift'],
   ],
+  description: 'Hone your programming skills in a huge range of languages, writing code to pass tests',
+  id: 'cyberDojo',
+  name: 'Cyber Dojo',
+  platforms: ['web'],
+  price: 0,
+  type: 'game',
+  url: 'http://cyber-dojo.org/',
 };
 
 export default cyberDojo;

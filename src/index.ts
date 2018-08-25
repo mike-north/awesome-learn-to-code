@@ -1,6 +1,6 @@
 // @ts-check
 import { readFileSync, writeFileSync } from 'fs';
-import allGames, { Game, OrganizedGames } from './data/games';
+import allGames, { OrganizedSites, Site } from './data/sites';
 /**
  * Update new content
  *
@@ -22,9 +22,9 @@ const MD_HEADER_PREFIXES = [null, '#', '##', '###', '####', '#####', '######'];
 const mdHeader = (text: string, level: number) => `${MD_HEADER_PREFIXES[level]} ${text}
 `;
 
-const mdCategoryIcons = (game: Game.Category): string => '';
+const mdCategoryIcons = (game: Site.Category): string => '';
 
-const mdCategory = (cat: Game.Category, level: number): string => {
+const mdCategory = (cat: Site.Category, level: number): string => {
   const parts = [mdHeader(`[${cat.name}](${cat.url})`, level)];
   if (cat.description) {
     parts.push(`${cat.description}
@@ -34,23 +34,20 @@ const mdCategory = (cat: Game.Category, level: number): string => {
 };
 
 const ICONS = {
+  android: '/img/16/android.png',
+  ios: '/img/16/ios.png',
+  linux: '/img/16/linux.png',
   notFree: '/img/16/pay.png',
   osx: '/img/16/osx.png',
-  ios: '/img/16/ios.png',
   windows: '/img/16/windows.png',
-  linux: '/img/16/linux.png',
-  android: '/img/16/android.png',
 };
 const icon = (key: keyof typeof ICONS, title: string) => `[![${title}](${ICONS[key]})](#)
 `;
 
-const mdGameIcons = (game: Game): string => {
+const mdGameIcons = (game: Site): string => {
   const icons: string[] = [];
   if (game.price > 0) {
     icons.push('💰');
-  }
-  if (icons.length === 0) {
-    return '';
   }
   if (game.platforms.includes('windows')) {
     icons.push('❖');
@@ -61,13 +58,16 @@ const mdGameIcons = (game: Game): string => {
   if (game.platforms.includes('ios') || game.platforms.includes('android')) {
     icons.push('📱');
   }
-  // if (game.platforms.includes('linux')) {
-  //   icons.push('Linux');
-  // }
-  return `(${icons.join('')})`;
+  if (game.type === 'game') {
+    icons.push('🎮');
+  }
+  if (icons.length === 0) {
+    return '';
+  }
+  return ` ${icons.join('')} `;
 };
 
-const mdGameDetails = (game: Game): string => {
+const mdGameDetails = (game: Site): string => {
   const parts: string[] = [mdGameIcons(game), game.description].filter(Boolean);
 
   if (parts.length > 0) {
@@ -76,9 +76,9 @@ const mdGameDetails = (game: Game): string => {
   return '';
 };
 
-const mdGame = (game: Game): string => [`* [${game.name}](${game.url})`, mdGameDetails(game)].filter(Boolean).join('');
+const mdGame = (game: Site): string => [`* [${game.name}](${game.url})`, mdGameDetails(game)].filter(Boolean).join('');
 
-function mdCategoryGameList(og: OrganizedGames, level: number): string {
+function mdCategoryGameList(og: OrganizedSites, level: number): string {
   const parts = [mdCategory(og.category, level)];
   if (og.items) {
     parts.push(...og.items.sort((a, b) => (b.name > a.name ? -1 : 1)).map(game => mdGame(game)));
@@ -90,14 +90,14 @@ function mdCategoryGameList(og: OrganizedGames, level: number): string {
   return parts.join('\n');
 }
 
-function sortOgs(games: OrganizedGames[]): OrganizedGames[] {
+function sortOgs(games: OrganizedSites[]): OrganizedSites[] {
   return games
     .filter(g => g.category.order !== void 0)
     .sort((a, b) => (b as any).category.order - (a as any).category.order)
     .concat(games.filter(g => g.category.order === void 0).sort());
 }
 
-function generateGameListMarkdown(games: OrganizedGames[], level: number = 1): string {
+function generateGameListMarkdown(games: OrganizedSites[], level: number = 1): string {
   return sortOgs(games).reduce((txt, game) => {
     return `${mdCategoryGameList(game, level)}${txt}`;
   }, '');

@@ -1,5 +1,5 @@
 // @ts-check
-import { Game } from '../games';
+import { Site } from '../sites';
 
 const ALL_LANGUAGES = {
   assembly: { id: 'assembly', name: 'Assembly', url: 'http://www.azillionmonkeys.com/qed/asmexample.html' },
@@ -13,8 +13,8 @@ const ALL_LANGUAGES = {
   },
   clojure: { id: 'clojure', name: 'Clojure', url: 'https://clojure.org/' },
   coffeescript: { id: 'coffeescript', name: 'Coffeescript', url: 'https://coffeescript.org/' },
-  css: { id: 'css', name: 'CSS', url: 'https://developer.mozilla.org/en-US/docs/Web/CSS' },
   crystal: { id: 'crystal', name: 'Crystal', url: 'https://crystal-lang.org/' },
+  css: { id: 'css', name: 'CSS', url: 'https://developer.mozilla.org/en-US/docs/Web/CSS' },
   d: { id: 'd', name: 'D', url: 'https://dlang.org/' },
   dart: { id: 'dart', name: 'Dart', url: 'https://www.dartlang.org/' },
   elixir: { id: 'elixir', name: 'Elixir', url: 'https://elixir-lang.org/' },
@@ -47,9 +47,9 @@ const ALL_LANGUAGES = {
   ruby: { id: 'ruby', name: 'Ruby', url: 'https://www.ruby-lang.org/' },
   rust: { id: 'rust', name: 'Rust', url: 'https://rust-lang.org' },
   scala: { id: 'scala', name: 'Scala', url: 'https://www.scala-lang.org/' },
-  swift: { id: 'swift', name: 'Swift', url: 'https://developer.apple.com/swift/' },
   shell: { id: 'shell', name: 'Shell', url: 'https://help.ubuntu.com/community/Beginners/BashScripting' },
   sql: { id: 'sql', name: 'SQL', url: 'https://www.postgresql.org/' },
+  swift: { id: 'swift', name: 'Swift', url: 'https://developer.apple.com/swift/' },
   typescript: { id: 'typescript', name: 'TypeScript', url: 'http://typescriptlang.org/' },
   vbNet: {
     id: 'vbNet',
@@ -61,7 +61,7 @@ const ALL_LANGUAGES = {
 export type ProgrammingLanguage = keyof typeof ALL_LANGUAGES;
 
 /**
- * @type {Game.Categories<'languages'>}
+ * @type {Site.Categories<'languages'>}
  */
 const ALL_LANGUAGES_WITH_ID = (Object.keys(ALL_LANGUAGES) as Array<keyof typeof ALL_LANGUAGES>).reduce(
   (obj, k) => {
@@ -69,7 +69,7 @@ const ALL_LANGUAGES_WITH_ID = (Object.keys(ALL_LANGUAGES) as Array<keyof typeof 
     obj[k] = Object.assign({ parentId: 'languages' as 'languages' }, ALL_LANGUAGES[k]);
     return obj;
   },
-  {} as Game.Categories<'languages'>,
+  {} as Site.Categories<'languages'>,
 );
 
 export default ALL_LANGUAGES_WITH_ID;

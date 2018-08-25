@@ -1,12 +1,6 @@
-import { Game } from '../games';
+import { Site } from '../sites';
 
-const codinGame: Game = {
-  price: 0,
-  id: 'codinGame',
-  name: 'CodinGame',
-  url: 'https://www.codingame.com/',
-  description: 'Games and Programming Challenges to Code Better',
-  platforms: ['web'],
+const codinGame: Site = {
   categoryIds: [
     ['languages', 'bash'],
     ['languages', 'c'],
@@ -32,6 +26,13 @@ const codinGame: Game = {
     ['languages', 'swift'],
     ['languages', 'vbNet'],
   ],
+  description: 'Games and Programming Challenges to Code Better',
+  id: 'codinGame',
+  name: 'CodinGame',
+  platforms: ['web'],
+  price: 0,
+  type: 'game',
+  url: 'https://www.codingame.com/',
 };
 
 export default codinGame;

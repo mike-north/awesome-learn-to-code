@@ -3,14 +3,12 @@
   "extends": ["tslint:recommended"],
   "jsRules": {
     "quotemark": false,
-    "object-literal-sort-keys": false,
     "max-line-length": false,
     "arrow-parens": false,
     "object-literal-key-quotes": false
   },
   "rules": {
     "quotemark": false,
-    "object-literal-sort-keys": false,
     "max-line-length": false,
     "interface-name": false,
     "arrow-parens": false,

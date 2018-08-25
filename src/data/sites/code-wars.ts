@@ -1,12 +1,6 @@
-import { Game } from '../games';
+import { Site } from '../sites';
 
-const codeWars: Game = {
-  price: 0,
-  id: 'codeWars',
-  name: 'Codewars',
-  url: 'https://www.codewars.com/',
-  description: 'Improve your skills by training with others on real code challenges',
-  platforms: ['web'],
+const codeWars: Site = {
   categoryIds: [
     ['languages', 'clojure'],
     ['languages', 'c'],
@@ -29,6 +23,13 @@ const codeWars: Game = {
     ['languages', 'swift'],
     ['languages', 'typescript'],
   ],
+  description: 'Improve your skills by training with others on real code challenges',
+  id: 'codeWars',
+  name: 'Codewars',
+  platforms: ['web'],
+  price: 0,
+  type: 'game',
+  url: 'https://www.codewars.com/',
 };
 
 export default codeWars;

@@ -1,6 +1,6 @@
-import { Game } from '../games';
+import { Site } from '../sites';
 
-const gitGames: Game = {
+const gitGames: Site = {
   categoryIds: [['toolsAndEditors']],
   description:
     'A terminal based game that teaches both new and advances users some pretty cool features of the git scm (source control management) system',
@@ -8,6 +8,7 @@ const gitGames: Game = {
   name: 'Git Games',
   platforms: ['web'],
   price: 0,
+  type: 'game',
   url: 'https://git-game.com/',
 };
 export default gitGames;

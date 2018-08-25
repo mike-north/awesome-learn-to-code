@@ -1,12 +1,13 @@
-import { Game } from '../games';
+import { Site } from '../sites';
 
-const learnGitBranching: Game = {
+const learnGitBranching: Site = {
   categoryIds: [['toolsAndEditors']],
   description: '"The most visual and interactive way to learn Git on the web"',
   id: 'learnGitBranching',
   name: 'Learn Git Branching',
   platforms: ['web'],
   price: 0,
+  type: 'game',
   url: 'https://learngitbranching.js.org/',
 };
 export default learnGitBranching;
