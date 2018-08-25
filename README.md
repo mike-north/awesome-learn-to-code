@@ -29,9 +29,6 @@ A curated list of sites, tools, resources and other things that help when learni
   | 📱  | Mobile   |
   | 🎮  | Game     |
   | 🏗  | Playground |
-  </td>
-</table>
-
 <!-- BEGIN_LIST -->
 
 # [General Programming](https://en.wikipedia.org/wiki/Computer_programming)
@@ -321,6 +318,7 @@ Programming languages
 
 
 <!-- END_LIST -->
+
 
 
 
