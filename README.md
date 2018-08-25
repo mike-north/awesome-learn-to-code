@@ -2,18 +2,35 @@
 
 A curated list of sites, tools, resources and other things that help when learning about programming
 
-### Legend
+<table>
+<tr valign="top">
+  <td>
+    <table>
+      <thead><tr><th>Table of Contents</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>
+            <!-- BEGIN_TOC -->
+              foo
+            <!-- END_TOC -->
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </td>
+  <td>
 
-| Icon | Meaning |
-| ---:| :---|
-| 💰  | Not Free | 
-| ❖  | Windows   |
-|   | OS        |
-| 🕸  | Web      |
-| 📱  | Mobile   |
-| 🎮  | Game     |
-| 🏗  | Playground |
-
+  | Legend |  |
+  | ---:| :---|
+  | 💰  | Not Free | 
+  | ❖  | Windows   |
+  |   | OS        |
+  | 🕸  | Web      |
+  | 📱  | Mobile   |
+  | 🎮  | Game     |
+  | 🏗  | Playground |
+  </td>
+</table>
 
 <!-- BEGIN_LIST -->
 
