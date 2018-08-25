@@ -1,6 +1,19 @@
 # Awesome Resources For Learning To Code
 
-A collection of sites, tools, resources and other things that help when learning about programming
+A curated list of sites, tools, resources and other things that help when learning about programming
+
+### Legend
+
+| Icon | Meaning |
+| ---:| :---|
+| 💰  | Not Free | 
+| ❖  | Windows   |
+|   | OS        |
+| 🕸  | Web      |
+| 📱  | Mobile   |
+| 🎮  | Game     |
+| 🏗  | Playground |
+
 
 <!-- BEGIN_LIST -->
 
@@ -272,7 +285,7 @@ Programming languages
 - https://www.slant.co/topics/6586/~programming-games-on-steam
 - https://www.rockpapershotgun.com/2017/11/29/best-hacking-games/
 - https://medium.mybridge.co/12-free-resources-learn-to-code-while-playing-games-f7333043de11
-
+- https://github.com/webloper/awesome-fiddles
 
 ## Copyright
 

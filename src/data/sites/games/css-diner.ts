@@ -1,4 +1,4 @@
-import { Site } from '../sites';
+import { Site } from '../../sites';
 
 const cssDiner: Site = {
   categoryIds: [['languages', 'css']],

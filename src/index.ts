@@ -55,11 +55,17 @@ const mdSiteIcons = (site: Site): string => {
   if (site.platforms.includes('os x')) {
     icons.push('');
   }
+  if (site.platforms.includes('web')) {
+    icons.push('🕸');
+  }
   if (site.platforms.includes('ios') || site.platforms.includes('android')) {
     icons.push('📱');
   }
   if (site.type === 'game') {
     icons.push('🎮');
+  }
+  if (site.type === 'playground') {
+    icons.push('🏗');
   }
   if (icons.length === 0) {
     return '';

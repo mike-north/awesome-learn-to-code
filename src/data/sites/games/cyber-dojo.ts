@@ -1,4 +1,4 @@
-import { Site } from '../sites';
+import { Site } from '../../sites';
 
 const cyberDojo: Site = {
   categoryIds: [

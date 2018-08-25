@@ -1,4 +1,4 @@
-import { Site } from '../sites';
+import { Site } from '../../sites';
 
 const swiftPlaygrounds: Site = {
   categoryIds: [['languages', 'swift']],

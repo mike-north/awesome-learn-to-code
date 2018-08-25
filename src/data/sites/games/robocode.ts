@@ -1,4 +1,4 @@
-import { Site } from '../sites';
+import { Site } from '../../sites';
 
 const robocode: Site = {
   categoryIds: [['languages', 'java'], ['languages', 'scala'], ['languages', 'cSharp'], ['languages', 'vbNet']],

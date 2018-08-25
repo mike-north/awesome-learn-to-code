@@ -1,30 +1,11 @@
 // @ts-check
 import ALL_CATEGORIES from './categories';
 import { ProgrammingLanguage } from './categories/languages';
-import learnGitBranching from './sites/branching-game';
-import checkIO from './sites/check-io';
-import codeCombat from './sites/code-combat';
-import codeHunt from './sites/code-hunt';
-import codeMonkey from './sites/code-monkey';
-import codeWars from './sites/code-wars';
-import codingGame from './sites/codin-game';
-import cssDiner from './sites/css-diner';
-import cyberDojo from './sites/cyber-dojo';
-import flexboxDefense from './sites/flexbox-defense';
-import flexboxFrogger from './sites/flexbox-frogger';
-import gitGame from './sites/git-game';
-import grasshopper from './sites/grasshopper';
-import hrMachine from './sites/human-resource-machine';
-import robocode from './sites/robocode';
-import rubyWarrior from './sites/ruby-warrior';
-import screeps from './sites/screeps';
-import shenzhenIo from './sites/shenzhen-io';
-import swiftPlaygrounds from './sites/swift-playgrounds';
-import tis100 from './sites/tis-100';
-import untrusted from './sites/untrusted';
-import vimAdventures from './sites/vim-adventures';
 
-export type SiteType = 'game';
+import allGames from './sites/games';
+import allPlaygrounds from './sites/playgrounds';
+
+export type SiteType = 'game' | 'playground';
 export interface Site {
   id: string;
   platforms: Site.Platform[];
@@ -65,33 +46,7 @@ export declare namespace Site {
   };
 }
 
-/**
- * @type {Site[]}
- */
-const ALL_SITES = [
-  codeCombat,
-  codeHunt,
-  codeWars,
-  rubyWarrior,
-  gitGame,
-  grasshopper,
-  learnGitBranching,
-  flexboxDefense,
-  codingGame,
-  cssDiner,
-  codeMonkey,
-  flexboxFrogger,
-  cyberDojo,
-  hrMachine,
-  robocode,
-  untrusted,
-  shenzhenIo,
-  checkIO,
-  swiftPlaygrounds,
-  screeps,
-  tis100,
-  vimAdventures,
-];
+const ALL_SITES: Site[] = allGames.concat(allPlaygrounds);
 
 function siteMap(sites: Site[]): { [k: string]: Site[] } {
   const m: { [k: string]: Site[] } = {};

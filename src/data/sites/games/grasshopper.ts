@@ -1,4 +1,4 @@
-import { Site } from '../sites';
+import { Site } from '../../sites';
 
 const grasshopper: Site = {
   categoryIds: [['languages', 'javascript']],

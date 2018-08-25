@@ -1,4 +1,4 @@
-import { Site } from '../sites';
+import { Site } from '../../sites';
 
 const rubyWarrior: Site = {
   categoryIds: [['languages', 'ruby']],

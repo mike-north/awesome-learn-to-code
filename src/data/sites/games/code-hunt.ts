@@ -1,4 +1,4 @@
-import { Site } from '../sites';
+import { Site } from '../../sites';
 
 const codeHunt: Site = {
   categoryIds: [['languages', 'java'], ['languages', 'cSharp']],

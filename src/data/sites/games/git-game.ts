@@ -1,4 +1,4 @@
-import { Site } from '../sites';
+import { Site } from '../../sites';
 
 const gitGames: Site = {
   categoryIds: [['toolsAndEditors']],

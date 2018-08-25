@@ -1,4 +1,4 @@
-import { Site } from '../sites';
+import { Site } from '../../sites';
 
 const untrusted: Site = {
   categoryIds: [['toolsAndEditors']],

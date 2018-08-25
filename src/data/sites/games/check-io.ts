@@ -1,4 +1,4 @@
-import { Site } from '../sites';
+import { Site } from '../../sites';
 
 const checkIO: Site = {
   categoryIds: [['languages', 'javascript'], ['languages', 'python']],
