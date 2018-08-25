@@ -1,6 +1,7 @@
 # Awesome Resources For Learning To Code
 
-A collection of sites, tools, resources and other things that help when learning 
+A collection of sites, tools, resources and other things that help when learning about programming
+
 <!-- BEGIN_LIST -->
 
 # [General Programming](https://en.wikipedia.org/wiki/Computer_programming)
