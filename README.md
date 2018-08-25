@@ -42,9 +42,8 @@ Programming languages
 
 ## [C++](https://en.cppreference.com/w/)
 
-- [Codewars](https://www.codewars.com/) - 🎮 Improve your skills by training with others on real code challenges
-- [Cyber Dojo](http://cyber-dojo.org/) - 🎮 Hone your programming skills in a huge range of languages, writing code to pass tests
-- [Cyber Dojo](http://cyber-dojo.org/) - 🎮 Hone your programming skills in a huge range of languages, writing code to pass tests
+* [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
+* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 
 ## [cSharp](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/)
 
@@ -233,6 +232,7 @@ Programming languages
 - https://www.slant.co/topics/6586/~programming-games-on-steam
 - https://www.rockpapershotgun.com/2017/11/29/best-hacking-games/
 - https://medium.mybridge.co/12-free-resources-learn-to-code-while-playing-games-f7333043de11
+
 
 ## Copyright
 
