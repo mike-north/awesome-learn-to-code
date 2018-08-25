@@ -1,9 +1,9 @@
 {
-  "name": "awesome-programming-games",
+  "name": "awesome-learn-to-code",
   "version": "0.0.0-development",
-  "description": "A list of awesome games that teach you things about programming",
+  "description": "A list of awesome resources for learning to code",
   "main": "src/index.js",
-  "repository": "https://github.com/mike-north/awesome-programming-games.git",
+  "repository": "https://github.com/mike-north/awesome-learn-to-code.git",
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
   "license": "MIT",
   "scripts": {

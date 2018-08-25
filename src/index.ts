@@ -1,6 +1,6 @@
 // @ts-check
 import { readFileSync, writeFileSync } from 'fs';
-import allGames, { OrganizedSites, Site } from './data/sites';
+import allSites, { OrganizedSites, Site } from './data/sites';
 /**
  * Update new content
  *
@@ -22,7 +22,7 @@ const MD_HEADER_PREFIXES = [null, '#', '##', '###', '####', '#####', '######'];
 const mdHeader = (text: string, level: number) => `${MD_HEADER_PREFIXES[level]} ${text}
 `;
 
-const mdCategoryIcons = (game: Site.Category): string => '';
+const mdCategoryIcons = (cat: Site.Category): string => '';
 
 const mdCategory = (cat: Site.Category, level: number): string => {
   const parts = [mdHeader(`[${cat.name}](${cat.url})`, level)];
@@ -44,21 +44,21 @@ const ICONS = {
 const icon = (key: keyof typeof ICONS, title: string) => `[![${title}](${ICONS[key]})](#)
 `;
 
-const mdGameIcons = (game: Site): string => {
+const mdSiteIcons = (site: Site): string => {
   const icons: string[] = [];
-  if (game.price > 0) {
+  if (site.price > 0) {
     icons.push('💰');
   }
-  if (game.platforms.includes('windows')) {
+  if (site.platforms.includes('windows')) {
     icons.push('❖');
   }
-  if (game.platforms.includes('os x')) {
+  if (site.platforms.includes('os x')) {
     icons.push('');
   }
-  if (game.platforms.includes('ios') || game.platforms.includes('android')) {
+  if (site.platforms.includes('ios') || site.platforms.includes('android')) {
     icons.push('📱');
   }
-  if (game.type === 'game') {
+  if (site.type === 'game') {
     icons.push('🎮');
   }
   if (icons.length === 0) {
@@ -67,8 +67,8 @@ const mdGameIcons = (game: Site): string => {
   return ` ${icons.join('')} `;
 };
 
-const mdGameDetails = (game: Site): string => {
-  const parts: string[] = [mdGameIcons(game), game.description].filter(Boolean);
+const mdSiteDetails = (site: Site): string => {
+  const parts: string[] = [mdSiteIcons(site), site.description].filter(Boolean);
 
   if (parts.length > 0) {
     return ` - ${parts.join(' ')}`;
@@ -76,34 +76,34 @@ const mdGameDetails = (game: Site): string => {
   return '';
 };
 
-const mdGame = (game: Site): string => [`* [${game.name}](${game.url})`, mdGameDetails(game)].filter(Boolean).join('');
+const mdSite = (site: Site): string => [`* [${site.name}](${site.url})`, mdSiteDetails(site)].filter(Boolean).join('');
 
-function mdCategoryGameList(og: OrganizedSites, level: number): string {
+function mdCategorySiteList(og: OrganizedSites, level: number): string {
   const parts = [mdCategory(og.category, level)];
   if (og.items) {
-    parts.push(...og.items.sort((a, b) => (b.name > a.name ? -1 : 1)).map(game => mdGame(game)));
+    parts.push(...og.items.sort((a, b) => (b.name > a.name ? -1 : 1)).map(site => mdSite(site)));
     parts.push('\n');
   }
   if (og.children) {
-    parts.push(...og.children.map(ch => mdCategoryGameList(ch, level + 1)));
+    parts.push(...og.children.map(ch => mdCategorySiteList(ch, level + 1)));
   }
   return parts.join('\n');
 }
 
-function sortOgs(games: OrganizedSites[]): OrganizedSites[] {
-  return games
+function sortOgs(sites: OrganizedSites[]): OrganizedSites[] {
+  return sites
     .filter(g => g.category.order !== void 0)
     .sort((a, b) => (b as any).category.order - (a as any).category.order)
-    .concat(games.filter(g => g.category.order === void 0).sort());
+    .concat(sites.filter(g => g.category.order === void 0).sort());
 }
 
-function generateGameListMarkdown(games: OrganizedSites[], level: number = 1): string {
-  return sortOgs(games).reduce((txt, game) => {
-    return `${mdCategoryGameList(game, level)}${txt}`;
+function generateSiteListMarkdown(sites: OrganizedSites[], level: number = 1): string {
+  return sortOgs(sites).reduce((txt, site) => {
+    return `${mdCategorySiteList(site, level)}${txt}`;
   }, '');
 }
 
-function updateGameList(existingContent: string, listContent: string): string {
+function updateSiteList(existingContent: string, listContent: string): string {
   const begin = existingContent.indexOf(LIST_BEGIN_TAG) - LIST_BEGIN_TAG.length;
   const end = existingContent.indexOf(LIST_END_TAG, begin) + LIST_END_TAG.length;
   return `${existingContent.substr(0, begin)}
@@ -116,7 +116,7 @@ ${existingContent.substr(end)}`;
  */
 async function update() {
   const readmeContents = readFileSync('README.md').toString();
-  const newConent = updateGameList(readmeContents, generateGameListMarkdown(allGames));
+  const newConent = updateSiteList(readmeContents, generateSiteListMarkdown(allSites));
   writeFileSync('README.md', newConent);
 }
 

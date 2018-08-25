@@ -68,7 +68,7 @@ export declare namespace Site {
 /**
  * @type {Site[]}
  */
-const ALL_GAMES = [
+const ALL_SITES = [
   codeCombat,
   codeHunt,
   codeWars,
@@ -93,9 +93,9 @@ const ALL_GAMES = [
   vimAdventures,
 ];
 
-function gameMap(games: Site[]): { [k: string]: Site[] } {
+function siteMap(sites: Site[]): { [k: string]: Site[] } {
   const m: { [k: string]: Site[] } = {};
-  for (const g of games) {
+  for (const g of sites) {
     for (const cpair of g.categoryIds) {
       const key = cpair.join('/');
       let gameList: Site[] | undefined = m[key];
@@ -110,13 +110,13 @@ function gameMap(games: Site[]): { [k: string]: Site[] } {
 }
 
 /**
- * Organize all the games into categories
- * @param {Site[]} games
+ * Organize all the sites into categories
+ * @param {Site[]} sites
  */
-function organizeGames<K extends string>(
-  games: Site[],
+function organizeSites<K extends string>(
+  sites: Site[],
   categories: Site.Categories<K>,
-  gmap: { [k: string]: Site[] } = gameMap(games),
+  smap: { [k: string]: Site[] } = siteMap(sites),
   parentCatName: string[] = [],
 ): OrganizedSites[] {
   const topLevel: OrganizedSites[] = [];
@@ -124,18 +124,18 @@ function organizeGames<K extends string>(
   for (const c in categories) {
     const cpair = parentCatName.concat(c);
     const catKey = cpair.join('/');
-    const catGames = gmap[catKey];
+    const catSites = smap[catKey];
     const og: OrganizedSites = {
       category: categories[c],
-      items: catGames || [],
+      items: catSites || [],
     };
     const { children } = categories[c];
     if (children) {
-      og.children = organizeGames<string>(games, children, gmap, cpair);
+      og.children = organizeSites<string>(sites, children, smap, cpair);
     }
     topLevel.push(og);
   }
   return topLevel;
 }
 
-export default organizeGames(ALL_GAMES, ALL_CATEGORIES);
+export default organizeSites(ALL_SITES, ALL_CATEGORIES);
