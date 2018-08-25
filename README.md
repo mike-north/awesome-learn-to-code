@@ -1,6 +1,6 @@
 # Awesome Programming Games
 
-A collection of games that
+A collec
 <!-- BEGIN_LIST -->
 
 # [General Programming](https://en.wikipedia.org/wiki/Computer_programming)
@@ -47,7 +47,6 @@ Programming languages
 ## [C++](https://en.cppreference.com/w/)
 
 * [Codewars](https://www.codewars.com/) - Improve your skills by training with others on real code challenges
-* [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 * [Cyber Dojo](http://cyber-dojo.org/) - Hone your programming skills in a huge range of languages, writing code to pass tests
 
 
@@ -264,6 +263,7 @@ Programming languages
 
 
 <!-- END_LIST -->
+
 
 
 
