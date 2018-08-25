@@ -225,7 +225,7 @@ Programming languages
 
 <!-- END_LIST -->
 
-## Soruces
+## Sources
 
 - https://github.com/michelpereira/awesome-gamesofcoding
 - https://www.makeuseof.com/tag/best-programming-games/
