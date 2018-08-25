@@ -12,7 +12,6 @@ const cyberDojo: Game = {
     ['languages', 'c'],
     ['languages', 'cSharp'],
     ['languages', 'c++'],
-    ['languages', 'c++'],
     ['languages', 'clojure'],
     ['languages', 'coffeescript'],
     ['languages', 'elixir'],
