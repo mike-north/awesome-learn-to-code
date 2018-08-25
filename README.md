@@ -2,7 +2,7 @@
 
 A curated list of sites, tools, resources and other things that help when learning about programming
 
-<table borders="none">
+<table border="0">
 <tr valign="top">
   <td>
     <table>
