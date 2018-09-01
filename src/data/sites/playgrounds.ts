@@ -30,4 +30,7 @@ export default [
   stackblitz,
   codepen,
   codeSandbox,
-];
+].map(cat => {
+  cat.categoryIds.push(['playground']);
+  return cat;
+});

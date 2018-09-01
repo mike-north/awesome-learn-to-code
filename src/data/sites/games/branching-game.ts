@@ -1,7 +1,7 @@
 import { Resource } from '../../resource';
 
 const learnGitBranching: Resource = {
-  categoryIds: [['toolsAndEditors']],
+  categoryIds: [['toolsAndEditors', 'git']],
   description: '"The most visual and interactive way to learn Git on the web"',
   id: 'learnGitBranching',
   name: 'Learn Git Branching',

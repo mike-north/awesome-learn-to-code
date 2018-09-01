@@ -28,14 +28,20 @@ const mdSiteIcons = (site: Resource): string => {
   if (site.platforms.indexOf('ios') >= 0 || site.platforms.indexOf('android') >= 0) {
     icons.push('📱');
   }
-  if (site.type === 'game') {
+  if (site.type === 'game' || (site.type instanceof Array && site.type.indexOf('game') >= 0)) {
     icons.push('🎮');
   }
-  if (site.type === 'playground') {
+  if (site.type === 'playground' || (site.type instanceof Array && site.type.indexOf('playground') >= 0)) {
     icons.push('🏗');
   }
-  if (site.type === 'video-course') {
+  if (site.type === 'video-course' || (site.type instanceof Array && site.type.indexOf('video-course') >= 0)) {
     icons.push('📼');
+  }
+  if (
+    site.type === 'learning-platform' ||
+    (site.type instanceof Array && site.type.indexOf('learning-platform') >= 0)
+  ) {
+    icons.push('🎓');
   }
   if (icons.length === 0) {
     return '';

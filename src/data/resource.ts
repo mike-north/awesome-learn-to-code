@@ -1,22 +1,22 @@
 // @ts-check
-import ALL_CATEGORIES from './categories';
+import ALL_CATEGORIES, { TopLevelCategoryName } from './categories';
 import { ProgrammingLanguage } from './categories/languages';
 
 import { pipe } from '../utils';
 import { ClientWebFramework } from './categories/client-web-frameworks';
 import { JSTopic } from './categories/javascript';
 import { ToolName } from './categories/tools-and-editors';
+import allBootcamps from './sites/bootcamps';
 import allGames from './sites/games';
 import allPlaygrounds from './sites/playgrounds';
+import allPracticePlatforms from './sites/practice-platforms';
 import allVideoCourses from './sites/video-course';
 
 export interface Resource {
   id: string;
   platforms: Resource.Platform[];
   categoryIds: Array<
-    | ['toolsAndEditors']
-    | ['generalProgramming']
-    | ['clientWebFrameworks']
+    | [TopLevelCategoryName]
     | ['languages', ProgrammingLanguage]
     | ['toolsAndEditors', ToolName]
     | ['languages', 'javascript', JSTopic]
@@ -26,7 +26,7 @@ export interface Resource {
   author?: Resource.Entity;
   authorOrg?: Resource.Entity;
   publisher?: Resource.Entity;
-  type: Resource.Type;
+  type: Resource.Type | Resource.Type[];
   kidOriented?: boolean;
   description: string;
   url: string;
@@ -55,15 +55,15 @@ export declare namespace Resource {
     type: Price.Type;
     frequency: Price.Frequency;
   }
-  type Type = 'game' | 'playground' | 'video-course';
+  type Type = 'game' | 'playground' | 'video-course' | 'learning-platform';
   type Platform = 'ios' | 'android' | 'web' | 'windows' | 'os x' | 'linux';
   interface Category<ID extends string = string> {
     id: ID;
     name: string;
     description?: string;
-    order?: number | string;
+    order?: number;
     img?: string;
-    url: string;
+    url?: string;
   }
   type Categories<P extends string = ''> = {
     [L in string]: Category<L> &
@@ -76,7 +76,13 @@ export declare namespace Resource {
   };
 }
 
-const ALL_SITES: Resource[] = [...allGames, ...allPlaygrounds, ...allVideoCourses];
+const ALL_SITES: Resource[] = [
+  ...allGames,
+  ...allPlaygrounds,
+  ...allVideoCourses,
+  ...allBootcamps,
+  ...allPracticePlatforms,
+];
 
 function siteMap(sites: Resource[]): { [k: string]: Resource[] } {
   const m: { [k: string]: Resource[] } = {};

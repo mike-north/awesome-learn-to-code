@@ -2,6 +2,7 @@ import { Resource } from '../../resource';
 
 const cyberDojo: Resource = {
   categoryIds: [
+    ['practicePlatform'],
     ['languages', 'bash'],
     ['languages', 'c'],
     ['languages', 'cSharp'],

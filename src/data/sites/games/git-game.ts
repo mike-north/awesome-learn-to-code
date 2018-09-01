@@ -1,7 +1,7 @@
 import { Resource } from '../../resource';
 
 const gitGames: Resource = {
-  categoryIds: [['toolsAndEditors']],
+  categoryIds: [['toolsAndEditors', 'git']],
   description:
     'A terminal based game that teaches both new and advances users some pretty cool features of the git scm (source control management) system',
   id: 'gitGames',
