@@ -12,7 +12,8 @@
     "max-line-length": false,
     "interface-name": false,
     "arrow-parens": false,
-    "object-literal-key-quotes": false
+    "object-literal-key-quotes": false,
+    "member-access": false
   },
   "rulesDirectory": []
 }
