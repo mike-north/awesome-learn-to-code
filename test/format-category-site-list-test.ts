@@ -7,6 +7,7 @@ class CategorySiteListFormattingTests {
   @test
   'a category site list with no items is formatted properly'() {
     const str = mdCategorySiteList({
+      path: ['test-category'],
       category: {
         description: 'Category description',
         id: 'test-category',
@@ -26,6 +27,7 @@ Category description`.trim(),
   @test
   'a category site list with some items is formatted properly'() {
     const str = mdCategorySiteList({
+      path: ['test-category'],
       category: {
         description: 'Category description',
         id: 'test-category',
@@ -80,6 +82,7 @@ Category description
   @test
   'a category site list with subcategories is formatted properly'() {
     const str = mdCategorySiteList({
+      path: ['test-category'],
       category: {
         description: 'Category description',
         id: 'test-category',
@@ -88,6 +91,7 @@ Category description
       },
       children: [
         {
+          path: ['test-category-2'],
           category: {
             description: 'Description of test category 2',
             id: 'test-category-2',
@@ -97,6 +101,7 @@ Category description
           items: [],
         },
         {
+          path: ['test-category-3'],
           category: {
             description: 'Description of test category 3',
             id: 'test-category-3',
@@ -127,6 +132,7 @@ Description of test category 3`.trim(),
   @test
   'a category site list with subcategories and items is formatted properly'() {
     const str = mdCategorySiteList({
+      path: ['test-category'],
       category: {
         description: 'Category description',
         id: 'test-category',
@@ -135,6 +141,7 @@ Description of test category 3`.trim(),
       },
       children: [
         {
+          path: ['test-category-2'],
           category: {
             description: 'Description of test category 2',
             id: 'test-category-2',
@@ -175,6 +182,7 @@ Description of test category 3`.trim(),
           ],
         },
         {
+          path: ['test-category-3'],
           category: {
             description: 'Description of test category 3',
             id: 'test-category-3',
