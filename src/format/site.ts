@@ -44,11 +44,11 @@ const mdSiteIcons = (site: Resource): string => {
 };
 
 const entityString: (e: Resource.Entity) => string = e => {
-  if (!e.url) {
-    return e.name;
-  } else {
-    return `[${e.name}](${e.url})`;
-  }
+  // if (!e.url) {
+  return e.name;
+  // } else {
+  //   return `[${e.name}](${e.url})`;
+  // }
 };
 
 const mdSiteDetails = (site: Resource): string => {
