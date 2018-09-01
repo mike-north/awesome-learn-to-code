@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const codeSandbox: Site = {
+const codeSandbox: Resource = {
   categoryIds: [['languages', 'javascript'], ['languages', 'typescript'], ['languages', 'css']],
   description: 'The online editor for React, Vue, Angular, Preact and Svelte apps',
   id: 'codeSandbox',

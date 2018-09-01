@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const jsBin: Site = {
+const jsBin: Resource = {
   categoryIds: [['languages', 'javascript'], ['languages', 'css']],
   description: 'Collaborative JavaScript Debugging',
   id: 'jsBin',

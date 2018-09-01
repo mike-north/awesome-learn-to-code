@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const untrusted: Site = {
+const untrusted: Resource = {
   categoryIds: [['toolsAndEditors']],
   description: 'Use JavaScript to guide Dr. Eval through a machine continuum!',
   id: 'untrusted',

@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const goPlayground: Site = {
+const goPlayground: Resource = {
   categoryIds: [['languages', 'go']],
   description: 'Run and share Go snippets from the comfort of your browser',
   id: 'goPlayground',

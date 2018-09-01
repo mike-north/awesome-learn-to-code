@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const plunker: Site = {
+const plunker: Resource = {
   categoryIds: [['languages', 'javascript'], ['languages', 'css']],
   description: 'An online community for creating, collaborating on and sharing your web development ideas.',
   id: 'plunker',

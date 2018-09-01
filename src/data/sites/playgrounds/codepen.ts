@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const codepen: Site = {
+const codepen: Resource = {
   categoryIds: [['languages', 'javascript'], ['languages', 'typescript'], ['languages', 'css']],
   description: 'A social development environment for front-end designers and developers.',
   id: 'codepen',

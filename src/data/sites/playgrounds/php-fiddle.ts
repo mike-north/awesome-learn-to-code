@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const phpFiddle: Site = {
+const phpFiddle: Resource = {
   categoryIds: [['languages', 'php']],
   description: 'Php/MySQL execution environment in your web browser',
   id: 'phpFiddle',

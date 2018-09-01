@@ -1,10 +1,10 @@
 import ALL_CWF from './categories/client-web-frameworks';
 import ALL_LANGUAGES_WITH_ID from './categories/languages';
-import { Site } from './sites';
+import { Resource } from './resource';
 
 // @ts-check
 
-const ALL_CATEGORIES: Site.Categories = {
+const ALL_CATEGORIES: Resource.Categories = {
   'client-web-frameworks': {
     children: ALL_CWF,
     description: 'Frameworks for building web applications that run in the browser',

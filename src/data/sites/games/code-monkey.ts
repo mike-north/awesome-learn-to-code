@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const codeMonkey: Site = {
+const codeMonkey: Resource = {
   categoryIds: [['languages', 'coffeescript']],
   description: 'Using CoffeeScript, build your own games in HTML5.',
   id: 'codeMonkey',

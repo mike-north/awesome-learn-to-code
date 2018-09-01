@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const checkIO: Site = {
+const checkIO: Resource = {
   categoryIds: [['languages', 'javascript'], ['languages', 'python']],
   description: 'Improve your coding skills by solving engaging challenges and fun task using Python and JavaScript',
   id: 'checkIO',

@@ -1,5 +1,5 @@
 // @ts-check
-import { Site } from '../sites';
+import { Resource } from '../resource';
 
 const ALL_LANGUAGES = {
   assembly: { id: 'assembly', name: 'Assembly', url: 'http://www.azillionmonkeys.com/qed/asmexample.html' },
@@ -61,7 +61,7 @@ const ALL_LANGUAGES = {
 export type ProgrammingLanguage = keyof typeof ALL_LANGUAGES;
 
 /**
- * @type {Site.Categories<'languages'>}
+ * @type {Resource.Categories<'languages'>}
  */
 const ALL_LANGUAGES_WITH_ID = (Object.keys(ALL_LANGUAGES) as Array<keyof typeof ALL_LANGUAGES>).reduce(
   (obj, k) => {
@@ -69,7 +69,7 @@ const ALL_LANGUAGES_WITH_ID = (Object.keys(ALL_LANGUAGES) as Array<keyof typeof 
     obj[k] = Object.assign({ parentId: 'languages' as 'languages' }, ALL_LANGUAGES[k]);
     return obj;
   },
-  {} as Site.Categories<'languages'>,
+  {} as Resource.Categories<'languages'>,
 );
 
 export default ALL_LANGUAGES_WITH_ID;

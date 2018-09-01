@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const rubyWarrior: Site = {
+const rubyWarrior: Resource = {
   categoryIds: [['languages', 'ruby']],
   description: 'A triumphant quest of adventure, love & destiny all within a few lines of code',
   id: 'rubyWarrior',

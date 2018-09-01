@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const rustPlayground: Site = {
+const rustPlayground: Resource = {
   categoryIds: [['languages', 'rust']],
   description: 'Run and share Rust snippets from the comfort of your browser',
   id: 'rustPlayground',

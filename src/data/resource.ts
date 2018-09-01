@@ -6,35 +6,36 @@ import { pipe } from '../utils';
 import allGames from './sites/games';
 import allPlaygrounds from './sites/playgrounds';
 
-export type SiteType = 'game' | 'playground' | 'video-course';
-export type ResourcePriceType = 'membership' | 'each';
-export type ResourcePriceFrequency = 'once' | 'year' | 'month';
-export interface ResourcePrice {
-  amt: number;
-  type: ResourcePriceType;
-  frequency: ResourcePriceFrequency;
-}
-
-export interface Site {
+export interface Resource {
   id: string;
-  platforms: Site.Platform[];
+  platforms: Resource.Platform[];
   categoryIds: Array<['languages', ProgrammingLanguage] | ['generalProgramming'] | ['toolsAndEditors']>;
   name: string;
-  type: SiteType;
+  type: Resource.Type;
   kidOriented?: boolean;
   description: string;
   url: string;
-  price: number | ResourcePrice;
+  price: number | Resource.Price;
 }
 
-export interface OrganizedSites {
-  category: Site.Category;
-  items: Site[];
-  children?: OrganizedSites[];
+export interface OrganizedResourceCategory {
+  category: Resource.Category;
+  items: Resource[];
+  children?: OrganizedResourceCategory[];
 }
 
 // tslint:disable-next-line:no-namespace
-export declare namespace Site {
+export declare namespace Resource {
+  namespace Price {
+    type Type = 'membership' | 'each';
+    type Frequency = 'once' | 'year' | 'month';
+  }
+  interface Price {
+    amt: number;
+    type: Price.Type;
+    frequency: Price.Frequency;
+  }
+  type Type = 'game' | 'playground' | 'video-course';
   type Platform = 'ios' | 'android' | 'web' | 'windows' | 'os x' | 'linux';
   interface Category<ID extends string = string> {
     id: ID;
@@ -55,14 +56,14 @@ export declare namespace Site {
   };
 }
 
-const ALL_SITES: Site[] = allGames.concat(allPlaygrounds);
+const ALL_SITES: Resource[] = allGames.concat(allPlaygrounds);
 
-function siteMap(sites: Site[]): { [k: string]: Site[] } {
-  const m: { [k: string]: Site[] } = {};
+function siteMap(sites: Resource[]): { [k: string]: Resource[] } {
+  const m: { [k: string]: Resource[] } = {};
   for (const g of sites) {
     for (const cpair of g.categoryIds) {
       const key = cpair.join('/');
-      let gameList: Site[] | undefined = m[key];
+      let gameList: Resource[] | undefined = m[key];
       if (!gameList) {
         gameList = [];
         m[key] = gameList;
@@ -75,34 +76,34 @@ function siteMap(sites: Site[]): { [k: string]: Site[] } {
 
 /**
  * Organize all the sites into categories
- * @param {Site[]} sites
+ * @param {Resource[]} sites
  */
-function organizeSites<K extends string>(
-  sites: Site[],
-  categories: Site.Categories<K>,
-  smap: { [k: string]: Site[] } = siteMap(sites),
+function organizeResources<K extends string>(
+  sites: Resource[],
+  categories: Resource.Categories<K>,
+  smap: { [k: string]: Resource[] } = siteMap(sites),
   parentCatName: string[] = [],
-): OrganizedSites[] {
-  const topLevel: OrganizedSites[] = [];
+): OrganizedResourceCategory[] {
+  const topLevel: OrganizedResourceCategory[] = [];
   // tslint:disable-next-line:forin
   for (const c in categories) {
     const cpair = parentCatName.concat(c);
     const catKey = cpair.join('/');
     const catSites = smap[catKey];
-    const og: OrganizedSites = {
+    const og: OrganizedResourceCategory = {
       category: categories[c],
       items: catSites || [],
     };
     const { children } = categories[c];
     if (children) {
-      og.children = organizeSites<string>(sites, children, smap, cpair);
+      og.children = organizeResources<string>(sites, children, smap, cpair);
     }
     topLevel.push(og);
   }
   return topLevel;
 }
 
-function sortOrganizedSites(sites: OrganizedSites[]): OrganizedSites[] {
+function sortOrganizedSites(sites: OrganizedResourceCategory[]): OrganizedResourceCategory[] {
   return sites
     .filter(g => g.category.order !== void 0)
     .sort((a, b) => (b as any).category.order - (a as any).category.order)
@@ -110,6 +111,6 @@ function sortOrganizedSites(sites: OrganizedSites[]): OrganizedSites[] {
 }
 
 export const ALL_SITES_ORGANIZED = pipe(
-  (sites: Site[]) => organizeSites(sites, ALL_CATEGORIES),
+  (sites: Resource[]) => organizeResources(sites, ALL_CATEGORIES),
   sortOrganizedSites,
 )(ALL_SITES);

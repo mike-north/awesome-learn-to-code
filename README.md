@@ -6,6 +6,13 @@ A curated list of sites, tools, resources and other things that help when learni
   <summary>Table of Contents</summary>
 
 <!-- BEGIN_TOC -->
+* [Client Web Frameworks](#client-web-frameworks)
+   * [Angular](#angular)
+   * [Angular.js](#angular-js)
+   * [Elm](#elm)
+   * [Ember.js](#ember-js)
+   * [React.js](#react-js)
+   * [Vue.js](#vue-js)
 * [General Programming](#general-programming)
 * [Languages](#languages)
    * [Assembly](#assembly)
@@ -46,13 +53,6 @@ A curated list of sites, tools, resources and other things that help when learni
    * [TypeScript](#typescript)
    * [VB.NET](#vb-net)
 * [Tools & Editors](#tools-&-editors)
-* [Web Frameworks](#web-frameworks)
-   * [Angular](#angular)
-   * [Angular.js](#angular-js)
-   * [Elm](#elm)
-   * [Ember.js](#ember-js)
-   * [React.js](#react-js)
-   * [Vue.js](#vue-js)
 <!-- END_TOC -->
 
 </details>
@@ -73,9 +73,9 @@ A curated list of sites, tools, resources and other things that help when learni
 </details>
 
 <!-- BEGIN_LIST -->
-# [Web Frameworks](https://en.wikipedia.org/wiki/Web_framework)
+# [Client Web Frameworks](https://en.wikipedia.org/wiki/Web_framework)
 
-Web Frameworks
+Frameworks for building web applications that run in the browser
 
 ## [Angular](https://angular.io/)
 

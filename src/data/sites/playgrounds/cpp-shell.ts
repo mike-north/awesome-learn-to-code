@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const cppShell: Site = {
+const cppShell: Resource = {
   categoryIds: [['languages', 'c++']],
   description: 'Run C++ code in your browser, using different language versions and compiler optimization settings',
   id: 'sqlFiddle',

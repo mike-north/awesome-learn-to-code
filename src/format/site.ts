@@ -1,4 +1,4 @@
-import { Site } from '../data/sites';
+import { Resource } from '../data/resource';
 
 const ICONS = {
   android: '/img/16/android.png',
@@ -11,7 +11,7 @@ const ICONS = {
 const icon = (key: keyof typeof ICONS, title: string) => `[![${title}](${ICONS[key]})](#)
 `;
 
-const mdSiteIcons = (site: Site): string => {
+const mdSiteIcons = (site: Resource): string => {
   const icons: string[] = [];
   if (site.price > 0) {
     icons.push('💰');
@@ -40,7 +40,7 @@ const mdSiteIcons = (site: Site): string => {
   return ` ${icons.join('')} `;
 };
 
-const mdSiteDetails = (site: Site): string => {
+const mdSiteDetails = (site: Resource): string => {
   const parts: string[] = [mdSiteIcons(site), site.description].filter(Boolean);
 
   if (parts.length > 0) {
@@ -49,5 +49,5 @@ const mdSiteDetails = (site: Site): string => {
   return '';
 };
 
-export const mdSite = (site: Site): string =>
+export const mdSite = (site: Resource): string =>
   [`* [${site.name}](${site.url})`, mdSiteDetails(site)].filter(Boolean).join('');

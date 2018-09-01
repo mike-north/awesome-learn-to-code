@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const glitch: Site = {
+const glitch: Resource = {
   categoryIds: [['languages', 'javascript'], ['languages', 'css']],
   description: 'Create, Run and Remix full-featured Node.JS applications',
   id: 'jsBin',

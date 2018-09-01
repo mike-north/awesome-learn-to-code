@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const codeWars: Site = {
+const codeWars: Resource = {
   categoryIds: [
     ['languages', 'clojure'],
     ['languages', 'c'],

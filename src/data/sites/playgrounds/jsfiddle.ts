@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const jsFiddle: Site = {
+const jsFiddle: Resource = {
   categoryIds: [['languages', 'javascript'], ['languages', 'css']],
   description: 'Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle code editor.',
   id: 'jsFiddle',

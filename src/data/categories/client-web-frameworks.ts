@@ -1,4 +1,4 @@
-import { Site } from '../sites';
+import { Resource } from '../resource';
 
 const ALL_WEB_FRAMEWORKS = {
   angular: { name: 'Angular', id: 'angular', url: 'https://angular.io/' },
@@ -12,7 +12,7 @@ const ALL_WEB_FRAMEWORKS = {
 export type WebFramework = keyof typeof ALL_WEB_FRAMEWORKS;
 
 /**
- * @type {Site.Categories<'web-frameworks'>}
+ * @type {Resource.Categories<'web-frameworks'>}
  */
 const ALL_WEB_FRAMEWORKS_WITH_ID = (Object.keys(ALL_WEB_FRAMEWORKS) as Array<keyof typeof ALL_WEB_FRAMEWORKS>).reduce(
   (obj, k) => {
@@ -20,7 +20,7 @@ const ALL_WEB_FRAMEWORKS_WITH_ID = (Object.keys(ALL_WEB_FRAMEWORKS) as Array<key
     obj[k] = Object.assign({ parentId: 'web-frameworks' as 'web-frameworks' }, ALL_WEB_FRAMEWORKS[k]);
     return obj;
   },
-  {} as Site.Categories<'web-frameworks'>,
+  {} as Resource.Categories<'web-frameworks'>,
 );
 
 export default ALL_WEB_FRAMEWORKS_WITH_ID;

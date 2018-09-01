@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const flexboxDefense: Site = {
+const flexboxDefense: Resource = {
   categoryIds: [['languages', 'css']],
   description: 'Use flexbox to move your defenses into position and defend against waves of incoming enemies',
   id: 'flexboxDefense',

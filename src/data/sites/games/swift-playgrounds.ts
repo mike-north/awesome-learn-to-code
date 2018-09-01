@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const swiftPlaygrounds: Site = {
+const swiftPlaygrounds: Resource = {
   categoryIds: [['languages', 'swift']],
   description: 'Learn swift by playing games on your iPad',
   id: 'swiftPlaygrounds',

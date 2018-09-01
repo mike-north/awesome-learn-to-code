@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const pythonFiddle: Site = {
+const pythonFiddle: Resource = {
   categoryIds: [['languages', 'python']],
   description: 'Python IDE for the web',
   id: 'pythonFiddle',

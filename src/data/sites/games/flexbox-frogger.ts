@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const flexboxFroggy: Site = {
+const flexboxFroggy: Resource = {
   categoryIds: [['languages', 'css']],
   description: 'A game for learning CSS flexbox',
   id: 'flexboxFroggy',

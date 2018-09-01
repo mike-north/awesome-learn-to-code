@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const codeHunt: Site = {
+const codeHunt: Resource = {
   categoryIds: [['languages', 'java'], ['languages', 'cSharp']],
   description: 'Learn how to code by playing a game',
   id: 'codeHunt',

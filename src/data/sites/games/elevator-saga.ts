@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const elevatorSaga: Site = {
+const elevatorSaga: Resource = {
   categoryIds: [['languages', 'javascript']],
   description: 'Use JavaScript to control an elevator, pick up and deliver enough people before the timer runs out',
   id: 'elevatorSaga',

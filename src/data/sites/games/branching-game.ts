@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const learnGitBranching: Site = {
+const learnGitBranching: Resource = {
   categoryIds: [['toolsAndEditors']],
   description: '"The most visual and interactive way to learn Git on the web"',
   id: 'learnGitBranching',

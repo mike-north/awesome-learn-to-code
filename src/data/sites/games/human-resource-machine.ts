@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const humanResourceMachine: Site = {
+const humanResourceMachine: Resource = {
   categoryIds: [['languages', 'assembly'], ['generalProgramming']],
   description: 'A mobile game that teaches you how low-level programming (i.e., Assembler) works',
   id: 'humanResourceMachine',

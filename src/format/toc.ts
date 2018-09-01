@@ -1,5 +1,5 @@
 import * as lp from 'left-pad';
-import { OrganizedSites } from '../data/sites';
+import { OrganizedResourceCategory } from '../data/resource';
 
 function dasherize(s: string): string {
   return s.toLowerCase().replace(/[\s\_\.]+/g, '-');
@@ -16,7 +16,7 @@ function spaces(n: number) {
   return SPACES[n];
 }
 
-export function mdTocOrganizedSite(os: OrganizedSites, level: number = 1): string {
+export function mdTocOrganizedSite(os: OrganizedResourceCategory, level: number = 1): string {
   const pad = spaces(3 * (level - 1));
   const thisLine = pad + `* [${os.category.name}](#${dasherize(os.category.name)})`;
   const childLines = os.children

@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const cssDiner: Site = {
+const cssDiner: Resource = {
   categoryIds: [['languages', 'css']],
   description: 'Practice your advanced CSS3 selectors with 32 levels of interactive challenges',
   id: 'cssDiner',

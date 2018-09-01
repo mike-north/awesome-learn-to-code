@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const vimAdventures: Site = {
+const vimAdventures: Resource = {
   categoryIds: [['toolsAndEditors']],
   description:
     'An online game based on VIM\'s keyboard shortcuts. It\'s the "Zelda meets text editing" game. So come have some fun and learn some VIM!',

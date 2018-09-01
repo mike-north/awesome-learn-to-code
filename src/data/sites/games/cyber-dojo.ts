@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const cyberDojo: Site = {
+const cyberDojo: Resource = {
   categoryIds: [
     ['languages', 'bash'],
     ['languages', 'c'],

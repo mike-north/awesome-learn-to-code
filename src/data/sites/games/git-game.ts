@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const gitGames: Site = {
+const gitGames: Resource = {
   categoryIds: [['toolsAndEditors']],
   description:
     'A terminal based game that teaches both new and advances users some pretty cool features of the git scm (source control management) system',

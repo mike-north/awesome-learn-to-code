@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const robocode: Site = {
+const robocode: Resource = {
   categoryIds: [['languages', 'java'], ['languages', 'scala'], ['languages', 'cSharp'], ['languages', 'vbNet']],
   description: 'Develop a robot battle tank to battle against others in Java or .NET',
   id: 'robocode',

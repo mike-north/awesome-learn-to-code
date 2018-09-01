@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const dotnetFiddle: Site = {
+const dotnetFiddle: Resource = {
   categoryIds: [['languages', 'cSharp'], ['languages', 'fSharp'], ['languages', 'vbNet']],
   description: 'A .NET sandbox for developers to quickly try out code and share C#, F# and VB.NET code snippets.',
   id: 'dotnetFiddle',

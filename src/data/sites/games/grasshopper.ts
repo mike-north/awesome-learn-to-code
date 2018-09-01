@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const grasshopper: Site = {
+const grasshopper: Resource = {
   categoryIds: [['languages', 'javascript']],
   description: 'fun, quick lessons on your phone that teach you to write real JavaScript.',
   id: 'grasshopper',

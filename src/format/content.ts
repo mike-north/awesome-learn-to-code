@@ -1,8 +1,8 @@
-import { OrganizedSites, Site } from '../data/sites';
+import { OrganizedResourceCategory, Resource } from '../data/resource';
 import { mdCategory } from './category';
 import { mdSite } from './site';
 
-export function mdCategorySiteList(og: OrganizedSites, level: number = 1): string {
+export function mdCategorySiteList(og: OrganizedResourceCategory, level: number = 1): string {
   const parts = [mdCategory(og.category, level)];
   const sortedItems = og.items.sort((a, b) => (b.name > a.name ? -1 : 1)).map(site => mdSite(site));
   if (sortedItems.length > 0) {

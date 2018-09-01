@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const rubyFiddle: Site = {
+const rubyFiddle: Resource = {
   categoryIds: [['languages', 'ruby']],
   description: 'Run Ruby snippets in your web browser',
   id: 'rubyFiddle',

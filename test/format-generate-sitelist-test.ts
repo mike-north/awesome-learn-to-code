@@ -1,7 +1,6 @@
 import { assert } from 'chai';
 import { suite, test } from 'mocha-typescript';
 import { generateSiteListMarkdown } from '../src/format';
-import { mdCategory } from '../src/format/category';
 
 @suite('Sitelist generation tests')
 class GenerateSitelistTests {

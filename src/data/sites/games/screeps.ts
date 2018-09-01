@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const screeps: Site = {
+const screeps: Resource = {
   categoryIds: [['languages', 'javascript']],
   description:
     'Screeps is an open source MMO RTS sandbox game for programmers, wherein the core mechanic is programming your units AI. You control your colony by writing JavaScript which operate 24/7 in the single persistent world filled by other players on par with you.',

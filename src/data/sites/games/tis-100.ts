@@ -1,7 +1,7 @@
 //
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const tis100: Site = {
+const tis100: Resource = {
   categoryIds: [['languages', 'assembly']],
   description: 'Rewrite corrupted code segments to repair the TIS-100 and unlock its secrets.',
   id: 'tis100',

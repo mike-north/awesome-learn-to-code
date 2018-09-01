@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const sqlFiddle: Site = {
+const sqlFiddle: Resource = {
   categoryIds: [['languages', 'sql']],
   description: 'Run SQL snippets in your web browser, using PostgreSQL, MySQL, Oracle, SQLite and MS SQL Server',
   id: 'sqlFiddle',

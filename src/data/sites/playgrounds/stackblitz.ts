@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const stackblitz: Site = {
+const stackblitz: Resource = {
   categoryIds: [['languages', 'javascript'], ['languages', 'typescript'], ['languages', 'css']],
   description:
     'The online IDE for web applications, Powered by Visual Studio Code. Instantly create Angular, Ionic, React and Svelte projects with TypeScript or JavaScript',

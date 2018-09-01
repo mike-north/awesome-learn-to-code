@@ -1,4 +1,4 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
 const SCRAPED_DATA = [
   {
@@ -915,9 +915,9 @@ const SCRAPED_DATA = [
   },
 ];
 
-const NORMALIZED_DATA: Site[] = SCRAPED_DATA.map(raw => {
+const NORMALIZED_DATA: Resource[] = SCRAPED_DATA.map(raw => {
   const { id, url, name, description } = raw;
-  const site: Site = {
+  const site: Resource = {
     id,
     description,
     name,

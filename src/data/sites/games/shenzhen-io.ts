@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const shenzenIo: Site = {
+const shenzenIo: Resource = {
   categoryIds: [['languages', 'assembly']],
   description: 'BUILD CIRCUITS. WRITE CODE. RTFM.',
   id: 'shenzenIo',

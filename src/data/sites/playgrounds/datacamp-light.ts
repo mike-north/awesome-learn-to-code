@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const datacampLight: Site = {
+const datacampLight: Resource = {
   categoryIds: [['languages', 'r'], ['languages', 'python']],
   description: 'Embeddable R and Python examples',
   id: 'datacampLight',

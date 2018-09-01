@@ -1,6 +1,6 @@
-import { Site } from '../../sites';
+import { Resource } from '../../resource';
 
-const codinGame: Site = {
+const codinGame: Resource = {
   categoryIds: [
     ['languages', 'bash'],
     ['languages', 'c'],

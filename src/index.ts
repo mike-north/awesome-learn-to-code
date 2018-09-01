@@ -1,6 +1,6 @@
 // @ts-check
 import { readFileSync, writeFileSync } from 'fs';
-import { ALL_SITES_ORGANIZED } from './data/sites';
+import { ALL_SITES_ORGANIZED } from './data/resource';
 import { generateSiteListMarkdown, generateTableOfContents } from './format';
 import { pipe } from './utils';
 /**
