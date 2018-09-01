@@ -6,6 +6,7 @@ A curated list of sites, tools, resources and other things that help when learni
   <summary>Table of Contents</summary>
 
 <!-- BEGIN_TOC -->
+* [Data Science](#data-science)
 * [General Programming](#general-programming)
 * [Languages](#languages)
    * [Assembly](#assembly)
@@ -38,6 +39,7 @@ A curated list of sites, tools, resources and other things that help when learni
          * [Meteor.js](#meteorjs)
          * [React.js](#reactjs)
          * [Vue.js](#vuejs)
+      * [Node.js](#nodejs)
    * [Kotlin](#kotlin)
    * [Lua](#lua)
    * [Objective-C](#objective-c)
@@ -55,6 +57,9 @@ A curated list of sites, tools, resources and other things that help when learni
    * [Swift](#swift)
    * [TypeScript](#typescript)
    * [VB.NET](#vbnet)
+* [Learning platforms and bootcamps](#learning-platforms-and-bootcamps)
+* [Playgrounds](#playgrounds)
+* [Practice Platform](#practice-platform)
 * [Tools & Editors](#tools-&-editors)
    * [Chrome Developer Tools](#chrome-developer-tools)
    * [Git](#git)
@@ -80,6 +85,26 @@ A curated list of sites, tools, resources and other things that help when learni
 </details>
 
 <!-- BEGIN_LIST -->
+# Playgrounds
+
+Web-based tools for running code right in a web browser
+
+* [.NET Fiddle](https://dotnetfiddle.net/) - 🕸🏗 - A .NET sandbox for developers to quickly try out code and share C#, F# and VB.NET code snippets.
+* [C++ Shell](http://cpp.sh/) - 🕸🏗 - Run C++ code in your browser, using different language versions and compiler optimization settings
+* [CodePen](https://codepen.io/) - 🕸🏗 - A social development environment for front-end designers and developers.
+* [CodeSandbox](https://codesandbox.io/) - 🕸🏗 - The online editor for React, Vue, Angular, Preact and Svelte apps
+* [DataCamp Light](https://cdn.datacamp.com/dcl-react/standalone-example.html) - 🕸🏗 - Embeddable R and Python examples
+* [Go Playground](https://play.go-lang.org/) - 🕸🏗 - Run and share Go snippets from the comfort of your browser
+* [JS Bin](https://jsbin.com/) - 🕸🏗 - Collaborative JavaScript Debugging
+* [JSFiddle](https://jsfiddle.net/) - 🕸🏗 - Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle code editor.
+* [PhpFiddle](http://phpfiddle.org/) - 🕸🏗 - Php/MySQL execution environment in your web browser
+* [Plunker](https://plnkr.co/) - 🕸🏗 - An online community for creating, collaborating on and sharing your web development ideas.
+* [Python Fiddle](http://python-fiddle.com/) - 🕸🏗 - Python IDE for the web
+* [RubyFiddle](http://rubyfiddle.com/) - 🕸🏗 - Run Ruby snippets in your web browser
+* [Rust Playground](https://play.rust-lang.org/) - 🕸🏗 - Run and share Rust snippets from the comfort of your browser
+* [SQL Fiddle](http://sqlfiddle.com/) - 🕸🏗 - Run SQL snippets in your web browser, using PostgreSQL, MySQL, Oracle, SQLite and MS SQL Server
+* [Stackblitz](https://stackblitz.com/) - 🕸🏗 - The online IDE for web applications, Powered by Visual Studio Code. Instantly create Angular, Ionic, React and Svelte projects with TypeScript or JavaScript
+
 # [Languages](https://en.wikipedia.org/wiki/Programming_languages)
 
 Programming languages
@@ -95,6 +120,7 @@ Programming languages
 * [CodinGame](https://www.codingame.com/) - 🕸🎮 - Games and Programming Challenges to Code Better
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests
 * [Introduction to Bash, VIM & Regex](https://frontendmasters.com/courses/bash-vim-regex/) - 💰🕸📱📼 - Take control of the Unix command line, automate tasks with shell scripts, compose regular expressions and easily edit files with the popular Vim editor. - *James Halliday (Substack) via Frontend Masters*
+* [TechIO](https://tech.io/) - 🕸🏗🎓 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises
 
 ## [C](https://en.wikipedia.org/wiki/C_(programming_language))
 
@@ -107,6 +133,8 @@ Programming languages
 * [C++ Shell](http://cpp.sh/) - 🕸🏗 - Run C++ code in your browser, using different language versions and compiler optimization settings
 * [Codewars](https://www.codewars.com/) - 🕸🎮 - Improve your skills by training with others on real code challenges
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests
+* [Edabit](https://edabit.com/) - 🕸🎓 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress
+* [TechIO](https://tech.io/) - 🕸🏗🎓 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises
 
 ## [C#](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/)
 
@@ -115,7 +143,9 @@ Programming languages
 * [Codewars](https://www.codewars.com/) - 🕸🎮 - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - 🕸🎮 - Games and Programming Challenges to Code Better
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests
+* [Edabit](https://edabit.com/) - 🕸🎓 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress
 * [Robocode](http://robocode.sourceforge.net/) - ❖🎮 - Develop a robot battle tank to battle against others in Java or .NET
+* [TechIO](https://tech.io/) - 🕸🏗🎓 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises
 
 ## [Clojure](https://clojure.org/)
 
@@ -150,6 +180,7 @@ Programming languages
 * [Plunker](https://plnkr.co/) - 🕸🏗 - An online community for creating, collaborating on and sharing your web development ideas.
 * [Scalable Modular Architecture for CSS (SMACSS)](https://frontendmasters.com/courses/smacss/) - 💰🕸📱📼 - Make your CSS more maintainable and modular using Jonathan Snook's Scalable Modular Architecture for CSS (SMACSS) methodology. - *Jonathan Snook (Snook.ca Web Development, Inc.) via Frontend Masters*
 * [Stackblitz](https://stackblitz.com/) - 🕸🏗 - The online IDE for web applications, Powered by Visual Studio Code. Instantly create Angular, Ionic, React and Svelte projects with TypeScript or JavaScript
+* [TechIO](https://tech.io/) - 🕸🏗🎓 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises
 
 ## [D](https://dlang.org/)
 
@@ -164,6 +195,7 @@ Programming languages
 
 * [Codewars](https://www.codewars.com/) - 🕸🎮 - Improve your skills by training with others on real code challenges
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests
+* [TechIO](https://tech.io/) - 🕸🏗🎓 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises
 
 ## [Elm](https://elm-lang.org/)
 
@@ -190,26 +222,32 @@ Programming languages
 * [CodinGame](https://www.codingame.com/) - 🕸🎮 - Games and Programming Challenges to Code Better
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests
 * [Go Playground](https://play.go-lang.org/) - 🕸🏗 - Run and share Go snippets from the comfort of your browser
+* [TechIO](https://tech.io/) - 🕸🏗🎓 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises
 
 ## [Groovy](http://groovy-lang.org/)
 
 * [CodinGame](https://www.codingame.com/) - 🕸🎮 - Games and Programming Challenges to Code Better
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests
+* [TechIO](https://tech.io/) - 🕸🏗🎓 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises
 
 ## [Haskell](https://www.haskell.org/)
 
 * [Codewars](https://www.codewars.com/) - 🕸🎮 - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - 🕸🎮 - Games and Programming Challenges to Code Better
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests
+* [TechIO](https://tech.io/) - 🕸🏗🎓 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises
 
 ## [Java](https://www.java.com/)
 
 * [CodeCombat](https://codecombat.com/play) - 🕸🎮 - Learn how to code by playing a game
+* [Codeacademy](https://www.codecademy.com/) - 🕸🎓 - Free platform for online learning web technologies, computer programming and data science.
 * [Codehunt](https://www.codehunt.com/) - 🕸🎮 - Learn how to code by playing a game
 * [Codewars](https://www.codewars.com/) - 🕸🎮 - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - 🕸🎮 - Games and Programming Challenges to Code Better
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests
+* [Edabit](https://edabit.com/) - 🕸🎓 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress
 * [Robocode](http://robocode.sourceforge.net/) - ❖🎮 - Develop a robot battle tank to battle against others in Java or .NET
+* [TechIO](https://tech.io/) - 🕸🏗🎓 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises
 
 ## [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
@@ -220,12 +258,15 @@ Programming languages
 * [CodeCombat](https://codecombat.com/play) - 🕸🎮 - Learn how to code by playing a game
 * [CodePen](https://codepen.io/) - 🕸🏗 - A social development environment for front-end designers and developers.
 * [CodeSandbox](https://codesandbox.io/) - 🕸🏗 - The online editor for React, Vue, Angular, Preact and Svelte apps
+* [Codeacademy](https://www.codecademy.com/) - 🕸🎓 - Free platform for online learning web technologies, computer programming and data science.
 * [Codewars](https://www.codewars.com/) - 🕸🎮 - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - 🕸🎮 - Games and Programming Challenges to Code Better
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests
 * [Data Structures and Algorithms in JavaScript](https://frontendmasters.com/courses/data-structures-algorithms/) - 💰🕸📱📼 - Learn the most common data structures and algorithms in Computer Science in-depth taught with JavaScript. - *Bianca Gandolfo (Bitovi) via Frontend Masters*
 * [Deep JavaScript Foundations](https://frontendmasters.com/courses/javascript-foundations/) - 💰🕸📱📼 - Master JavaScript deeply learning scope and closure, functions, the prototype system, closure, types, coercion and new ES6 features in JavaScript! - *Kyle Simpson (You Don't Know JS) via Frontend Masters*
 * [ES6: The Right Parts](https://frontendmasters.com/courses/es6-right-parts/) - 💰🕸📱📼 - Learn new ES6 JavaScript language features like arrow function, destructuring, generators & more to write cleaner and more productive, readable programs. - *Kyle Simpson (You Don't Know JS) via Frontend Masters*
+* [Edabit](https://edabit.com/) - 🕸🎓 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress
+* [Free Code Camp](https://www.freecodecamp.org/) - 🕸🎓 - The king of free coding camps. Learn to code and help nonprofits. Extensive curriculum.
 * [Functional-Light JavaScript, v2](https://frontendmasters.com/courses/functional-javascript-v2/) - 💰🕸📱📼 - Improve your code with functional patterns like pure functions, compose & map/reduce/filter...plus advanced concepts like fusion, transducing and monads! - *Kyle Simpson (You Don't Know JS) via Frontend Masters*
 * [Functional-Lite JavaScript](https://frontendmasters.com/courses/functional-js-lite/) - 💰🕸📱📼 - Practical take on functional JavaScript so you can use techniques like pure functions, map/reduce/filter and recursion to improve your programming today! - *Kyle Simpson (You Don't Know JS) via Frontend Masters*
 * [Grasshopper](https://grasshopper.codes/) - 📱🎮 - fun, quick lessons on your phone that teach you to write real JavaScript.
@@ -237,7 +278,15 @@ Programming languages
 * [Plunker](https://plnkr.co/) - 🕸🏗 - An online community for creating, collaborating on and sharing your web development ideas.
 * [Screeps](https://store.steampowered.com/app/464350/Screeps/) - 💰❖🎮 - Screeps is an open source MMO RTS sandbox game for programmers, wherein the core mechanic is programming your units AI. You control your colony by writing JavaScript which operate 24/7 in the single persistent world filled by other players on par with you.
 * [Stackblitz](https://stackblitz.com/) - 🕸🏗 - The online IDE for web applications, Powered by Visual Studio Code. Instantly create Angular, Ionic, React and Svelte projects with TypeScript or JavaScript
+* [TechIO](https://tech.io/) - 🕸🏗🎓 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises
 * [The Good Parts of JavaScript and the Web](https://frontendmasters.com/courses/good-parts-javascript-web/) - 💰🕸📱📼 - Learn the history of JavaScript and details of the language with special attention on functions. Plus how browsers work, how servers work and security. - *Douglas Crockford (Paypal) via Frontend Masters*
+* [The Odin Project](https://www.theodinproject.com/) - 🕸🎓 - A full stack (and open source) Ruby/JS bootcamp
+
+### [Node.js](https://nodejs.org/)
+
+Run JavaScript in a places other than a web browser, using Chrome's V8 engine
+
+* [Node School](https://nodeschool.io/) - 🕸🎓 - Open source workshops that teach web software skills. Do them on your own or at a workshop nearby.
 
 ### [Client Web Frameworks](https://en.wikipedia.org/wiki/Web_framework)
 
@@ -300,6 +349,7 @@ Frameworks for building web applications that run in the browser
 
 * [CodinGame](https://www.codingame.com/) - 🕸🎮 - Games and Programming Challenges to Code Better
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests
+* [TechIO](https://tech.io/) - 🕸🏗🎓 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises
 
 ## [Lua](https://www.lua.org/)
 
@@ -326,16 +376,21 @@ Frameworks for building web applications that run in the browser
 * [Codewars](https://www.codewars.com/) - 🕸🎮 - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - 🕸🎮 - Games and Programming Challenges to Code Better
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests
+* [Edabit](https://edabit.com/) - 🕸🎓 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress
 * [PhpFiddle](http://phpfiddle.org/) - 🕸🏗 - Php/MySQL execution environment in your web browser
+* [TechIO](https://tech.io/) - 🕸🏗🎓 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises
 
 ## [Python](https://www.python.org/)
 
 * [Check I/O](https://checkio.org/) - 🕸🎮 - Improve your coding skills by solving engaging challenges and fun task using Python and JavaScript
 * [CodeCombat](https://codecombat.com/play) - 🕸🎮 - Learn how to code by playing a game
+* [Codeacademy](https://www.codecademy.com/) - 🕸🎓 - Free platform for online learning web technologies, computer programming and data science.
 * [Codewars](https://www.codewars.com/) - 🕸🎮 - Improve your skills by training with others on real code challenges
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests
 * [DataCamp Light](https://cdn.datacamp.com/dcl-react/standalone-example.html) - 🕸🏗 - Embeddable R and Python examples
+* [Edabit](https://edabit.com/) - 🕸🎓 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress
 * [Python Fiddle](http://python-fiddle.com/) - 🕸🏗 - Python IDE for the web
+* [TechIO](https://tech.io/) - 🕸🏗🎓 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises
 
 ## [R](https://www.r-project.org/)
 
@@ -344,11 +399,15 @@ Frameworks for building web applications that run in the browser
 
 ## [Ruby](https://www.ruby-lang.org/)
 
+* [Codeacademy](https://www.codecademy.com/) - 🕸🎓 - Free platform for online learning web technologies, computer programming and data science.
 * [Codewars](https://www.codewars.com/) - 🕸🎮 - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - 🕸🎮 - Games and Programming Challenges to Code Better
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests
+* [Edabit](https://edabit.com/) - 🕸🎓 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress
 * [Ruby Warrior](https://www.bloc.io/ruby-warrior#/) - 🕸🎮 - A triumphant quest of adventure, love & destiny all within a few lines of code
 * [RubyFiddle](http://rubyfiddle.com/) - 🕸🏗 - Run Ruby snippets in your web browser
+* [TechIO](https://tech.io/) - 🕸🏗🎓 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises
+* [The Odin Project](https://www.theodinproject.com/) - 🕸🎓 - A full stack (and open source) Ruby/JS bootcamp
 
 ## [Rust](https://rust-lang.org)
 
@@ -356,11 +415,13 @@ Frameworks for building web applications that run in the browser
 * [CodinGame](https://www.codingame.com/) - 🕸🎮 - Games and Programming Challenges to Code Better
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests
 * [Rust Playground](https://play.rust-lang.org/) - 🕸🏗 - Run and share Rust snippets from the comfort of your browser
+* [TechIO](https://tech.io/) - 🕸🏗🎓 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises
 
 ## [Scala](https://www.scala-lang.org/)
 
 * [CodinGame](https://www.codingame.com/) - 🕸🎮 - Games and Programming Challenges to Code Better
 * [Robocode](http://robocode.sourceforge.net/) - ❖🎮 - Develop a robot battle tank to battle against others in Java or .NET
+* [TechIO](https://tech.io/) - 🕸🏗🎓 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises
 
 ## [Shell](https://help.ubuntu.com/community/Beginners/BashScripting)
 
@@ -377,7 +438,9 @@ Frameworks for building web applications that run in the browser
 * [Codewars](https://www.codewars.com/) - 🕸🎮 - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - 🕸🎮 - Games and Programming Challenges to Code Better
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests
+* [Edabit](https://edabit.com/) - 🕸🎓 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress
 * [Swift Playgrounds](https://www.apple.com/swift/playgrounds/) - 📱🎮 - Learn swift by playing games on your iPad
+* [TechIO](https://tech.io/) - 🕸🏗🎓 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises
 
 ## [TypeScript](http://typescriptlang.org/)
 
@@ -398,8 +461,6 @@ Frameworks for building web applications that run in the browser
 Build tools, text editors, IDEs and more
 
 * [Firebase + React: Real-time, Serverless Web Apps](https://frontendmasters.com/courses/firebase-react/) - 💰🕸📱📼 - Learn to use Firebase to deploy sophisticated web and mobile applications without having to build your own complex, server-side infrastructure. - *Steve Kinney (SendGrid) via Frontend Masters*
-* [Git Games](https://git-game.com/) - 🕸🎮 - A terminal based game that teaches both new and advances users some pretty cool features of the git scm (source control management) system
-* [Learn Git Branching](https://learngitbranching.js.org/) - 🕸🎮 - "The most visual and interactive way to learn Git on the web"
 * [Rapid Development on AWS: React, Node.js & GraphQL](https://frontendmasters.com/courses/aws-react-node-graphql/) - 💰🕸📱📼 - Learn to build on AWS’ cloud services and its world-class infrastructure to easily add authentication, storage, databases, and APIs into your apps! - *Steve Kinney (SendGrid) via Frontend Masters*
 * [Serverless with AWS Lambda](https://frontendmasters.com/courses/serverless-aws/) - 💰🕸📱📼 - Get started with AWS Lambda functions and then learn to test, debug and deploy then to build a real API powered by lambda functions. - *Scott Moss (Tipe) via Frontend Masters*
 * [Untrusted](https://alexnisnevich.github.io/untrusted/) - 🕸🎮 - Use JavaScript to guide Dr. Eval through a machine continuum!
@@ -415,7 +476,9 @@ Build tools, text editors, IDEs and more
 
 ## [Git](https://git-scm.com/)
 
+* [Git Games](https://git-game.com/) - 🕸🎮 - A terminal based game that teaches both new and advances users some pretty cool features of the git scm (source control management) system
 * [Git In-depth](https://frontendmasters.com/courses/git-in-depth/) - 💰🕸📱📼 - A deep dive into git, this course is for developers who use it every day and want to learn inner workings and use advanced techniques in git. - *Nina Zakharenko (Microsoft) via Frontend Masters*
+* [Learn Git Branching](https://learngitbranching.js.org/) - 🕸🎮 - "The most visual and interactive way to learn Git on the web"
 
 ## [Visual Studio Code](https://code.visualstudio.com/)
 
@@ -430,6 +493,31 @@ Build tools, text editors, IDEs and more
 General computer programming skills & techniques
 
 * [Human Resource Machine](https://tomorrowcorporation.com/humanresourcemachine) - 💰📱🎮 - A mobile game that teaches you how low-level programming (i.e., Assembler) works
+* [Khan Academy](https://www.khanacademy.org/) - 🕸🎓 - Learn anything for free, forever.
+
+# [Data Science](https://en.wikipedia.org/wiki/Data_science)
+
+The scientific methods, processes, algorithms and systems used to extract knowledge and insights from data
+
+* [Codeacademy](https://www.codecademy.com/) - 🕸🎓 - Free platform for online learning web technologies, computer programming and data science.
+
+# Practice Platform
+
+Collections of exercises to help you sharpen your skills and learn at your own pace. Good for practice once you've mastered the basics
+
+* [Cyber Dojo](http://cyber-dojo.org/) - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests
+* [Edabit](https://edabit.com/) - 🕸🎓 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress
+* [TechIO](https://tech.io/) - 🕸🏗🎓 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises
+
+# [Learning platforms and bootcamps](https://en.wikipedia.org/wiki/Coding_bootcamp)
+
+Curated and structured education that leads to leveling up your skills through exercises, projects and quizzes
+
+* [Codeacademy](https://www.codecademy.com/) - 🕸🎓 - Free platform for online learning web technologies, computer programming and data science.
+* [Free Code Camp](https://www.freecodecamp.org/) - 🕸🎓 - The king of free coding camps. Learn to code and help nonprofits. Extensive curriculum.
+* [Khan Academy](https://www.khanacademy.org/) - 🕸🎓 - Learn anything for free, forever.
+* [Node School](https://nodeschool.io/) - 🕸🎓 - Open source workshops that teach web software skills. Do them on your own or at a workshop nearby.
+* [The Odin Project](https://www.theodinproject.com/) - 🕸🎓 - A full stack (and open source) Ruby/JS bootcamp
 <!-- END_LIST -->
 
 ## Sources
