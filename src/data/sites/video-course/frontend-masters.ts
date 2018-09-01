@@ -924,7 +924,12 @@ const VideoCategories = {
   angular: [/Angular\s[2-9]+/],
   angularjs: [/Angular\s1/],
   react: [/React/],
-  javascript: [/javascript/, /JavaScript/, /Javascript/, /ES6/],
+  javascript: [
+    /(Organizing|Functional|Deep|Algorithms|Advanced)[\w\-\,\s]*JavaScript/,
+    /JavaScript[\w\-\,\s]*(Hart Parts)/,
+    /JavaScript Programming/,
+    /ES6: The Right/,
+  ],
   typescript: [/typescript/, /TypeScript/],
   cloud: [/AWS/, /Firebase/, /Amazon Web Services/],
   chromeDevTools: [/Chrome Developer Tools/],

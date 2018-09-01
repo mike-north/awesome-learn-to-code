@@ -13,7 +13,7 @@ const icon = (key: keyof typeof ICONS, title: string) => `[![${title}](${ICONS[k
 
 const mdSiteIcons = (site: Resource): string => {
   const icons: string[] = [];
-  if (site.price > 0) {
+  if (site.price) {
     icons.push('💰');
   }
   if (site.platforms.indexOf('windows') >= 0) {
@@ -34,6 +34,9 @@ const mdSiteIcons = (site: Resource): string => {
   if (site.type === 'playground') {
     icons.push('🏗');
   }
+  if (site.type === 'video-course') {
+    icons.push('📼');
+  }
   if (icons.length === 0) {
     return '';
   }
@@ -41,7 +44,7 @@ const mdSiteIcons = (site: Resource): string => {
 };
 
 const mdSiteDetails = (site: Resource): string => {
-  const parts: string[] = [mdSiteIcons(site), site.description].filter(Boolean);
+  const parts: string[] = [mdSiteIcons(site), ' - ', site.description].filter(Boolean);
 
   if (parts.length > 0) {
     return ` - ${parts.join(' ')}`;
