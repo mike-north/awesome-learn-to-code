@@ -17,7 +17,6 @@ A curated list of sites, tools, resources and other things that help when learni
 
 </details>
 
-
 <!-- BEGIN_LIST -->
 
 # [General Programming](https://en.wikipedia.org/wiki/Computer_programming)
@@ -68,7 +67,7 @@ Programming languages
 * [Cyber Dojo](http://cyber-dojo.org/) -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests
 
 
-## [cSharp](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/)
+## [C#](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/)
 
 * [.NET Fiddle](https://dotnetfiddle.net/) -  🕸🏗  A .NET sandbox for developers to quickly try out code and share C#, F# and VB.NET code snippets.
 * [Codehunt](https://www.codehunt.com/) -  🕸🎮  Learn how to code by playing a game
@@ -107,7 +106,7 @@ Programming languages
 * [JS Bin](https://jsbin.com/) -  🕸🏗  Collaborative JavaScript Debugging
 * [JSFiddle](https://jsfiddle.net/) -  🕸🏗  Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle code editor.
 * [Plunker](https://plnkr.co/) -  🕸🏗  An online community for creating, collaborating on and sharing your web development ideas.
-* [Ssttackblitz](https://stackblitz.com/) -  🕸🏗  The online IDE for web applications, Powered by Visual Studio Code. Instantly create Angular, Ionic, React and Svelte projects with TypeScript or JavaScript
+* [Stackblitz](https://stackblitz.com/) -  🕸🏗  The online IDE for web applications, Powered by Visual Studio Code. Instantly create Angular, Ionic, React and Svelte projects with TypeScript or JavaScript
 
 
 ## [D](https://dlang.org/)
@@ -190,7 +189,7 @@ Programming languages
 * [JSFiddle](https://jsfiddle.net/) -  🕸🏗  Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle code editor.
 * [Plunker](https://plnkr.co/) -  🕸🏗  An online community for creating, collaborating on and sharing your web development ideas.
 * [Screeps](https://store.steampowered.com/app/464350/Screeps/) -  💰❖🎮  Screeps is an open source MMO RTS sandbox game for programmers, wherein the core mechanic is programming your units AI. You control your colony by writing JavaScript which operate 24/7 in the single persistent world filled by other players on par with you.
-* [Ssttackblitz](https://stackblitz.com/) -  🕸🏗  The online IDE for web applications, Powered by Visual Studio Code. Instantly create Angular, Ionic, React and Svelte projects with TypeScript or JavaScript
+* [Stackblitz](https://stackblitz.com/) -  🕸🏗  The online IDE for web applications, Powered by Visual Studio Code. Instantly create Angular, Ionic, React and Svelte projects with TypeScript or JavaScript
 
 
 ## [Kotlin](https://kotlinlang.org/)
@@ -295,7 +294,7 @@ Programming languages
 * [CodePen](https://codepen.io/) -  🕸🏗  A social development environment for front-end designers and developers.
 * [CodeSandbox](https://codesandbox.io/) -  🕸🏗  The online editor for React, Vue, Angular, Preact and Svelte apps
 * [Codewars](https://www.codewars.com/) -  🕸🎮  Improve your skills by training with others on real code challenges
-* [Ssttackblitz](https://stackblitz.com/) -  🕸🏗  The online IDE for web applications, Powered by Visual Studio Code. Instantly create Angular, Ionic, React and Svelte projects with TypeScript or JavaScript
+* [Stackblitz](https://stackblitz.com/) -  🕸🏗  The online IDE for web applications, Powered by Visual Studio Code. Instantly create Angular, Ionic, React and Svelte projects with TypeScript or JavaScript
 
 
 ## [VB.NET](https://docs.microsoft.com/en-us/dotnet/visual-basic/getting-started/)
@@ -304,13 +303,7 @@ Programming languages
 * [CodinGame](https://www.codingame.com/) -  🕸🎮  Games and Programming Challenges to Code Better
 * [Robocode](http://robocode.sourceforge.net/) -  ❖🎮  Develop a robot battle tank to battle against others in Java or .NET
 
-
-
 <!-- END_LIST -->
-
-
-
-
 
 ## Sources
 
