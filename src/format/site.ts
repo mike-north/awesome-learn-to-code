@@ -43,11 +43,28 @@ const mdSiteIcons = (site: Resource): string => {
   return icons.join('');
 };
 
-const mdSiteDetails = (site: Resource): string => {
-  const parts = [mdSiteIcons(site), site.description].filter(Boolean).join(' - ');
+const entityString: (e: Resource.Entity) => string = e => {
+  if (!e.url) {
+    return e.name;
+  } else {
+    return `[${e.name}](${e.url})`;
+  }
+};
 
+const mdSiteDetails = (site: Resource): string => {
+  const parts = [mdSiteIcons(site), site.description];
+  if (site.author) {
+    const authorParts: string[] = [entityString(site.author)];
+    if (site.authorOrg) {
+      authorParts.push(' (', entityString(site.authorOrg), ')');
+    }
+    if (site.publisher) {
+      authorParts.push(' via ', entityString(site.publisher));
+    }
+    parts.push(`*${authorParts.join('')}*`);
+  }
   if (parts.length > 0) {
-    return ` - ${parts}`;
+    return ` - ${parts.filter(Boolean).join(' - ')}`;
   }
   return '';
 };

@@ -1010,6 +1010,16 @@ const NORMALIZED_DATA: Resource[] = SCRAPED_DATA.map(raw => {
       frequency: 'month',
       type: 'membership',
     },
+    author: {
+      name: raw.instructor.name,
+    },
+    authorOrg: {
+      name: raw.instructor.organization,
+    },
+    publisher: {
+      name: 'Frontend Masters',
+      url: 'https://frontendmasters.com',
+    },
     platforms: ['web', 'ios', 'android'],
     type: 'video-course',
     categoryIds: detectCategories(raw),

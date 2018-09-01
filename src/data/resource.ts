@@ -23,6 +23,9 @@ export interface Resource {
     | ['languages', 'javascript', 'clientWebFrameworks', ClientWebFramework]
   >;
   name: string;
+  author?: Resource.Entity;
+  authorOrg?: Resource.Entity;
+  publisher?: Resource.Entity;
   type: Resource.Type;
   kidOriented?: boolean;
   description: string;
@@ -39,6 +42,10 @@ export interface OrganizedResourceCategory {
 
 // tslint:disable-next-line:no-namespace
 export declare namespace Resource {
+  interface Entity {
+    name: string;
+    url?: string;
+  }
   namespace Price {
     type Type = 'membership' | 'each';
     type Frequency = 'once' | 'year' | 'month';
