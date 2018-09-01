@@ -1,5 +1,6 @@
 // @ts-check
 import { Resource } from '../resource';
+import JSTopic from './javascript';
 
 const ALL_LANGUAGES = {
   assembly: { id: 'assembly', name: 'Assembly', url: 'http://www.azillionmonkeys.com/qed/asmexample.html' },
@@ -18,6 +19,7 @@ const ALL_LANGUAGES = {
   d: { id: 'd', name: 'D', url: 'https://dlang.org/' },
   dart: { id: 'dart', name: 'Dart', url: 'https://www.dartlang.org/' },
   elixir: { id: 'elixir', name: 'Elixir', url: 'https://elixir-lang.org/' },
+  elm: { id: 'elm', name: 'Elm', url: 'https://elm-lang.org/' },
   erlang: { id: 'erlang', name: 'Erlang', url: 'https://www.erlang.org/' },
   fSharp: { id: 'fSharp', name: 'F#', url: 'https://fsharp.org/' },
   fortran: { id: 'fortran', name: 'Fortran', url: 'https://en.wikibooks.org/wiki/Fortran/Fortran_examples' },
@@ -25,11 +27,7 @@ const ALL_LANGUAGES = {
   groovy: { id: 'groovy', name: 'Groovy', url: 'http://groovy-lang.org/' },
   haskell: { id: 'haskell', name: 'Haskell', url: 'https://www.haskell.org/' },
   java: { id: 'java', name: 'Java', url: 'https://www.java.com/' },
-  javascript: {
-    id: 'javascript',
-    name: 'JavaScript',
-    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
-  },
+  javascript: JSTopic,
   kotlin: { id: 'kotlin', name: 'Kotlin', url: 'https://kotlinlang.org/' },
   lua: { id: 'lua', name: 'Lua', url: 'https://www.lua.org/' },
   objectiveC: {

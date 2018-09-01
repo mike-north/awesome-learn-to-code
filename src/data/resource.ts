@@ -3,13 +3,25 @@ import ALL_CATEGORIES from './categories';
 import { ProgrammingLanguage } from './categories/languages';
 
 import { pipe } from '../utils';
+import { ClientWebFramework } from './categories/client-web-frameworks';
+import { JSTopic } from './categories/javascript';
+import { ToolName } from './categories/tools-and-editors';
 import allGames from './sites/games';
 import allPlaygrounds from './sites/playgrounds';
+import allVideoCourses from './sites/video-course';
 
 export interface Resource {
   id: string;
   platforms: Resource.Platform[];
-  categoryIds: Array<['languages', ProgrammingLanguage] | ['generalProgramming'] | ['toolsAndEditors']>;
+  categoryIds: Array<
+    | ['toolsAndEditors']
+    | ['generalProgramming']
+    | ['clientWebFrameworks']
+    | ['languages', ProgrammingLanguage]
+    | ['toolsAndEditors', ToolName]
+    | ['languages', 'javascript', JSTopic]
+    | ['languages', 'javascript', 'clientWebFrameworks', ClientWebFramework]
+  >;
   name: string;
   type: Resource.Type;
   kidOriented?: boolean;
@@ -20,6 +32,7 @@ export interface Resource {
 
 export interface OrganizedResourceCategory {
   category: Resource.Category;
+  path: string[];
   items: Resource[];
   children?: OrganizedResourceCategory[];
 }
@@ -56,7 +69,7 @@ export declare namespace Resource {
   };
 }
 
-const ALL_SITES: Resource[] = allGames.concat(allPlaygrounds);
+const ALL_SITES: Resource[] = [...allGames, ...allPlaygrounds, ...allVideoCourses];
 
 function siteMap(sites: Resource[]): { [k: string]: Resource[] } {
   const m: { [k: string]: Resource[] } = {};
@@ -92,6 +105,7 @@ function organizeResources<K extends string>(
     const catSites = smap[catKey];
     const og: OrganizedResourceCategory = {
       category: categories[c],
+      path: cpair,
       items: catSites || [],
     };
     const { children } = categories[c];

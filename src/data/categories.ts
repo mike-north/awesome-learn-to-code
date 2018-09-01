@@ -1,18 +1,9 @@
-import ALL_CWF from './categories/client-web-frameworks';
 import ALL_LANGUAGES_WITH_ID from './categories/languages';
+import ALL_TOOLS_WITH_ID from './categories/tools-and-editors';
 import { Resource } from './resource';
 
 // @ts-check
-
 const ALL_CATEGORIES: Resource.Categories = {
-  'client-web-frameworks': {
-    children: ALL_CWF,
-    description: 'Frameworks for building web applications that run in the browser',
-    id: 'client-web-frameworks',
-    name: 'Client Web Frameworks',
-    order: 4,
-    url: 'https://en.wikipedia.org/wiki/Web_framework',
-  },
   generalProgramming: {
     description: 'General computer programming skills & techniques',
     id: 'generalProgramming',
@@ -29,6 +20,7 @@ const ALL_CATEGORIES: Resource.Categories = {
     url: 'https://en.wikipedia.org/wiki/Programming_languages',
   },
   toolsAndEditors: {
+    children: ALL_TOOLS_WITH_ID,
     description: 'Build tools, text editors, IDEs and more',
     id: 'toolsAndEditors',
     name: 'Tools & Editors',
