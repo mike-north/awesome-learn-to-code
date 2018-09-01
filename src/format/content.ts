@@ -31,16 +31,16 @@ const mdSiteIcons = (site: Site): string => {
   if (site.price > 0) {
     icons.push('💰');
   }
-  if (site.platforms.includes('windows')) {
+  if ('windows' in site.platforms) {
     icons.push('❖');
   }
-  if (site.platforms.includes('os x')) {
+  if ('os x' in site.platforms) {
     icons.push('');
   }
-  if (site.platforms.includes('web')) {
+  if ('web' in site.platforms) {
     icons.push('🕸');
   }
-  if (site.platforms.includes('ios') || site.platforms.includes('android')) {
+  if ('ios' in site.platforms || 'android' in site.platforms) {
     icons.push('📱');
   }
   if (site.type === 'game') {

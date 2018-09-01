@@ -9,8 +9,8 @@ import { generateSiteListMarkdown } from './format';
  * @returns {Promise<string>} updated content
  */
 
-const LIST_BEGIN_TAG = `<!-- BEGIN_LIST -->`;
-const LIST_END_TAG = `<!-- END_LIST -->`;
+const LIST_BEGIN_TAG = '<!-- BEGIN_LIST -->';
+const LIST_END_TAG = '<!-- END_LIST -->';
 const TOC_BEGIN_TAG = '<!-- BEGIN_LIST -->';
 const TOC_END_TAG = '<!-- END_LIST -->';
 const wrapList = (content: string): string => [LIST_BEGIN_TAG, content.trim(), LIST_END_TAG].join('\n\n');

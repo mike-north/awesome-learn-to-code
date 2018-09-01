@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
     "noEmit": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
     "checkJs": true,
     "allowJs": true,
-    "target": "es2017",
+    "target": "es6",
     "rootDir": "src",
     "strict": true,
     "moduleResolution": "node"
   },
-  "include": ["types/**/*", "src/**/*"]
+  "include": ["types/**/*", "src/**/*", "test/**/*"]
 }
