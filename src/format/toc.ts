@@ -2,7 +2,10 @@ import * as lp from 'left-pad';
 import { OrganizedResourceCategory } from '../data/resource';
 
 function dasherize(s: string): string {
-  return s.toLowerCase().replace(/[\s\_\.]+/g, '-');
+  return s
+    .toLowerCase()
+    .replace(/[\.]/g, '')
+    .replace(/[\s\_]+/g, '-');
 }
 
 const SPACES: string[] = [];
