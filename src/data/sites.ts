@@ -6,7 +6,15 @@ import { pipe } from '../utils';
 import allGames from './sites/games';
 import allPlaygrounds from './sites/playgrounds';
 
-export type SiteType = 'game' | 'playground' | 'video-site';
+export type SiteType = 'game' | 'playground' | 'video-course';
+export type ResourcePriceType = 'membership' | 'each';
+export type ResourcePriceFrequency = 'once' | 'year' | 'month';
+export interface ResourcePrice {
+  amt: number;
+  type: ResourcePriceType;
+  frequency: ResourcePriceFrequency;
+}
+
 export interface Site {
   id: string;
   platforms: Site.Platform[];
@@ -16,8 +24,7 @@ export interface Site {
   kidOriented?: boolean;
   description: string;
   url: string;
-  price: number;
-  pricePeriod?: 'once' | 'year' | 'month';
+  price: number | ResourcePrice;
 }
 
 export interface OrganizedSites {
