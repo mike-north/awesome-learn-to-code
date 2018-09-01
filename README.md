@@ -344,6 +344,7 @@ General computer programming skills & techniques
 - https://www.rockpapershotgun.com/2017/11/29/best-hacking-games/
 - https://medium.mybridge.co/12-free-resources-learn-to-code-while-playing-games-f7333043de11
 - https://github.com/webloper/awesome-fiddles
+- https://github.com/theodesp/awesome-coding-camps
 
 ## Copyright
 
