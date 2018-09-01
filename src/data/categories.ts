@@ -1,4 +1,5 @@
 import ALL_LANGUAGES_WITH_ID from './categories/languages';
+import ALL_FRAMEWORKS from './categories/web-frameworks';
 import { Site } from './sites';
 
 // @ts-check
@@ -25,6 +26,14 @@ const ALL_CATEGORIES: Site.Categories = {
     name: 'Tools & Editors',
     order: 2,
     url: 'https://en.wikipedia.org/wiki/Programming_tool',
+  },
+  'web-frameworks': {
+    children: ALL_FRAMEWORKS,
+    description: 'Web Frameworks',
+    id: 'web-frameworks',
+    name: 'Web Frameworks',
+    order: 4,
+    url: 'https://en.wikipedia.org/wiki/Web_framework',
   },
 };
 

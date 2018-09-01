@@ -6,7 +6,7 @@ import { pipe } from '../utils';
 import allGames from './sites/games';
 import allPlaygrounds from './sites/playgrounds';
 
-export type SiteType = 'game' | 'playground';
+export type SiteType = 'game' | 'playground' | 'video-site';
 export interface Site {
   id: string;
   platforms: Site.Platform[];
@@ -17,6 +17,7 @@ export interface Site {
   description: string;
   url: string;
   price: number;
+  pricePeriod?: 'once' | 'year' | 'month';
 }
 
 export interface OrganizedSites {
