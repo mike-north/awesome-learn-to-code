@@ -9,6 +9,7 @@ class GenerateSitelistTests {
     const str = generateSiteListMarkdown(
       [
         {
+          path: ['test-category'],
           category: {
             description: 'Category description 1',
             id: 'test-category1',
@@ -39,6 +40,7 @@ class GenerateSitelistTests {
           ],
         },
         {
+          path: ['test-category-2'],
           category: {
             description: 'Category description 2',
             id: 'test-category2',
