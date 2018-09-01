@@ -933,7 +933,7 @@ const VideoCategories = {
   typescript: [/typescript/, /TypeScript/],
   cloud: [/AWS/, /Firebase/, /Amazon Web Services/],
   chromeDevTools: [/Chrome Developer Tools/],
-  webpack: [/[W|w]ebpack/],
+  webpack: [/Webpack 2/, /Webpack 4/, /Webpack Plugins/, /Performance[\s\w]+Webpack/],
   sql: [/SQL/],
   elm: [/Elm/],
   meteor: [/Meteor/],
