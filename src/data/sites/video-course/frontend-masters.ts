@@ -925,7 +925,7 @@ const VideoCategories = {
   angularjs: [/Angular\s1/],
   react: [/React/],
   javascript: [
-    /(Organizing|Functional|Deep|Algorithms|Advanced)[\w\-\,\s]*JavaScript/,
+    /(Organizing|Functional|Deep|Algorithms|Advanced|Good Parts)[\w\-\,\s]*JavaScript/,
     /JavaScript[\w\-\,\s]*(Hart Parts)/,
     /JavaScript Programming/,
     /ES6: The Right/,
