@@ -40,14 +40,14 @@ const mdSiteIcons = (site: Resource): string => {
   if (icons.length === 0) {
     return '';
   }
-  return ` ${icons.join('')} `;
+  return icons.join('');
 };
 
 const mdSiteDetails = (site: Resource): string => {
-  const parts: string[] = [mdSiteIcons(site), ' - ', site.description].filter(Boolean);
+  const parts = [mdSiteIcons(site), site.description].filter(Boolean).join(' - ');
 
   if (parts.length > 0) {
-    return ` - ${parts.join(' ')}`;
+    return ` - ${parts}`;
   }
   return '';
 };

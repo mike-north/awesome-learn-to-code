@@ -74,9 +74,9 @@ Category description`.trim(),
 
 Category description
 
-* [A thing](https://example.com/a-thing) -  💰📱🎮  Description of a thing
-* [A thing](https://example.com/a-thing) -  💰📱🎮  Description of a thing
-* [A thing](https://example.com/a-thing) -  💰📱🎮  Description of a thing`.trim(),
+* [A thing](https://example.com/a-thing) - 💰📱🎮 - Description of a thing
+* [A thing](https://example.com/a-thing) - 💰📱🎮 - Description of a thing
+* [A thing](https://example.com/a-thing) - 💰📱🎮 - Description of a thing`.trim(),
     );
   }
   @test
@@ -263,25 +263,25 @@ Description of test category 3`.trim(),
 
 Category description
 
-* [A thing](https://example.com/a-thing) -  💰📱🎮  Description of a thing
-* [A thing](https://example.com/a-thing) -  💰📱🎮  Description of a thing
-* [A thing](https://example.com/a-thing) -  💰📱🎮  Description of a thing
+* [A thing](https://example.com/a-thing) - 💰📱🎮 - Description of a thing
+* [A thing](https://example.com/a-thing) - 💰📱🎮 - Description of a thing
+* [A thing](https://example.com/a-thing) - 💰📱🎮 - Description of a thing
 
 ## [Test Category 2](https://example.com/test-category-2)
 
 Description of test category 2
 
-* [A thing](https://example.com/a-thing) -  💰📱🎮  Description of a thing
-* [A thing](https://example.com/a-thing) -  💰📱🎮  Description of a thing
-* [A thing](https://example.com/a-thing) -  💰📱🎮  Description of a thing
+* [A thing](https://example.com/a-thing) - 💰📱🎮 - Description of a thing
+* [A thing](https://example.com/a-thing) - 💰📱🎮 - Description of a thing
+* [A thing](https://example.com/a-thing) - 💰📱🎮 - Description of a thing
 
 ## [Test Category 3](https://example.com/test-category-3)
 
 Description of test category 3
 
-* [A thing](https://example.com/a-thing) -  💰📱🎮  Description of a thing
-* [A thing](https://example.com/a-thing) -  💰📱🎮  Description of a thing
-* [A thing](https://example.com/a-thing) -  💰📱🎮  Description of a thing
+* [A thing](https://example.com/a-thing) - 💰📱🎮 - Description of a thing
+* [A thing](https://example.com/a-thing) - 💰📱🎮 - Description of a thing
+* [A thing](https://example.com/a-thing) - 💰📱🎮 - Description of a thing
 `.trim(),
     );
   }

@@ -16,7 +16,7 @@ class SiteFormattingTests {
       type: 'game',
       url: 'https://example.com/test-site',
     });
-    assert.equal(str, `* [Test Site](https://example.com/test-site) -  ❖🎮  This is a description`);
+    assert.equal(str, `* [Test Site](https://example.com/test-site) - ❖🎮 - This is a description`);
   }
   @test
   'icons are always in the same order'() {
@@ -30,7 +30,7 @@ class SiteFormattingTests {
       type: 'game',
       url: 'https://example.com/test-site',
     });
-    assert.equal(str, `* [Test Site](https://example.com/test-site) -  ❖🎮  This is a description`);
+    assert.equal(str, `* [Test Site](https://example.com/test-site) - ❖🎮 - This is a description`);
   }
   @test
   'a game is formatted properly'() {
@@ -44,7 +44,7 @@ class SiteFormattingTests {
       type: 'game',
       url: 'https://example.com/test-site',
     });
-    assert.equal(str, `* [Test Site](https://example.com/test-site) -  📱🎮  This is a description`);
+    assert.equal(str, `* [Test Site](https://example.com/test-site) - 📱🎮 - This is a description`);
   }
   @test
   'a playground is formatted properly'() {
@@ -58,7 +58,7 @@ class SiteFormattingTests {
       type: 'playground',
       url: 'https://example.com/test-site',
     });
-    assert.equal(str, `* [Test Site](https://example.com/test-site) -  🕸📱🏗  This is a description`);
+    assert.equal(str, `* [Test Site](https://example.com/test-site) - 🕸📱🏗 - This is a description`);
   }
   @test
   'a paid app is formatted properly'() {
@@ -72,6 +72,6 @@ class SiteFormattingTests {
       type: 'playground',
       url: 'https://example.com/test-site',
     });
-    assert.equal(str, `* [Test Site](https://example.com/test-site) -  💰🕸📱🏗  This is a description`);
+    assert.equal(str, `* [Test Site](https://example.com/test-site) - 💰🕸📱🏗 - This is a description`);
   }
 }

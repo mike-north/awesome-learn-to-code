@@ -80,15 +80,15 @@ class GenerateSitelistTests {
 
 Category description 1
 
-* [A thing](https://example.com/a-thing) -  💰📱🎮  Description of a thing
-* [A thing](https://example.com/a-thing) -  💰📱🎮  Description of a thing
+* [A thing](https://example.com/a-thing) - 💰📱🎮 - Description of a thing
+* [A thing](https://example.com/a-thing) - 💰📱🎮 - Description of a thing
 
 # [Test Category 2](https://example.com/test-category2)
 
 Category description 2
 
-* [A thing](https://example.com/a-thing) -  💰📱🎮  Description of a thing
-* [A thing](https://example.com/a-thing) -  💰📱🎮  Description of a thing
+* [A thing](https://example.com/a-thing) - 💰📱🎮 - Description of a thing
+* [A thing](https://example.com/a-thing) - 💰📱🎮 - Description of a thing
 `.trim(),
     );
   }
