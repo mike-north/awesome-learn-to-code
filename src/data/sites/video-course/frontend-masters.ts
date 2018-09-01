@@ -982,7 +982,6 @@ function detectVideoCategories(femCourse: FemCourse): VideoCategoryNames[] {
     }
   }
   // tslint:disable-next-line:no-console
-  console.log(...cats);
   return [...cats];
 }
 
