@@ -34,14 +34,17 @@ const mdSiteIcons = (site: Resource): string => {
   if (site.type === 'playground' || (site.type instanceof Array && site.type.indexOf('playground') >= 0)) {
     icons.push('🏗');
   }
-  if (site.type === 'video-course' || (site.type instanceof Array && site.type.indexOf('video-course') >= 0)) {
+  if (site.type === 'video' || (site.type instanceof Array && site.type.indexOf('video') >= 0)) {
     icons.push('📼');
   }
-  if (
-    site.type === 'learning-platform' ||
-    (site.type instanceof Array && site.type.indexOf('learning-platform') >= 0)
-  ) {
+  if (site.type === 'bootcamp' || (site.type instanceof Array && site.type.indexOf('bootcamp') >= 0)) {
     icons.push('🎓');
+  }
+  if (
+    site.type === 'practice-platform' ||
+    (site.type instanceof Array && site.type.indexOf('practice-platform') >= 0)
+  ) {
+    icons.push('💪');
   }
   if (icons.length === 0) {
     return '';

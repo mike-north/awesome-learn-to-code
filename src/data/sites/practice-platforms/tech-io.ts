@@ -26,7 +26,7 @@ const techio: Resource = {
   name: 'TechIO',
   platforms: ['web'],
   price: 0,
-  type: ['playground', 'learning-platform'],
+  type: ['playground', 'practice-platform'],
   url: 'https://tech.io/',
 };
 

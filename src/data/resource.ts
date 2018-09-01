@@ -55,7 +55,7 @@ export declare namespace Resource {
     type: Price.Type;
     frequency: Price.Frequency;
   }
-  type Type = 'game' | 'playground' | 'video-course' | 'learning-platform';
+  type Type = 'game' | 'playground' | 'video' | 'practice-platform' | 'tutorial' | 'bootcamp';
   type Platform = 'ios' | 'android' | 'web' | 'windows' | 'os x' | 'linux';
   interface Category<ID extends string = string> {
     id: ID;

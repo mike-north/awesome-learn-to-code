@@ -14,7 +14,7 @@ const r: Resource = {
   name: 'Codeacademy',
   platforms: ['web'],
   price: 0,
-  type: 'learning-platform',
+  type: 'bootcamp',
   url: 'https://www.codecademy.com/',
 };
 

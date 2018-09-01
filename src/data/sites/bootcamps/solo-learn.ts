@@ -2,24 +2,27 @@ import { Resource } from '../../resource';
 
 const r: Resource = {
   categoryIds: [
-    ['practicePlatform'],
+    ['bootcamp'],
+    ['dataScience'],
     ['languages', 'javascript'],
     ['languages', 'python'],
     ['languages', 'ruby'],
     ['languages', 'java'],
     ['languages', 'swift'],
     ['languages', 'php'],
+    ['languages', 'sql'],
     ['languages', 'cSharp'],
+    ['languages', 'css'],
     ['languages', 'c++'],
+    ['languages', 'javascript', 'clientWebFrameworks', 'jquery'],
   ],
-  description:
-    'Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress',
-  id: 'edabit',
-  name: 'Edabit',
+  description: 'Learn to code for free using challenges. Offers lessons for multiple programming languages.',
+  id: 'sololearn',
+  name: 'Solo Learn',
   platforms: ['web'],
   price: 0,
-  type: 'practice-platform',
-  url: 'https://edabit.com/',
+  type: 'tutorial',
+  url: 'https://www.sololearn.com/',
 };
 
 export default r;
