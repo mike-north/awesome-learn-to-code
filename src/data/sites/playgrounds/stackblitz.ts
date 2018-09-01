@@ -5,7 +5,7 @@ const stackblitz: Site = {
   description:
     'The online IDE for web applications, Powered by Visual Studio Code. Instantly create Angular, Ionic, React and Svelte projects with TypeScript or JavaScript',
   id: 'stackblitz',
-  name: 'Ssttackblitz',
+  name: 'Stackblitz',
   platforms: ['web'],
   price: 0,
   type: 'playground',

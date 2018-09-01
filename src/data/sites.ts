@@ -2,6 +2,7 @@
 import ALL_CATEGORIES from './categories';
 import { ProgrammingLanguage } from './categories/languages';
 
+import { pipe } from '../utils';
 import allGames from './sites/games';
 import allPlaygrounds from './sites/playgrounds';
 
@@ -93,4 +94,14 @@ function organizeSites<K extends string>(
   return topLevel;
 }
 
-export default organizeSites(ALL_SITES, ALL_CATEGORIES);
+function sortOrganizedSites(sites: OrganizedSites[]): OrganizedSites[] {
+  return sites
+    .filter(g => g.category.order !== void 0)
+    .sort((a, b) => (b as any).category.order - (a as any).category.order)
+    .concat(sites.filter(g => g.category.order === void 0).sort());
+}
+
+export const ALL_SITES_ORGANIZED = pipe(
+  (sites: Site[]) => organizeSites(sites, ALL_CATEGORIES),
+  sortOrganizedSites,
+)(ALL_SITES);

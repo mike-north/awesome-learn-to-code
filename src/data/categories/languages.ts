@@ -8,7 +8,7 @@ const ALL_LANGUAGES = {
   'c++': { id: 'c++', name: 'C++', url: 'https://en.cppreference.com/w/' },
   cSharp: {
     id: 'cSharp',
-    name: 'cSharp',
+    name: 'C#',
     url: 'https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/',
   },
   clojure: { id: 'clojure', name: 'Clojure', url: 'https://clojure.org/' },
