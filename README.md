@@ -6,13 +6,6 @@ A curated list of sites, tools, resources and other things that help when learni
   <summary>Table of Contents</summary>
 
 <!-- BEGIN_TOC -->
-* [Client Web Frameworks](#client-web-frameworks)
-   * [Angular](#angular)
-   * [Angular.js](#angular-js)
-   * [Elm](#elm)
-   * [Ember.js](#ember-js)
-   * [React.js](#react-js)
-   * [Vue.js](#vue-js)
 * [General Programming](#general-programming)
 * [Languages](#languages)
    * [Assembly](#assembly)
@@ -27,6 +20,7 @@ A curated list of sites, tools, resources and other things that help when learni
    * [D](#d)
    * [Dart](#dart)
    * [Elixir](#elixir)
+   * [Elm](#elm)
    * [Erlang](#erlang)
    * [F#](#f#)
    * [Fortran](#fortran)
@@ -35,6 +29,15 @@ A curated list of sites, tools, resources and other things that help when learni
    * [Haskell](#haskell)
    * [Java](#java)
    * [JavaScript](#javascript)
+      * [Client Web Frameworks](#client-web-frameworks)
+         * [Angular](#angular)
+         * [Angular.js](#angular-js)
+         * [Backbone](#backbone)
+         * [Ember.js](#ember-js)
+         * [JQuery](#jquery)
+         * [Meteor.js](#meteor-js)
+         * [React.js](#react-js)
+         * [Vue.js](#vue-js)
    * [Kotlin](#kotlin)
    * [Lua](#lua)
    * [Objective-C](#objective-c)
@@ -53,6 +56,10 @@ A curated list of sites, tools, resources and other things that help when learni
    * [TypeScript](#typescript)
    * [VB.NET](#vb-net)
 * [Tools & Editors](#tools-&-editors)
+   * [Chrome Developer Tools](#chrome-developer-tools)
+   * [Git](#git)
+   * [Visual Studio Code](#visual-studio-code)
+   * [Webpack](#webpack)
 <!-- END_TOC -->
 
 </details>
@@ -73,22 +80,6 @@ A curated list of sites, tools, resources and other things that help when learni
 </details>
 
 <!-- BEGIN_LIST -->
-# [Client Web Frameworks](https://en.wikipedia.org/wiki/Web_framework)
-
-Frameworks for building web applications that run in the browser
-
-## [Angular](https://angular.io/)
-
-## [Angular.js](https://angularjs.org/)
-
-## [Elm](http://elm-lang.org/)
-
-## [Ember.js](https://emberjs.com)
-
-## [React.js](https://reactjs.org/)
-
-## [Vue.js](https://vuejs.org/)
-
 # [Languages](https://en.wikipedia.org/wiki/Programming_languages)
 
 Programming languages

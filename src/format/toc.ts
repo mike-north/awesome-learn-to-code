@@ -18,7 +18,7 @@ function spaces(n: number) {
 
 export function mdTocOrganizedSite(os: OrganizedResourceCategory, level: number = 1): string {
   const pad = spaces(3 * (level - 1));
-  const thisLine = pad + `* [${os.category.name}](#${dasherize(os.path.join('-'))})`;
+  const thisLine = pad + `* [${os.category.name}](#${dasherize(os.category.name)})`;
   const childLines = os.children
     ? os.children
         .sort((a, b) => a.category.name.localeCompare(b.category.name))
