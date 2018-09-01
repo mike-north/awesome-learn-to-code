@@ -1,10 +1,18 @@
+import ALL_CWF from './categories/client-web-frameworks';
 import ALL_LANGUAGES_WITH_ID from './categories/languages';
-import ALL_FRAMEWORKS from './categories/web-frameworks';
 import { Site } from './sites';
 
 // @ts-check
 
 const ALL_CATEGORIES: Site.Categories = {
+  'client-web-frameworks': {
+    children: ALL_CWF,
+    description: 'Frameworks for building web applications that run in the browser',
+    id: 'client-web-frameworks',
+    name: 'Client Web Frameworks',
+    order: 4,
+    url: 'https://en.wikipedia.org/wiki/Web_framework',
+  },
   generalProgramming: {
     description: 'General computer programming skills & techniques',
     id: 'generalProgramming',
@@ -26,14 +34,6 @@ const ALL_CATEGORIES: Site.Categories = {
     name: 'Tools & Editors',
     order: 2,
     url: 'https://en.wikipedia.org/wiki/Programming_tool',
-  },
-  'web-frameworks': {
-    children: ALL_FRAMEWORKS,
-    description: 'Web Frameworks',
-    id: 'web-frameworks',
-    name: 'Web Frameworks',
-    order: 4,
-    url: 'https://en.wikipedia.org/wiki/Web_framework',
   },
 };
 
