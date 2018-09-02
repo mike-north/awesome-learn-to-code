@@ -33,7 +33,7 @@ const cyberDojo: Resource = {
   name: 'Cyber Dojo',
   platforms: ['web'],
   price: 0,
-  type: 'game',
+  type: 'practice-platform',
   url: 'http://cyber-dojo.org/',
 };
 

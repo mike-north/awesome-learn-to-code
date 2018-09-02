@@ -29,7 +29,7 @@ const codeWars: Resource = {
   name: 'Codewars',
   platforms: ['web'],
   price: 0,
-  type: 'game',
+  type: 'practice-platform',
   url: 'https://www.codewars.com/',
 };
 
