@@ -2,6 +2,7 @@ import { Resource } from '../../resource';
 
 const codeWars: Resource = {
   categoryIds: [
+    ['practicePlatform'],
     ['languages', 'clojure'],
     ['languages', 'c'],
     ['languages', 'c++'],
