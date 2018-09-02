@@ -7,7 +7,7 @@ const r: Resource = {
   name: 'Node School',
   platforms: ['web'],
   price: 0,
-  type: 'learning-platform',
+  type: 'tutorial',
   url: 'https://nodeschool.io/',
 };
 
