@@ -9,6 +9,7 @@
 
 <!-- BEGIN_TOC -->
 <ul>
+<li><a href="#data-science">Data Science</a></li>
 <li><a href="#general-programming">General Programming</a></li>
 <li><a href="#languages">Languages</a><ul>
 <li><a href="#assembly">Assembly</a></li>
@@ -34,15 +35,16 @@
 <li><a href="#javascript">JavaScript</a><ul>
 <li><a href="#client-web-frameworks">Client Web Frameworks</a><ul>
 <li><a href="#angular">Angular</a></li>
-<li><a href="#angular-js">Angular.js</a></li>
+<li><a href="#angularjs">Angular.js</a></li>
 <li><a href="#backbone">Backbone</a></li>
-<li><a href="#ember-js">Ember.js</a></li>
+<li><a href="#emberjs">Ember.js</a></li>
 <li><a href="#jquery">JQuery</a></li>
-<li><a href="#meteor-js">Meteor.js</a></li>
-<li><a href="#react-js">React.js</a></li>
-<li><a href="#vue-js">Vue.js</a></li>
+<li><a href="#meteorjs">Meteor.js</a></li>
+<li><a href="#reactjs">React.js</a></li>
+<li><a href="#vuejs">Vue.js</a></li>
 </ul>
 </li>
+<li><a href="#nodejs">Node.js</a></li>
 </ul>
 </li>
 <li><a href="#kotlin">Kotlin</a></li>
@@ -61,9 +63,12 @@
 <li><a href="#sql">SQL</a></li>
 <li><a href="#swift">Swift</a></li>
 <li><a href="#typescript">TypeScript</a></li>
-<li><a href="#vb-net">VB.NET</a></li>
+<li><a href="#vbnet">VB.NET</a></li>
 </ul>
 </li>
+<li><a href="#learning-platforms-and-bootcamps">Learning platforms and bootcamps</a></li>
+<li><a href="#playgrounds">Playgrounds</a></li>
+<li><a href="#practice-platform">Practice Platform</a></li>
 <li><a href="#tools-&amp;-editors">Tools &amp; Editors</a><ul>
 <li><a href="#chrome-developer-tools">Chrome Developer Tools</a></li>
 <li><a href="#git">Git</a></li>
@@ -118,369 +123,448 @@
 </details>
 
 <!-- BEGIN_LIST -->
+<h1 id="playgrounds">Playgrounds</h1>
+<p>Web-based tools for running code right in a web browser</p>
+<ul>
+<li><a href="https://dotnetfiddle.net/">.NET Fiddle</a> - 🕸🏗 - A .NET sandbox for developers to quickly try out code and share C#, F# and VB.NET code snippets.</li>
+<li><a href="http://cpp.sh/">C++ Shell</a> - 🕸🏗 - Run C++ code in your browser, using different language versions and compiler optimization settings</li>
+<li><a href="https://codepen.io/">CodePen</a> - 🕸🏗 - A social development environment for front-end designers and developers.</li>
+<li><a href="https://codesandbox.io/">CodeSandbox</a> - 🕸🏗 - The online editor for React, Vue, Angular, Preact and Svelte apps</li>
+<li><a href="https://cdn.datacamp.com/dcl-react/standalone-example.html">DataCamp Light</a> - 🕸🏗 - Embeddable R and Python examples</li>
+<li><a href="https://play.go-lang.org/">Go Playground</a> - 🕸🏗 - Run and share Go snippets from the comfort of your browser</li>
+<li><a href="https://jsbin.com/">JS Bin</a> - 🕸🏗 - Collaborative JavaScript Debugging</li>
+<li><a href="https://jsfiddle.net/">JSFiddle</a> - 🕸🏗 - Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle code editor.</li>
+<li><a href="http://phpfiddle.org/">PhpFiddle</a> - 🕸🏗 - Php/MySQL execution environment in your web browser</li>
+<li><a href="https://plnkr.co/">Plunker</a> - 🕸🏗 - An online community for creating, collaborating on and sharing your web development ideas.</li>
+<li><a href="http://python-fiddle.com/">Python Fiddle</a> - 🕸🏗 - Python IDE for the web</li>
+<li><a href="http://rubyfiddle.com/">RubyFiddle</a> - 🕸🏗 - Run Ruby snippets in your web browser</li>
+<li><a href="https://play.rust-lang.org/">Rust Playground</a> - 🕸🏗 - Run and share Rust snippets from the comfort of your browser</li>
+<li><a href="http://sqlfiddle.com/">SQL Fiddle</a> - 🕸🏗 - Run SQL snippets in your web browser, using PostgreSQL, MySQL, Oracle, SQLite and MS SQL Server</li>
+<li><a href="https://stackblitz.com/">Stackblitz</a> - 🕸🏗 - The online IDE for web applications, Powered by Visual Studio Code. Instantly create Angular, Ionic, React and Svelte projects with TypeScript or JavaScript</li>
+</ul>
 <h1 id="languages"><a href="https://en.wikipedia.org/wiki/Programming_languages">Languages</a></h1>
 <p>Programming languages</p>
 <h2 id="assembly"><a href="http://www.azillionmonkeys.com/qed/asmexample.html">Assembly</a></h2>
 <ul>
-<li><a href="https://tomorrowcorporation.com/humanresourcemachine">Human Resource Machine</a> -  💰📱🎮  A mobile game that teaches you how low-level programming (i.e., Assembler) works</li>
-<li><a href="https://store.steampowered.com/app/504210/SHENZHEN_IO/">Shenzhen I/O</a> -  ❖🎮  BUILD CIRCUITS. WRITE CODE. RTFM.</li>
-<li><a href="https://store.steampowered.com/app/370360/TIS100/">TIS-100</a> -  💰❖🎮  Rewrite corrupted code segments to repair the TIS-100 and unlock its secrets.</li>
+<li><a href="https://tomorrowcorporation.com/humanresourcemachine">Human Resource Machine</a> - 💰📱🎮 - A mobile game that teaches you how low-level programming (i.e., Assembler) works</li>
+<li><a href="https://store.steampowered.com/app/504210/SHENZHEN_IO/">Shenzhen I/O</a> - ❖🎮 - BUILD CIRCUITS. WRITE CODE. RTFM.</li>
+<li><a href="https://store.steampowered.com/app/370360/TIS100/">TIS-100</a> - 💰❖🎮 - Rewrite corrupted code segments to repair the TIS-100 and unlock its secrets.</li>
 </ul>
 <h2 id="bash"><a href="https://www.gnu.org/software/bash/">Bash</a></h2>
 <ul>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
-<li><a href="https://frontendmasters.com/courses/bash-vim-regex/">Introduction to Bash, VIM &amp; Regex</a> -  🕸📱  Take control of the Unix command line, automate tasks with shell scripts, compose regular expressions and easily edit files with the popular Vim editor.</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://frontendmasters.com/courses/bash-vim-regex/">Introduction to Bash, VIM &amp; Regex</a> - 💰🕸📱 - Take control of the Unix command line, automate tasks with shell scripts, compose regular expressions and easily edit files with the popular Vim editor. - <em>James Halliday (Substack) via Frontend Masters</em></li>
+<li><a href="https://tech.io/">TechIO</a> - 🕸🏗💪 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises</li>
 </ul>
 <h2 id="c"><a href="https://en.wikipedia.org/wiki/C_(programming_language)">C</a></h2>
 <ul>
-<li><a href="https://www.codewars.com/">Codewars</a> -  🕸🎮  Improve your skills by training with others on real code challenges</li>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://www.codewars.com/">Codewars</a> - 🕸🎮 - Improve your skills by training with others on real code challenges</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
 </ul>
 <h2 id="c-"><a href="https://en.cppreference.com/w/">C++</a></h2>
 <ul>
-<li><a href="http://cpp.sh/">C++ Shell</a> -  🕸🏗  Run C++ code in your browser, using different language versions and compiler optimization settings</li>
-<li><a href="https://www.codewars.com/">Codewars</a> -  🕸🎮  Improve your skills by training with others on real code challenges</li>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="http://cpp.sh/">C++ Shell</a> - 🕸🏗 - Run C++ code in your browser, using different language versions and compiler optimization settings</li>
+<li><a href="https://www.codewars.com/">Codewars</a> - 🕸🎮 - Improve your skills by training with others on real code challenges</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://edabit.com/">Edabit</a> - 🕸💪 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress</li>
+<li><a href="https://www.sololearn.com/">Solo Learn</a> - 🕸 - Learn to code for free using challenges. Offers lessons for multiple programming languages.</li>
+<li><a href="https://tech.io/">TechIO</a> - 🕸🏗💪 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises</li>
 </ul>
 <h2 id="c-"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/">C#</a></h2>
 <ul>
-<li><a href="https://dotnetfiddle.net/">.NET Fiddle</a> -  🕸🏗  A .NET sandbox for developers to quickly try out code and share C#, F# and VB.NET code snippets.</li>
-<li><a href="https://www.codehunt.com/">Codehunt</a> -  🕸🎮  Learn how to code by playing a game</li>
-<li><a href="https://www.codewars.com/">Codewars</a> -  🕸🎮  Improve your skills by training with others on real code challenges</li>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
-<li><a href="http://robocode.sourceforge.net/">Robocode</a> -  ❖🎮  Develop a robot battle tank to battle against others in Java or .NET</li>
+<li><a href="https://dotnetfiddle.net/">.NET Fiddle</a> - 🕸🏗 - A .NET sandbox for developers to quickly try out code and share C#, F# and VB.NET code snippets.</li>
+<li><a href="https://www.codehunt.com/">Codehunt</a> - 🕸🎮 - Learn how to code by playing a game</li>
+<li><a href="https://www.codewars.com/">Codewars</a> - 🕸🎮 - Improve your skills by training with others on real code challenges</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://edabit.com/">Edabit</a> - 🕸💪 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress</li>
+<li><a href="http://robocode.sourceforge.net/">Robocode</a> - ❖🎮 - Develop a robot battle tank to battle against others in Java or .NET</li>
+<li><a href="https://www.sololearn.com/">Solo Learn</a> - 🕸 - Learn to code for free using challenges. Offers lessons for multiple programming languages.</li>
+<li><a href="https://tech.io/">TechIO</a> - 🕸🏗💪 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises</li>
 </ul>
 <h2 id="clojure"><a href="https://clojure.org/">Clojure</a></h2>
 <ul>
-<li><a href="https://www.codewars.com/">Codewars</a> -  🕸🎮  Improve your skills by training with others on real code challenges</li>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://www.codewars.com/">Codewars</a> - 🕸🎮 - Improve your skills by training with others on real code challenges</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
 </ul>
 <h2 id="coffeescript"><a href="https://coffeescript.org/">Coffeescript</a></h2>
 <ul>
-<li><a href="https://www.playcodemonkey.com/">Code Monkey</a> -  🕸🎮  Using CoffeeScript, build your own games in HTML5.</li>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://www.playcodemonkey.com/">Code Monkey</a> - 🕸🎮 - Using CoffeeScript, build your own games in HTML5.</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
 </ul>
 <h2 id="crystal"><a href="https://crystal-lang.org/">Crystal</a></h2>
 <ul>
-<li><a href="https://www.codewars.com/">Codewars</a> -  🕸🎮  Improve your skills by training with others on real code challenges</li>
+<li><a href="https://www.codewars.com/">Codewars</a> - 🕸🎮 - Improve your skills by training with others on real code challenges</li>
 </ul>
 <h2 id="css"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></h2>
 <ul>
-<li><a href="https://flukeout.github.io/">CSS Diner</a> -  🕸🎮  Practice your advanced CSS3 selectors with 32 levels of interactive challenges</li>
-<li><a href="https://frontendmasters.com/courses/css-grids-flexbox/">CSS Grids and Flexbox for Responsive Web Design</a> -  🕸📱  Master CSS Grid and Flexbox, the latest tools and tricks to layout beautiful, responsive web applications with less code.</li>
-<li><a href="https://frontendmasters.com/courses/css-in-depth-v2/">CSS In-Depth, v2</a> -  🕸📱  Take a deep-dive into the essential features of CSS, while also exploring CSS features you probably didn’t even know existed!</li>
-<li><a href="https://frontendmasters.com/courses/css3-in-depth/">CSS3 In-Depth</a> -  🕸📱  Learn how deep the CSS3 rabbit hole goes from transitions and animations to generated content in this jam-packed video training course.</li>
-<li><a href="https://codepen.io/">CodePen</a> -  🕸🏗  A social development environment for front-end designers and developers.</li>
-<li><a href="https://codesandbox.io/">CodeSandbox</a> -  🕸🏗  The online editor for React, Vue, Angular, Preact and Svelte apps</li>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
-<li><a href="http://www.flexboxdefense.com/">Flexbox Defense</a> -  🕸🎮  Use flexbox to move your defenses into position and defend against waves of incoming enemies</li>
-<li><a href="https://flexboxfroggy.com/">Flexbox Froggy</a> -  🕸🎮  A game for learning CSS flexbox</li>
-<li><a href="https://frontendmasters.com/courses/introduction-html5-css3/">Introduction to HTML5 and CSS3</a> -  🕸📱  Christopher Schmitt, author of HTML5 Cookbook, covers HTML5 features such as audio, video and geolocation and then dives into many of CSS3′s features.</li>
-<li><a href="https://jsbin.com/">JS Bin</a> -  🕸🏗  Collaborative JavaScript Debugging</li>
-<li><a href="https://jsfiddle.net/">JSFiddle</a> -  🕸🏗  Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle code editor.</li>
-<li><a href="https://frontendmasters.com/courses/motion-design-css/">Motion Design with CSS</a> -  🕸📱  Animation is crucial to developing interactive designs and interfaces, and CSS is one of the most performant ways to animate!</li>
-<li><a href="https://plnkr.co/">Plunker</a> -  🕸🏗  An online community for creating, collaborating on and sharing your web development ideas.</li>
-<li><a href="https://frontendmasters.com/courses/smacss/">Scalable Modular Architecture for CSS (SMACSS)</a> -  🕸📱  Make your CSS more maintainable and modular using Jonathan Snook&#39;s Scalable Modular Architecture for CSS (SMACSS) methodology.</li>
-<li><a href="https://stackblitz.com/">Stackblitz</a> -  🕸🏗  The online IDE for web applications, Powered by Visual Studio Code. Instantly create Angular, Ionic, React and Svelte projects with TypeScript or JavaScript</li>
+<li><a href="https://flukeout.github.io/">CSS Diner</a> - 🕸🎮 - Practice your advanced CSS3 selectors with 32 levels of interactive challenges</li>
+<li><a href="https://frontendmasters.com/courses/css-grids-flexbox/">CSS Grids and Flexbox for Responsive Web Design</a> - 💰🕸📱 - Master CSS Grid and Flexbox, the latest tools and tricks to layout beautiful, responsive web applications with less code. - <em>Jen Kramer (Harvard) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/css-in-depth-v2/">CSS In-Depth, v2</a> - 💰🕸📱 - Take a deep-dive into the essential features of CSS, while also exploring CSS features you probably didn’t even know existed! - <em>Estelle Weyl (Standardista) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/css3-in-depth/">CSS3 In-Depth</a> - 💰🕸📱 - Learn how deep the CSS3 rabbit hole goes from transitions and animations to generated content in this jam-packed video training course. - <em>Estelle Weyl (Standardista) via Frontend Masters</em></li>
+<li><a href="https://codepen.io/">CodePen</a> - 🕸🏗 - A social development environment for front-end designers and developers.</li>
+<li><a href="https://codesandbox.io/">CodeSandbox</a> - 🕸🏗 - The online editor for React, Vue, Angular, Preact and Svelte apps</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
+<li><a href="http://www.flexboxdefense.com/">Flexbox Defense</a> - 🕸🎮 - Use flexbox to move your defenses into position and defend against waves of incoming enemies</li>
+<li><a href="https://flexboxfroggy.com/">Flexbox Froggy</a> - 🕸🎮 - A game for learning CSS flexbox</li>
+<li><a href="https://frontendmasters.com/courses/introduction-html5-css3/">Introduction to HTML5 and CSS3</a> - 💰🕸📱 - Christopher Schmitt, author of HTML5 Cookbook, covers HTML5 features such as audio, video and geolocation and then dives into many of CSS3′s features. - <em>Christopher Schmitt (Frontend Masters) via Frontend Masters</em></li>
+<li><a href="https://jsbin.com/">JS Bin</a> - 🕸🏗 - Collaborative JavaScript Debugging</li>
+<li><a href="https://jsfiddle.net/">JSFiddle</a> - 🕸🏗 - Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle code editor.</li>
+<li><a href="https://frontendmasters.com/courses/motion-design-css/">Motion Design with CSS</a> - 💰🕸📱 - Animation is crucial to developing interactive designs and interfaces, and CSS is one of the most performant ways to animate! - <em>Rachel Nabors (Rachel Nabors, LLC) via Frontend Masters</em></li>
+<li><a href="https://next.xyz/">Next from Codeevolve</a> - 🕸 - Learn to code with interactive exercises and quizzes</li>
+<li><a href="https://plnkr.co/">Plunker</a> - 🕸🏗 - An online community for creating, collaborating on and sharing your web development ideas.</li>
+<li><a href="https://frontendmasters.com/courses/smacss/">Scalable Modular Architecture for CSS (SMACSS)</a> - 💰🕸📱 - Make your CSS more maintainable and modular using Jonathan Snook&#39;s Scalable Modular Architecture for CSS (SMACSS) methodology. - <em>Jonathan Snook (Snook.ca Web Development, Inc.) via Frontend Masters</em></li>
+<li><a href="https://www.sololearn.com/">Solo Learn</a> - 🕸 - Learn to code for free using challenges. Offers lessons for multiple programming languages.</li>
+<li><a href="https://stackblitz.com/">Stackblitz</a> - 🕸🏗 - The online IDE for web applications, Powered by Visual Studio Code. Instantly create Angular, Ionic, React and Svelte projects with TypeScript or JavaScript</li>
+<li><a href="https://tech.io/">TechIO</a> - 🕸🏗💪 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises</li>
 </ul>
 <h2 id="d"><a href="https://dlang.org/">D</a></h2>
 <ul>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
 </ul>
 <h2 id="dart"><a href="https://www.dartlang.org/">Dart</a></h2>
 <ul>
-<li><a href="https://www.codewars.com/">Codewars</a> -  🕸🎮  Improve your skills by training with others on real code challenges</li>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
+<li><a href="https://www.codewars.com/">Codewars</a> - 🕸🎮 - Improve your skills by training with others on real code challenges</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
 </ul>
 <h2 id="elixir"><a href="https://elixir-lang.org/">Elixir</a></h2>
 <ul>
-<li><a href="https://www.codewars.com/">Codewars</a> -  🕸🎮  Improve your skills by training with others on real code challenges</li>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://www.codewars.com/">Codewars</a> - 🕸🎮 - Improve your skills by training with others on real code challenges</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://tech.io/">TechIO</a> - 🕸🏗💪 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises</li>
 </ul>
 <h2 id="elm"><a href="https://elm-lang.org/">Elm</a></h2>
 <ul>
-<li><a href="https://frontendmasters.com/courses/elm/">Elm</a> -  🕸📱  Write bulletproof, easily maintainable web applications with Elm, the functional programming language that is transforming web application development!</li>
+<li><a href="https://frontendmasters.com/courses/elm/">Elm</a> - 💰🕸📱 - Write bulletproof, easily maintainable web applications with Elm, the functional programming language that is transforming web application development! - <em>Richard Feldman (NoRedInk) via Frontend Masters</em></li>
 </ul>
 <h2 id="erlang"><a href="https://www.erlang.org/">Erlang</a></h2>
 <ul>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
 </ul>
 <h2 id="f-"><a href="https://fsharp.org/">F#</a></h2>
 <ul>
-<li><a href="https://dotnetfiddle.net/">.NET Fiddle</a> -  🕸🏗  A .NET sandbox for developers to quickly try out code and share C#, F# and VB.NET code snippets.</li>
-<li><a href="https://www.codewars.com/">Codewars</a> -  🕸🎮  Improve your skills by training with others on real code challenges</li>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://dotnetfiddle.net/">.NET Fiddle</a> - 🕸🏗 - A .NET sandbox for developers to quickly try out code and share C#, F# and VB.NET code snippets.</li>
+<li><a href="https://www.codewars.com/">Codewars</a> - 🕸🎮 - Improve your skills by training with others on real code challenges</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
 </ul>
 <h2 id="fortran"><a href="https://en.wikibooks.org/wiki/Fortran/Fortran_examples">Fortran</a></h2>
 <ul>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
 </ul>
 <h2 id="go"><a href="https://golang.org/">Go</a></h2>
 <ul>
-<li><a href="https://www.codewars.com/">Codewars</a> -  🕸🎮  Improve your skills by training with others on real code challenges</li>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
-<li><a href="https://play.go-lang.org/">Go Playground</a> -  🕸🏗  Run and share Go snippets from the comfort of your browser</li>
+<li><a href="https://www.codewars.com/">Codewars</a> - 🕸🎮 - Improve your skills by training with others on real code challenges</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://play.go-lang.org/">Go Playground</a> - 🕸🏗 - Run and share Go snippets from the comfort of your browser</li>
+<li><a href="https://tech.io/">TechIO</a> - 🕸🏗💪 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises</li>
 </ul>
 <h2 id="groovy"><a href="http://groovy-lang.org/">Groovy</a></h2>
 <ul>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://tech.io/">TechIO</a> - 🕸🏗💪 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises</li>
 </ul>
 <h2 id="haskell"><a href="https://www.haskell.org/">Haskell</a></h2>
 <ul>
-<li><a href="https://www.codewars.com/">Codewars</a> -  🕸🎮  Improve your skills by training with others on real code challenges</li>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://www.codewars.com/">Codewars</a> - 🕸🎮 - Improve your skills by training with others on real code challenges</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://tech.io/">TechIO</a> - 🕸🏗💪 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises</li>
 </ul>
 <h2 id="java"><a href="https://www.java.com/">Java</a></h2>
 <ul>
-<li><a href="https://codecombat.com/play">CodeCombat</a> -  🕸🎮  Learn how to code by playing a game</li>
-<li><a href="https://www.codehunt.com/">Codehunt</a> -  🕸🎮  Learn how to code by playing a game</li>
-<li><a href="https://www.codewars.com/">Codewars</a> -  🕸🎮  Improve your skills by training with others on real code challenges</li>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
-<li><a href="http://robocode.sourceforge.net/">Robocode</a> -  ❖🎮  Develop a robot battle tank to battle against others in Java or .NET</li>
+<li><a href="https://codecombat.com/play">CodeCombat</a> - 🕸🎮 - Learn how to code by playing a game</li>
+<li><a href="https://www.codecademy.com/">Codeacademy</a> - 🕸🎓 - Free platform for online learning web technologies, computer programming and data science.</li>
+<li><a href="https://www.codehunt.com/">Codehunt</a> - 🕸🎮 - Learn how to code by playing a game</li>
+<li><a href="https://www.codewars.com/">Codewars</a> - 🕸🎮 - Improve your skills by training with others on real code challenges</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://edabit.com/">Edabit</a> - 🕸💪 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress</li>
+<li><a href="https://next.xyz/">Next from Codeevolve</a> - 🕸 - Learn to code with interactive exercises and quizzes</li>
+<li><a href="http://robocode.sourceforge.net/">Robocode</a> - ❖🎮 - Develop a robot battle tank to battle against others in Java or .NET</li>
+<li><a href="https://www.sololearn.com/">Solo Learn</a> - 🕸 - Learn to code for free using challenges. Offers lessons for multiple programming languages.</li>
+<li><a href="https://tech.io/">TechIO</a> - 🕸🏗💪 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises</li>
 </ul>
 <h2 id="javascript"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></h2>
 <ul>
-<li><a href="https://frontendmasters.com/courses/practical-algorithms/">A Practical Guide to Algorithms with JavaScript</a> -  🕸📱  Learn to solve algorithms and analyze them efficiently in both an interview setting and also in your day-to-day development.</li>
-<li><a href="https://frontendmasters.com/courses/advanced-async-js/">Advanced Asynchronous JavaScript</a> -  🕸📱  Go beyond the fundamentals of asynchronous JavaScript and use features and techniques that will help you reduce code and create smarter applications.</li>
-<li><a href="https://frontendmasters.com/courses/advanced-javascript/">Advanced JavaScript</a> -  🕸📱  Learn from Kyle Simpson, the author of &quot;You Don&#39;t Know JavaScript&quot; series on the inner workings of JavaScript in detail and more!</li>
-<li><a href="https://frontendmasters.com/courses/asynchronous-javascript/">Asynchronous Programming in JavaScript (with Rx.js Observables)</a> -  🕸📱  Learning how to build and manage asynchronous programs is perhaps the most important part of becoming an effective JavaScript programmer.</li>
-<li><a href="https://frontendmasters.com/courses/modern-web-apps/">Building Web Apps (with React, Ampersand, ES6 and Webpack)</a> -  🕸📱  Everything you need to build and deploy a maintainable single page app. Build an app from scratch using React, Ampersand, ES6 (ES2015), and Webpack.</li>
-<li><a href="https://checkio.org/">Check I/O</a> -  🕸🎮  Improve your coding skills by solving engaging challenges and fun task using Python and JavaScript</li>
-<li><a href="https://frontendmasters.com/courses/javascript-frameworks-showdown/">Choosing a JavaScript Framework</a> -  🕸📱  In this advanced JavaScript training, Brian Holt (Reddit) gives a treatise on each of the four frameworks to help you decide which one is best for you.</li>
-<li><a href="https://codecombat.com/play">CodeCombat</a> -  🕸🎮  Learn how to code by playing a game</li>
-<li><a href="https://codepen.io/">CodePen</a> -  🕸🏗  A social development environment for front-end designers and developers.</li>
-<li><a href="https://codesandbox.io/">CodeSandbox</a> -  🕸🏗  The online editor for React, Vue, Angular, Preact and Svelte apps</li>
-<li><a href="https://www.codewars.com/">Codewars</a> -  🕸🎮  Improve your skills by training with others on real code challenges</li>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
-<li><a href="https://frontendmasters.com/courses/javascript-coercion/">Coercion in JavaScript</a> -  🕸📱  Most developers cite coercion and the == operator as black magic. By learning coercion you&#39;ll learn important clarifications in style and readability of JS.</li>
-<li><a href="https://frontendmasters.com/courses/angular-components-es6/">Component-Based Architecture in AngularJS 1.x and ES6</a> -  🕸📱  Master building web apps in Angular 1.x and ES6. This is the best angular training. After doing our course you will be able to build 1.x apps and transition to 2.</li>
-<li><a href="https://frontendmasters.com/courses/open-source/">Creating an Open Source JavaScript Library on Github</a> -  🕸📱  Publish and distribute your JS library to npm, add testing/code coverage, manage community and more in this course on publishing an open source library.</li>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
-<li><a href="https://frontendmasters.com/courses/data-structures-algorithms/">Data Structures and Algorithms in JavaScript</a> -  🕸📱  Learn the most common data structures and algorithms in Computer Science in-depth taught with JavaScript.</li>
-<li><a href="https://frontendmasters.com/courses/debugging-javascript/">Debugging and Fixing Common JavaScript Errors</a> -  🕸📱  Learn what causes common JavaScript bugs and use the latest developer tools to isolate and fix the source of the problems!</li>
-<li><a href="https://frontendmasters.com/courses/javascript-foundations/">Deep JavaScript Foundations</a> -  🕸📱  Master JavaScript deeply learning scope and closure, functions, the prototype system, closure, types, coercion and new ES6 features in JavaScript!</li>
-<li><a href="https://frontendmasters.com/courses/es6-right-parts/">ES6: The Right Parts</a> -  🕸📱  Learn new ES6 JavaScript language features like arrow function, destructuring, generators &amp; more to write cleaner and more productive, readable programs.</li>
-<li><a href="https://frontendmasters.com/courses/functional-javascript-v2/">Functional-Light JavaScript, v2</a> -  🕸📱  Improve your code with functional patterns like pure functions, compose &amp; map/reduce/filter...plus advanced concepts like fusion, transducing and monads!</li>
-<li><a href="https://frontendmasters.com/courses/functional-js-lite/">Functional-Lite JavaScript</a> -  🕸📱  Practical take on functional JavaScript so you can use techniques like pure functions, map/reduce/filter and recursion to improve your programming today!</li>
-<li><a href="https://grasshopper.codes/">Grasshopper</a> -  📱🎮  fun, quick lessons on your phone that teach you to write real JavaScript.</li>
-<li><a href="https://frontendmasters.com/courses/functional-javascript/">Hardcore Functional Programming in JavaScript</a> -  🕸📱  Discover functional programming and build an example web app using abstract interfaces like Monads, Functors, Monoids and Applicatives.</li>
-<li><a href="https://frontendmasters.com/courses/javascript-basics/">Introduction to JavaScript Programming</a> -  🕸📱  Master JavaScript with our online training and learn one of the easiest languages to get started with and one of the most powerful.</li>
-<li><a href="https://frontendmasters.com/courses/introduction-to-javascript-jquery/">Introduction to JavaScript and jQuery</a> -  🕸📱  Karl Swedberg, author of Learning jQuery, teaches the JavaScript language; including closures, anonymous functions, and implicit versus explicit iteration.</li>
-<li><a href="https://jsbin.com/">JS Bin</a> -  🕸🏗  Collaborative JavaScript Debugging</li>
-<li><a href="https://frontendmasters.com/courses/jsnext-es6/">JS.Next: ES6 / ES2015</a> -  🕸📱  Learn the latest standard of advanced JavaScript concepts, ES6 and it&#39;s new features like destructuring, let, spread, arrow functions and modules.</li>
-<li><a href="https://jsfiddle.net/">JSFiddle</a> -  🕸🏗  Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle code editor.</li>
-<li><a href="https://frontendmasters.com/courses/javascript-wordpress/">JavaScript for WordPress</a> -  🕸📱  Learn how to use JavaScript and AJAX to harness the power of WordPress for themes and plugins -- decouple your code using the WordPress REST API!</li>
-<li><a href="https://frontendmasters.com/courses/javascript-the-good-parts/">JavaScript the Good Parts</a> -  🕸📱  Take Crockford&#39;s mind-expanding JavaScript function challenges in this course on &quot;JavaScript the Good Parts&quot;.</li>
-<li><a href="https://frontendmasters.com/courses/js-fundamentals-to-functional/">JavaScript: From Fundamentals to Functional JS</a> -  🕸📱  Solidify your knowledge of functional JavaScript programming, including objects, arrays, and prototypes.</li>
-<li><a href="https://frontendmasters.com/courses/js-fundamentals-functional-v2/">JavaScript: From Fundamentals to Functional JS, v2</a> -  🕸📱  Learn higher-order functions, closures, scope, master key functional methods like map, reduce and filter and promises and ES6+ asynchronous JavaScript.</li>
-<li><a href="https://frontendmasters.com/courses/javascript-hard-parts/">JavaScript: The Hard Parts</a> -  🕸📱  Take your JavaScript to the next level. Gain an understanding of callbacks, higher order functions, closure, asynchronous and object-oriented JavaScript!</li>
-<li><a href="https://frontendmasters.com/courses/javascript-new-hard-parts/">JavaScript: The New Hard Parts</a> -  🕸📱  Develop an intuitive understanding of the new features of JavaScript in ES6+: iterators, generators, promises, and async/await!</li>
-<li><a href="https://frontendmasters.com/courses/organizing-javascript/">Organizing JavaScript Functionality</a> -  🕸📱  Before you use a framework, learn how to organize the different bits of JavaScript (modularizing, decoupling, etc) with this advanced JavaScript course.</li>
-<li><a href="https://plnkr.co/">Plunker</a> -  🕸🏗  An online community for creating, collaborating on and sharing your web development ideas.</li>
-<li><a href="https://frontendmasters.com/courses/rethinking-async-js/">Rethinking Asynchronous JavaScript</a> -  🕸📱  Effective asynchronous JavaScript means knowing various different patterns and weaving them together to write readable and understandable code. </li>
-<li><a href="https://store.steampowered.com/app/464350/Screeps/">Screeps</a> -  💰❖🎮  Screeps is an open source MMO RTS sandbox game for programmers, wherein the core mechanic is programming your units AI. You control your colony by writing JavaScript which operate 24/7 in the single persistent world filled by other players on par with you.</li>
-<li><a href="https://stackblitz.com/">Stackblitz</a> -  🕸🏗  The online IDE for web applications, Powered by Visual Studio Code. Instantly create Angular, Ionic, React and Svelte projects with TypeScript or JavaScript</li>
-<li><a href="https://frontendmasters.com/courses/testing-javascript/">Testing JavaScript Applications (feat. React and Redux)</a> -  🕸📱  Bulletproof your JavaScript and Node environments. Learn how you can test React, Redux, and Node Express applications!</li>
-<li><a href="https://frontendmasters.com/courses/good-parts-javascript-web/">The Good Parts of JavaScript and the Web</a> -  🕸📱  Learn the history of JavaScript and details of the language with special attention on functions. Plus how browsers work, how servers work and security.</li>
-<li><a href="https://frontendmasters.com/courses/unit-testing-javascript/">Unit Testing JavaScript (with CoffeeScript)</a> -  🕸📱  Learn to write testable code, testing types and strategies that will increase your ability to test JavaScript on the client and server (Node.js).</li>
+<li><a href="https://frontendmasters.com/courses/practical-algorithms/">A Practical Guide to Algorithms with JavaScript</a> - 💰🕸📱 - Learn to solve algorithms and analyze them efficiently in both an interview setting and also in your day-to-day development. - <em>Bianca Gandolfo (Bitovi) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/advanced-async-js/">Advanced Asynchronous JavaScript</a> - 💰🕸📱 - Go beyond the fundamentals of asynchronous JavaScript and use features and techniques that will help you reduce code and create smarter applications. - <em>Jafar Husain (Netflix) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/advanced-javascript/">Advanced JavaScript</a> - 💰🕸📱 - Learn from Kyle Simpson, the author of &quot;You Don&#39;t Know JavaScript&quot; series on the inner workings of JavaScript in detail and more! - <em>Kyle Simpson (You Don&#39;t Know JS) via Frontend Masters</em></li>
+<li><a href="https://checkio.org/">Check I/O</a> - 🕸🎮 - Improve your coding skills by solving engaging challenges and fun task using Python and JavaScript</li>
+<li><a href="https://codecombat.com/play">CodeCombat</a> - 🕸🎮 - Learn how to code by playing a game</li>
+<li><a href="https://codepen.io/">CodePen</a> - 🕸🏗 - A social development environment for front-end designers and developers.</li>
+<li><a href="https://codesandbox.io/">CodeSandbox</a> - 🕸🏗 - The online editor for React, Vue, Angular, Preact and Svelte apps</li>
+<li><a href="https://www.codecademy.com/">Codeacademy</a> - 🕸🎓 - Free platform for online learning web technologies, computer programming and data science.</li>
+<li><a href="https://www.codewars.com/">Codewars</a> - 🕸🎮 - Improve your skills by training with others on real code challenges</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://frontendmasters.com/courses/data-structures-algorithms/">Data Structures and Algorithms in JavaScript</a> - 💰🕸📱 - Learn the most common data structures and algorithms in Computer Science in-depth taught with JavaScript. - <em>Bianca Gandolfo (Bitovi) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/javascript-foundations/">Deep JavaScript Foundations</a> - 💰🕸📱 - Master JavaScript deeply learning scope and closure, functions, the prototype system, closure, types, coercion and new ES6 features in JavaScript! - <em>Kyle Simpson (You Don&#39;t Know JS) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/es6-right-parts/">ES6: The Right Parts</a> - 💰🕸📱 - Learn new ES6 JavaScript language features like arrow function, destructuring, generators &amp; more to write cleaner and more productive, readable programs. - <em>Kyle Simpson (You Don&#39;t Know JS) via Frontend Masters</em></li>
+<li><a href="https://edabit.com/">Edabit</a> - 🕸💪 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress</li>
+<li><a href="https://www.freecodecamp.org/">Free Code Camp</a> - 🕸 - The king of free coding camps. Learn to code and help nonprofits. Extensive curriculum.</li>
+<li><a href="https://frontendmasters.com/courses/functional-javascript-v2/">Functional-Light JavaScript, v2</a> - 💰🕸📱 - Improve your code with functional patterns like pure functions, compose &amp; map/reduce/filter...plus advanced concepts like fusion, transducing and monads! - <em>Kyle Simpson (You Don&#39;t Know JS) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/functional-js-lite/">Functional-Lite JavaScript</a> - 💰🕸📱 - Practical take on functional JavaScript so you can use techniques like pure functions, map/reduce/filter and recursion to improve your programming today! - <em>Kyle Simpson (You Don&#39;t Know JS) via Frontend Masters</em></li>
+<li><a href="https://grasshopper.codes/">Grasshopper</a> - 📱🎮 - fun, quick lessons on your phone that teach you to write real JavaScript.</li>
+<li><a href="https://frontendmasters.com/courses/functional-javascript/">Hardcore Functional Programming in JavaScript</a> - 💰🕸📱 - Discover functional programming and build an example web app using abstract interfaces like Monads, Functors, Monoids and Applicatives. - <em>Brian Lonsdorf (Salesforce) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/javascript-basics/">Introduction to JavaScript Programming</a> - 💰🕸📱 - Master JavaScript with our online training and learn one of the easiest languages to get started with and one of the most powerful. - <em>Kyle Simpson (You Don&#39;t Know JS) via Frontend Masters</em></li>
+<li><a href="https://jsbin.com/">JS Bin</a> - 🕸🏗 - Collaborative JavaScript Debugging</li>
+<li><a href="https://jsfiddle.net/">JSFiddle</a> - 🕸🏗 - Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle code editor.</li>
+<li><a href="https://next.xyz/">Next from Codeevolve</a> - 🕸 - Learn to code with interactive exercises and quizzes</li>
+<li><a href="https://frontendmasters.com/courses/organizing-javascript/">Organizing JavaScript Functionality</a> - 💰🕸📱 - Before you use a framework, learn how to organize the different bits of JavaScript (modularizing, decoupling, etc) with this advanced JavaScript course. - <em>Kyle Simpson (You Don&#39;t Know JS) via Frontend Masters</em></li>
+<li><a href="https://plnkr.co/">Plunker</a> - 🕸🏗 - An online community for creating, collaborating on and sharing your web development ideas.</li>
+<li><a href="https://store.steampowered.com/app/464350/Screeps/">Screeps</a> - 💰❖🎮 - Screeps is an open source MMO RTS sandbox game for programmers, wherein the core mechanic is programming your units AI. You control your colony by writing JavaScript which operate 24/7 in the single persistent world filled by other players on par with you.</li>
+<li><a href="https://www.sololearn.com/">Solo Learn</a> - 🕸 - Learn to code for free using challenges. Offers lessons for multiple programming languages.</li>
+<li><a href="https://stackblitz.com/">Stackblitz</a> - 🕸🏗 - The online IDE for web applications, Powered by Visual Studio Code. Instantly create Angular, Ionic, React and Svelte projects with TypeScript or JavaScript</li>
+<li><a href="https://tech.io/">TechIO</a> - 🕸🏗💪 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises</li>
+<li><a href="https://frontendmasters.com/courses/good-parts-javascript-web/">The Good Parts of JavaScript and the Web</a> - 💰🕸📱 - Learn the history of JavaScript and details of the language with special attention on functions. Plus how browsers work, how servers work and security. - <em>Douglas Crockford (Paypal) via Frontend Masters</em></li>
+<li><a href="https://www.theodinproject.com/">The Odin Project</a> - 🕸 - A full stack (and open source) Ruby/JS bootcamp</li>
+</ul>
+<h3 id="node-js"><a href="https://nodejs.org/">Node.js</a></h3>
+<p>Run JavaScript in a places other than a web browser, using Chrome&#39;s V8 engine</p>
+<ul>
+<li><a href="https://nodeschool.io/">Node School</a> - 🕸 - Open source workshops that teach web software skills. Do them on your own or at a workshop nearby.</li>
 </ul>
 <h3 id="client-web-frameworks"><a href="https://en.wikipedia.org/wiki/Web_framework">Client Web Frameworks</a></h3>
 <p>Frameworks for building web applications that run in the browser</p>
 <h4 id="angular"><a href="https://angular.io/">Angular</a></h4>
 <ul>
-<li><a href="https://frontendmasters.com/courses/angular-2/">Build Web Apps with Angular 2</a> -  🕸📱  Angular 2 is an incredibly powerful evolution of AngularJS. We are going discover why Angular 2 is half the framework with twice the power!</li>
-<li><a href="https://frontendmasters.com/courses/web-apps-angular-2/">Building Awesome Web Apps with Angular 2</a> -  🕸📱  Explore the Angular 2 JavaScript framework from the ground up using Components, Services and the CLI to write awesome web applications!</li>
-<li><a href="https://frontendmasters.com/courses/reactive-angular/">Reactive Angular 2</a> -  🕸📱  Learn how to build functional, reactive web applications in Angular 2 with a Redux-inspired library, @ngrx/store and observables from Rx.js.</li>
-<li><a href="https://frontendmasters.com/courses/reactive-angular-2/">Reactive Angular 2 with ngrx</a> -  🕸📱  Learn how to build functional, reactive web applications in Angular 2 with a Redux inspired library, @ngrx/store and observables from Rx.js.</li>
+<li><a href="https://frontendmasters.com/courses/angular-2/">Build Web Apps with Angular 2</a> - 💰🕸📱 - Angular 2 is an incredibly powerful evolution of AngularJS. We are going discover why Angular 2 is half the framework with twice the power! - <em>Lukas Ruebbelke (VenturPlex) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/web-apps-angular-2/">Building Awesome Web Apps with Angular 2</a> - 💰🕸📱 - Explore the Angular 2 JavaScript framework from the ground up using Components, Services and the CLI to write awesome web applications! - <em>Lukas Ruebbelke (VenturPlex) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/reactive-angular/">Reactive Angular 2</a> - 💰🕸📱 - Learn how to build functional, reactive web applications in Angular 2 with a Redux-inspired library, @ngrx/store and observables from Rx.js. - <em>Lukas Ruebbelke (VenturPlex) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/reactive-angular-2/">Reactive Angular 2 with ngrx</a> - 💰🕸📱 - Learn how to build functional, reactive web applications in Angular 2 with a Redux inspired library, @ngrx/store and observables from Rx.js. - <em>Lukas Ruebbelke (VenturPlex) via Frontend Masters</em></li>
 </ul>
 <h4 id="jquery"><a href="https://jquery.com/">JQuery</a></h4>
 <ul>
-<li><a href="https://frontendmasters.com/courses/javascript-jquery-dom/">Advanced JS Fundamentals to jQuery &amp; Pure DOM Scripting</a> -  🕸📱  Gain an advanced JavaScript techniques and an understanding of difficult JavaScript concepts like closure, type comparators, coercion and delete.</li>
-<li><a href="https://frontendmasters.com/courses/introduction-to-javascript-jquery/">Introduction to JavaScript and jQuery</a> -  🕸📱  Karl Swedberg, author of Learning jQuery, teaches the JavaScript language; including closures, anonymous functions, and implicit versus explicit iteration.</li>
-<li><a href="https://frontendmasters.com/courses/jquery-in-depth/">Learning jQuery</a> -  🕸📱  Karl Swedberg leverages his experience on the jQuery Team to give a thorough walkthrough of the most important parts of jQuery.</li>
-<li><a href="https://frontendmasters.com/courses/jquery-plugins-jquery-ui/">jQuery Plugins and jQuery UI</a> -  🕸📱  Scott Gonzalez, lead developer for jQuery UI, dives into writing jQuery plugins, making plugins stateful and gives an in-depth look at jQuery UI.</li>
+<li><a href="https://frontendmasters.com/courses/javascript-jquery-dom/">Advanced JS Fundamentals to jQuery &amp; Pure DOM Scripting</a> - 💰🕸📱 - Gain an advanced JavaScript techniques and an understanding of difficult JavaScript concepts like closure, type comparators, coercion and delete. - <em>Justin Meyer (Bitovi) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/introduction-to-javascript-jquery/">Introduction to JavaScript and jQuery</a> - 💰🕸📱 - Karl Swedberg, author of Learning jQuery, teaches the JavaScript language; including closures, anonymous functions, and implicit versus explicit iteration. - <em>Karl Swedberg (Learning jQuery) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/jquery-in-depth/">Learning jQuery</a> - 💰🕸📱 - Karl Swedberg leverages his experience on the jQuery Team to give a thorough walkthrough of the most important parts of jQuery. - <em>Karl Swedberg (Learning jQuery) via Frontend Masters</em></li>
+<li><a href="https://next.xyz/">Next from Codeevolve</a> - 🕸 - Learn to code with interactive exercises and quizzes</li>
+<li><a href="https://www.sololearn.com/">Solo Learn</a> - 🕸 - Learn to code for free using challenges. Offers lessons for multiple programming languages.</li>
+<li><a href="https://frontendmasters.com/courses/jquery-plugins-jquery-ui/">jQuery Plugins and jQuery UI</a> - 💰🕸📱 - Scott Gonzalez, lead developer for jQuery UI, dives into writing jQuery plugins, making plugins stateful and gives an in-depth look at jQuery UI. - <em>Scott Gonzalez (Clipper Magazine) via Frontend Masters</em></li>
 </ul>
 <h4 id="angular-js"><a href="https://angularjs.org/">Angular.js</a></h4>
 <ul>
-<li><a href="https://frontendmasters.com/courses/angularjs-in-depth/">Angular 1.x Essentials</a> -  🕸📱  &quot;AngularJS In Action&quot; Author Lukas Ruebbelke dives into AngularJS scope, two-way data binding and directives with real-world examples.</li>
+<li><a href="https://frontendmasters.com/courses/angularjs-in-depth/">Angular 1.x Essentials</a> - 💰🕸📱 - &quot;AngularJS In Action&quot; Author Lukas Ruebbelke dives into AngularJS scope, two-way data binding and directives with real-world examples. - <em>Lukas Ruebbelke (VenturPlex) via Frontend Masters</em></li>
 </ul>
 <h4 id="ember-js"><a href="https://emberjs.com">Ember.js</a></h4>
 <ul>
-<li><a href="https://frontendmasters.com/courses/advanced-ember-2/">Advanced Ember 2.x</a> -  🕸📱  Mike demonstrates recent Ember 2.x framework advancements to show you how to debug, customize, test and deploy applications with confidence.</li>
-<li><a href="https://frontendmasters.com/courses/ember-2/">Ember 2.x</a> -  🕸📱  Become a master in Ember.js and be well-suited to build complex and highly interactive apps with this course.</li>
+<li><a href="https://frontendmasters.com/courses/advanced-ember-2/">Advanced Ember 2.x</a> - 💰🕸📱 - Mike demonstrates recent Ember 2.x framework advancements to show you how to debug, customize, test and deploy applications with confidence. - <em>Mike North (LinkedIn) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/ember-2/">Ember 2.x</a> - 💰🕸📱 - Become a master in Ember.js and be well-suited to build complex and highly interactive apps with this course. - <em>Mike North (LinkedIn) via Frontend Masters</em></li>
 </ul>
 <h4 id="backbone"><a href="http://backbonejs.org/">Backbone</a></h4>
 <ul>
-<li><a href="https://frontendmasters.com/courses/backbone-js-in-depth-testing-mocha-sinon/">Backbone.js (with Introduction to Testing)</a> -  🕸📱  Core Contributor Sam Breed teaches you Backbone JS&#39;s lightweight approach to building client-side MVC applications and unit testing in Mocha and Sinon.JS.</li>
+<li><a href="https://frontendmasters.com/courses/backbone-js-in-depth-testing-mocha-sinon/">Backbone.js (with Introduction to Testing)</a> - 💰🕸📱 - Core Contributor Sam Breed teaches you Backbone JS&#39;s lightweight approach to building client-side MVC applications and unit testing in Mocha and Sinon.JS. - <em>Sam Breed (Credit Karma) via Frontend Masters</em></li>
 </ul>
 <h4 id="meteor-js"><a href="https://meteor.com">Meteor.js</a></h4>
 <ul>
-<li><a href="https://frontendmasters.com/courses/meteor/">Meteor</a> -  🕸📱  Built by a team of MIT engineers, Meteor is a full stack open source framework for building web and mobile apps in pure JavaScript.</li>
+<li><a href="https://frontendmasters.com/courses/meteor/">Meteor</a> - 💰🕸📱 - Built by a team of MIT engineers, Meteor is a full stack open source framework for building web and mobile apps in pure JavaScript. - <em>Chris Mather (Lively, Inc.) via Frontend Masters</em></li>
 </ul>
 <h4 id="react-js"><a href="https://reactjs.org/">React.js</a></h4>
 <ul>
-<li><a href="https://frontendmasters.com/courses/advanced-react-patterns/">Advanced React Patterns</a> -  🕸📱  Simplify large React applications by separating your component logic, state and display properties to make React components more flexible and usable!</li>
-<li><a href="https://frontendmasters.com/courses/react-state/">Advanced State Management in React (feat. Redux and MobX)</a> -  🕸📱 </li>
-<li><a href="https://frontendmasters.com/courses/modern-web-apps/">Building Web Apps (with React, Ampersand, ES6 and Webpack)</a> -  🕸📱  Everything you need to build and deploy a maintainable single page app. Build an app from scratch using React, Ampersand, ES6 (ES2015), and Webpack.</li>
-<li><a href="https://frontendmasters.com/courses/complete-intro-react/">Complete Intro to React v2 (feat. Router v4 and Redux)</a> -  🕸📱  More than an intro, build an entire real-world web application in layers using React and the library&#39;s ecosystem, like Router v4, Redux and Jest.</li>
-<li><a href="https://frontendmasters.com/courses/react/">Complete Intro to React, v3 (feat. Redux, Router &amp; Flow)</a> -  🕸📱  Much more than an intro, you’ll not just learn React, but also a proven set of tools including Router v4 for paging, Jest for testing, Redux and Flow!</li>
-<li><a href="https://frontendmasters.com/courses/react-intro/">Complete Introduction to React (feat. Redux and React Router)</a> -  🕸📱  Brian Holt (Netflix) introduces you to React plus surrounding ecosystem including: Redux for state management, React Router for navigation and more!</li>
-<li><a href="https://frontendmasters.com/courses/firebase-react/">Firebase + React: Real-time, Serverless Web Apps</a> -  🕸📱  Learn to use Firebase to deploy sophisticated web and mobile applications without having to build your own complex, server-side infrastructure.</li>
-<li><a href="https://frontendmasters.com/courses/aws-react-node-graphql/">Rapid Development on AWS: React, Node.js &amp; GraphQL</a> -  🕸📱  Learn to build on AWS’ cloud services and its world-class infrastructure to easily add authentication, storage, databases, and APIs into your apps!</li>
-<li><a href="https://frontendmasters.com/courses/react-native/">React Native (feat. Redux)</a> -  🕸📱  Use React Native to build native mobile apps in iOS and Android with JavaScript! Effectively build cross-platform mobile apps.</li>
-<li><a href="https://frontendmasters.com/courses/react-intro-to-flux/">React.js (with Introduction to Flux Architecture)</a> -  🕸📱  Learn from experts how to use React and become a master at creating user interfaces by Facebook and Instagram.</li>
-<li><a href="https://frontendmasters.com/courses/reactive-angular/">Reactive Angular 2</a> -  🕸📱  Learn how to build functional, reactive web applications in Angular 2 with a Redux-inspired library, @ngrx/store and observables from Rx.js.</li>
-<li><a href="https://frontendmasters.com/courses/reactive-angular-2/">Reactive Angular 2 with ngrx</a> -  🕸📱  Learn how to build functional, reactive web applications in Angular 2 with a Redux inspired library, @ngrx/store and observables from Rx.js.</li>
-<li><a href="https://frontendmasters.com/courses/testing-javascript/">Testing JavaScript Applications (feat. React and Redux)</a> -  🕸📱  Bulletproof your JavaScript and Node environments. Learn how you can test React, Redux, and Node Express applications!</li>
-<li><a href="https://frontendmasters.com/courses/testing-react/">Testing React Applications, v2</a> -  🕸📱  Fix errors before your app reaches the end user by writing maintainable unit test &amp; integration tests for your React applications!</li>
+<li><a href="https://frontendmasters.com/courses/advanced-react-patterns/">Advanced React Patterns</a> - 💰🕸📱 - Simplify large React applications by separating your component logic, state and display properties to make React components more flexible and usable! - <em>Kent C. Dodds (PayPal) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/react-state/">Advanced State Management in React (feat. Redux and MobX)</a> - 💰🕸📱 - <em>Steve Kinney (SendGrid) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/modern-web-apps/">Building Web Apps (with React, Ampersand, ES6 and Webpack)</a> - 💰🕸📱 - Everything you need to build and deploy a maintainable single page app. Build an app from scratch using React, Ampersand, ES6 (ES2015), and Webpack. - <em>Henrik Joreteg (Ampersand.js) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/complete-intro-react/">Complete Intro to React v2 (feat. Router v4 and Redux)</a> - 💰🕸📱 - More than an intro, build an entire real-world web application in layers using React and the library&#39;s ecosystem, like Router v4, Redux and Jest. - <em>Brian Holt (Microsoft) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/react/">Complete Intro to React, v3 (feat. Redux, Router &amp; Flow)</a> - 💰🕸📱 - Much more than an intro, you’ll not just learn React, but also a proven set of tools including Router v4 for paging, Jest for testing, Redux and Flow! - <em>Brian Holt (Microsoft) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/react-intro/">Complete Introduction to React (feat. Redux and React Router)</a> - 💰🕸📱 - Brian Holt (Netflix) introduces you to React plus surrounding ecosystem including: Redux for state management, React Router for navigation and more! - <em>Brian Holt (Microsoft) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/firebase-react/">Firebase + React: Real-time, Serverless Web Apps</a> - 💰🕸📱 - Learn to use Firebase to deploy sophisticated web and mobile applications without having to build your own complex, server-side infrastructure. - <em>Steve Kinney (SendGrid) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/aws-react-node-graphql/">Rapid Development on AWS: React, Node.js &amp; GraphQL</a> - 💰🕸📱 - Learn to build on AWS’ cloud services and its world-class infrastructure to easily add authentication, storage, databases, and APIs into your apps! - <em>Steve Kinney (SendGrid) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/react-native/">React Native (feat. Redux)</a> - 💰🕸📱 - Use React Native to build native mobile apps in iOS and Android with JavaScript! Effectively build cross-platform mobile apps. - <em>Scott Moss (Tipe) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/react-intro-to-flux/">React.js (with Introduction to Flux Architecture)</a> - 💰🕸📱 - Learn from experts how to use React and become a master at creating user interfaces by Facebook and Instagram. - <em>Ryan Florence (React Training) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/reactive-angular/">Reactive Angular 2</a> - 💰🕸📱 - Learn how to build functional, reactive web applications in Angular 2 with a Redux-inspired library, @ngrx/store and observables from Rx.js. - <em>Lukas Ruebbelke (VenturPlex) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/reactive-angular-2/">Reactive Angular 2 with ngrx</a> - 💰🕸📱 - Learn how to build functional, reactive web applications in Angular 2 with a Redux inspired library, @ngrx/store and observables from Rx.js. - <em>Lukas Ruebbelke (VenturPlex) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/testing-javascript/">Testing JavaScript Applications (feat. React and Redux)</a> - 💰🕸📱 - Bulletproof your JavaScript and Node environments. Learn how you can test React, Redux, and Node Express applications! - <em>Kent C. Dodds (PayPal) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/testing-react/">Testing React Applications, v2</a> - 💰🕸📱 - Fix errors before your app reaches the end user by writing maintainable unit test &amp; integration tests for your React applications! - <em>Kent C. Dodds (PayPal) via Frontend Masters</em></li>
 </ul>
 <h4 id="vue-js"><a href="https://vuejs.org/">Vue.js</a></h4>
 <ul>
-<li><a href="https://frontendmasters.com/courses/advanced-vue/">Advanced Vue.js Features from the Ground Up</a> -  🕸📱  Learn how to build accessible routing, state management, form validation and internationalization from the ground up by composing basic Vue.js features.</li>
-<li><a href="https://frontendmasters.com/courses/vue/">Introduction to Vue.js</a> -  🕸📱  Vue.js brings together the best features of the javascript framework landscape elegantly. Build complex and maintainable applications faster!</li>
+<li><a href="https://frontendmasters.com/courses/advanced-vue/">Advanced Vue.js Features from the Ground Up</a> - 💰🕸📱 - Learn how to build accessible routing, state management, form validation and internationalization from the ground up by composing basic Vue.js features. - <em>Evan You (Creator of Vue.js) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/vue/">Introduction to Vue.js</a> - 💰🕸📱 - Vue.js brings together the best features of the javascript framework landscape elegantly. Build complex and maintainable applications faster! - <em>Sarah Drasner (Microsoft) via Frontend Masters</em></li>
 </ul>
 <h2 id="kotlin"><a href="https://kotlinlang.org/">Kotlin</a></h2>
 <ul>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://tech.io/">TechIO</a> - 🕸🏗💪 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises</li>
 </ul>
 <h2 id="lua"><a href="https://www.lua.org/">Lua</a></h2>
 <ul>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
 </ul>
 <h2 id="objective-c"><a href="https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html">Objective-C</a></h2>
 <ul>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
 </ul>
 <h2 id="ocaml"><a href="https://ocaml.org/">OCaml</a></h2>
 <ul>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
 </ul>
 <h2 id="pascal"><a href="http://pascal-central.com/ppl/index.html">Pascal</a></h2>
 <ul>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
 </ul>
 <h2 id="perl"><a href="https://www.perl.org/">Perl</a></h2>
 <ul>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
 </ul>
 <h2 id="php"><a href="https://secure.php.net/">Php</a></h2>
 <ul>
-<li><a href="https://www.codewars.com/">Codewars</a> -  🕸🎮  Improve your skills by training with others on real code challenges</li>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
-<li><a href="http://phpfiddle.org/">PhpFiddle</a> -  🕸🏗  Php/MySQL execution environment in your web browser</li>
+<li><a href="https://www.codewars.com/">Codewars</a> - 🕸🎮 - Improve your skills by training with others on real code challenges</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://edabit.com/">Edabit</a> - 🕸💪 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress</li>
+<li><a href="http://phpfiddle.org/">PhpFiddle</a> - 🕸🏗 - Php/MySQL execution environment in your web browser</li>
+<li><a href="https://www.sololearn.com/">Solo Learn</a> - 🕸 - Learn to code for free using challenges. Offers lessons for multiple programming languages.</li>
+<li><a href="https://tech.io/">TechIO</a> - 🕸🏗💪 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises</li>
 </ul>
 <h2 id="python"><a href="https://www.python.org/">Python</a></h2>
 <ul>
-<li><a href="https://checkio.org/">Check I/O</a> -  🕸🎮  Improve your coding skills by solving engaging challenges and fun task using Python and JavaScript</li>
-<li><a href="https://codecombat.com/play">CodeCombat</a> -  🕸🎮  Learn how to code by playing a game</li>
-<li><a href="https://www.codewars.com/">Codewars</a> -  🕸🎮  Improve your skills by training with others on real code challenges</li>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
-<li><a href="https://cdn.datacamp.com/dcl-react/standalone-example.html">DataCamp Light</a> -  🕸🏗  Embeddable R and Python examples</li>
-<li><a href="http://python-fiddle.com/">Python Fiddle</a> -  🕸🏗  Python IDE for the web</li>
+<li><a href="https://checkio.org/">Check I/O</a> - 🕸🎮 - Improve your coding skills by solving engaging challenges and fun task using Python and JavaScript</li>
+<li><a href="https://codecombat.com/play">CodeCombat</a> - 🕸🎮 - Learn how to code by playing a game</li>
+<li><a href="https://www.codecademy.com/">Codeacademy</a> - 🕸🎓 - Free platform for online learning web technologies, computer programming and data science.</li>
+<li><a href="https://www.codewars.com/">Codewars</a> - 🕸🎮 - Improve your skills by training with others on real code challenges</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://cdn.datacamp.com/dcl-react/standalone-example.html">DataCamp Light</a> - 🕸🏗 - Embeddable R and Python examples</li>
+<li><a href="https://edabit.com/">Edabit</a> - 🕸💪 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress</li>
+<li><a href="https://next.xyz/">Next from Codeevolve</a> - 🕸 - Learn to code with interactive exercises and quizzes</li>
+<li><a href="http://python-fiddle.com/">Python Fiddle</a> - 🕸🏗 - Python IDE for the web</li>
+<li><a href="https://www.sololearn.com/">Solo Learn</a> - 🕸 - Learn to code for free using challenges. Offers lessons for multiple programming languages.</li>
+<li><a href="https://tech.io/">TechIO</a> - 🕸🏗💪 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises</li>
 </ul>
 <h2 id="r"><a href="https://www.r-project.org/">R</a></h2>
 <ul>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
-<li><a href="https://cdn.datacamp.com/dcl-react/standalone-example.html">DataCamp Light</a> -  🕸🏗  Embeddable R and Python examples</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://cdn.datacamp.com/dcl-react/standalone-example.html">DataCamp Light</a> - 🕸🏗 - Embeddable R and Python examples</li>
 </ul>
 <h2 id="ruby"><a href="https://www.ruby-lang.org/">Ruby</a></h2>
 <ul>
-<li><a href="https://www.codewars.com/">Codewars</a> -  🕸🎮  Improve your skills by training with others on real code challenges</li>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
-<li><a href="https://www.bloc.io/ruby-warrior#/">Ruby Warrior</a> -  🕸🎮  A triumphant quest of adventure, love &amp; destiny all within a few lines of code</li>
-<li><a href="http://rubyfiddle.com/">RubyFiddle</a> -  🕸🏗  Run Ruby snippets in your web browser</li>
+<li><a href="https://www.codecademy.com/">Codeacademy</a> - 🕸🎓 - Free platform for online learning web technologies, computer programming and data science.</li>
+<li><a href="https://www.codewars.com/">Codewars</a> - 🕸🎮 - Improve your skills by training with others on real code challenges</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://edabit.com/">Edabit</a> - 🕸💪 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress</li>
+<li><a href="https://www.bloc.io/ruby-warrior#/">Ruby Warrior</a> - 🕸🎮 - A triumphant quest of adventure, love &amp; destiny all within a few lines of code</li>
+<li><a href="http://rubyfiddle.com/">RubyFiddle</a> - 🕸🏗 - Run Ruby snippets in your web browser</li>
+<li><a href="https://www.sololearn.com/">Solo Learn</a> - 🕸 - Learn to code for free using challenges. Offers lessons for multiple programming languages.</li>
+<li><a href="https://tech.io/">TechIO</a> - 🕸🏗💪 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises</li>
+<li><a href="https://www.theodinproject.com/">The Odin Project</a> - 🕸 - A full stack (and open source) Ruby/JS bootcamp</li>
 </ul>
 <h2 id="rust"><a href="https://rust-lang.org">Rust</a></h2>
 <ul>
-<li><a href="https://www.codewars.com/">Codewars</a> -  🕸🎮  Improve your skills by training with others on real code challenges</li>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
-<li><a href="https://play.rust-lang.org/">Rust Playground</a> -  🕸🏗  Run and share Rust snippets from the comfort of your browser</li>
+<li><a href="https://www.codewars.com/">Codewars</a> - 🕸🎮 - Improve your skills by training with others on real code challenges</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://play.rust-lang.org/">Rust Playground</a> - 🕸🏗 - Run and share Rust snippets from the comfort of your browser</li>
+<li><a href="https://tech.io/">TechIO</a> - 🕸🏗💪 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises</li>
 </ul>
 <h2 id="scala"><a href="https://www.scala-lang.org/">Scala</a></h2>
 <ul>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
-<li><a href="http://robocode.sourceforge.net/">Robocode</a> -  ❖🎮  Develop a robot battle tank to battle against others in Java or .NET</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
+<li><a href="http://robocode.sourceforge.net/">Robocode</a> - ❖🎮 - Develop a robot battle tank to battle against others in Java or .NET</li>
+<li><a href="https://tech.io/">TechIO</a> - 🕸🏗💪 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises</li>
 </ul>
 <h2 id="shell"><a href="https://help.ubuntu.com/community/Beginners/BashScripting">Shell</a></h2>
 <ul>
-<li><a href="https://www.codewars.com/">Codewars</a> -  🕸🎮  Improve your skills by training with others on real code challenges</li>
+<li><a href="https://www.codewars.com/">Codewars</a> - 🕸🎮 - Improve your skills by training with others on real code challenges</li>
 </ul>
 <h2 id="sql"><a href="https://www.postgresql.org/">SQL</a></h2>
 <ul>
-<li><a href="https://www.codewars.com/">Codewars</a> -  🕸🎮  Improve your skills by training with others on real code challenges</li>
-<li><a href="http://sqlfiddle.com/">SQL Fiddle</a> -  🕸🏗  Run SQL snippets in your web browser, using PostgreSQL, MySQL, Oracle, SQLite and MS SQL Server</li>
-<li><a href="https://frontendmasters.com/courses/sql-fundamentals/">SQL Fundamentals</a> -  🕸📱  Learn SQL, the most popular language for storing, querying and analyzing the relational data that powers your server-side applications.</li>
+<li><a href="https://www.codewars.com/">Codewars</a> - 🕸🎮 - Improve your skills by training with others on real code challenges</li>
+<li><a href="https://next.xyz/">Next from Codeevolve</a> - 🕸 - Learn to code with interactive exercises and quizzes</li>
+<li><a href="http://sqlfiddle.com/">SQL Fiddle</a> - 🕸🏗 - Run SQL snippets in your web browser, using PostgreSQL, MySQL, Oracle, SQLite and MS SQL Server</li>
+<li><a href="https://frontendmasters.com/courses/sql-fundamentals/">SQL Fundamentals</a> - 💰🕸📱 - Learn SQL, the most popular language for storing, querying and analyzing the relational data that powers your server-side applications. - <em>Mike North (LinkedIn) via Frontend Masters</em></li>
+<li><a href="https://www.sololearn.com/">Solo Learn</a> - 🕸 - Learn to code for free using challenges. Offers lessons for multiple programming languages.</li>
 </ul>
 <h2 id="swift"><a href="https://developer.apple.com/swift/">Swift</a></h2>
 <ul>
-<li><a href="https://www.codewars.com/">Codewars</a> -  🕸🎮  Improve your skills by training with others on real code challenges</li>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
-<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> -  🕸🎮  Hone your programming skills in a huge range of languages, writing code to pass tests</li>
-<li><a href="https://www.apple.com/swift/playgrounds/">Swift Playgrounds</a> -  📱🎮  Learn swift by playing games on your iPad</li>
+<li><a href="https://www.codewars.com/">Codewars</a> - 🕸🎮 - Improve your skills by training with others on real code challenges</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://edabit.com/">Edabit</a> - 🕸💪 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress</li>
+<li><a href="https://www.sololearn.com/">Solo Learn</a> - 🕸 - Learn to code for free using challenges. Offers lessons for multiple programming languages.</li>
+<li><a href="https://www.apple.com/swift/playgrounds/">Swift Playgrounds</a> - 📱🎮 - Learn swift by playing games on your iPad</li>
+<li><a href="https://tech.io/">TechIO</a> - 🕸🏗💪 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises</li>
 </ul>
 <h2 id="typescript"><a href="http://typescriptlang.org/">TypeScript</a></h2>
 <ul>
-<li><a href="https://codepen.io/">CodePen</a> -  🕸🏗  A social development environment for front-end designers and developers.</li>
-<li><a href="https://codesandbox.io/">CodeSandbox</a> -  🕸🏗  The online editor for React, Vue, Angular, Preact and Svelte apps</li>
-<li><a href="https://www.codewars.com/">Codewars</a> -  🕸🎮  Improve your skills by training with others on real code challenges</li>
-<li><a href="https://stackblitz.com/">Stackblitz</a> -  🕸🏗  The online IDE for web applications, Powered by Visual Studio Code. Instantly create Angular, Ionic, React and Svelte projects with TypeScript or JavaScript</li>
-<li><a href="https://frontendmasters.com/courses/typescript/">TypeScript Fundamentals</a> -  🕸📱  TypeScript combines modern JavaScript language features with a powerful and flexible type system, to make building high-performance and scalable apps easy!</li>
+<li><a href="https://codepen.io/">CodePen</a> - 🕸🏗 - A social development environment for front-end designers and developers.</li>
+<li><a href="https://codesandbox.io/">CodeSandbox</a> - 🕸🏗 - The online editor for React, Vue, Angular, Preact and Svelte apps</li>
+<li><a href="https://www.codewars.com/">Codewars</a> - 🕸🎮 - Improve your skills by training with others on real code challenges</li>
+<li><a href="https://stackblitz.com/">Stackblitz</a> - 🕸🏗 - The online IDE for web applications, Powered by Visual Studio Code. Instantly create Angular, Ionic, React and Svelte projects with TypeScript or JavaScript</li>
+<li><a href="https://frontendmasters.com/courses/typescript/">TypeScript Fundamentals</a> - 💰🕸📱 - TypeScript combines modern JavaScript language features with a powerful and flexible type system, to make building high-performance and scalable apps easy! - <em>Mike North (LinkedIn) via Frontend Masters</em></li>
 </ul>
 <h2 id="vb-net"><a href="https://docs.microsoft.com/en-us/dotnet/visual-basic/getting-started/">VB.NET</a></h2>
 <ul>
-<li><a href="https://dotnetfiddle.net/">.NET Fiddle</a> -  🕸🏗  A .NET sandbox for developers to quickly try out code and share C#, F# and VB.NET code snippets.</li>
-<li><a href="https://www.codingame.com/">CodinGame</a> -  🕸🎮  Games and Programming Challenges to Code Better</li>
-<li><a href="http://robocode.sourceforge.net/">Robocode</a> -  ❖🎮  Develop a robot battle tank to battle against others in Java or .NET</li>
+<li><a href="https://dotnetfiddle.net/">.NET Fiddle</a> - 🕸🏗 - A .NET sandbox for developers to quickly try out code and share C#, F# and VB.NET code snippets.</li>
+<li><a href="https://www.codingame.com/">CodinGame</a> - 🕸🎮 - Games and Programming Challenges to Code Better</li>
+<li><a href="http://robocode.sourceforge.net/">Robocode</a> - ❖🎮 - Develop a robot battle tank to battle against others in Java or .NET</li>
 </ul>
 <h1 id="tools-editors"><a href="https://en.wikipedia.org/wiki/Programming_tool">Tools &amp; Editors</a></h1>
 <p>Build tools, text editors, IDEs and more</p>
 <ul>
-<li><a href="https://frontendmasters.com/courses/firebase-react/">Firebase + React: Real-time, Serverless Web Apps</a> -  🕸📱  Learn to use Firebase to deploy sophisticated web and mobile applications without having to build your own complex, server-side infrastructure.</li>
-<li><a href="https://git-game.com/">Git Games</a> -  🕸🎮  A terminal based game that teaches both new and advances users some pretty cool features of the git scm (source control management) system</li>
-<li><a href="https://learngitbranching.js.org/">Learn Git Branching</a> -  🕸🎮  &quot;The most visual and interactive way to learn Git on the web&quot;</li>
-<li><a href="https://frontendmasters.com/courses/aws-react-node-graphql/">Rapid Development on AWS: React, Node.js &amp; GraphQL</a> -  🕸📱  Learn to build on AWS’ cloud services and its world-class infrastructure to easily add authentication, storage, databases, and APIs into your apps!</li>
-<li><a href="https://frontendmasters.com/courses/serverless-aws/">Serverless with AWS Lambda</a> -  🕸📱  Get started with AWS Lambda functions and then learn to test, debug and deploy then to build a real API powered by lambda functions.</li>
-<li><a href="https://alexnisnevich.github.io/untrusted/">Untrusted</a> -  🕸🎮  Use JavaScript to guide Dr. Eval through a machine continuum!</li>
-<li><a href="https://vim-adventures.com/">Vim Adventures</a> -  🕸🎮  An online game based on VIM&#39;s keyboard shortcuts. It&#39;s the &quot;Zelda meets text editing&quot; game. So come have some fun and learn some VIM!</li>
-<li><a href="https://frontendmasters.com/courses/production-node-aws/">Zero to Production Node.js on Amazon Web Services</a> -  🕸📱  Equip yourself with the knowledge to build, test, deploy, and scale Node.js web applications in production on Amazon Web Services.</li>
+<li><a href="https://frontendmasters.com/courses/firebase-react/">Firebase + React: Real-time, Serverless Web Apps</a> - 💰🕸📱 - Learn to use Firebase to deploy sophisticated web and mobile applications without having to build your own complex, server-side infrastructure. - <em>Steve Kinney (SendGrid) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/aws-react-node-graphql/">Rapid Development on AWS: React, Node.js &amp; GraphQL</a> - 💰🕸📱 - Learn to build on AWS’ cloud services and its world-class infrastructure to easily add authentication, storage, databases, and APIs into your apps! - <em>Steve Kinney (SendGrid) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/serverless-aws/">Serverless with AWS Lambda</a> - 💰🕸📱 - Get started with AWS Lambda functions and then learn to test, debug and deploy then to build a real API powered by lambda functions. - <em>Scott Moss (Tipe) via Frontend Masters</em></li>
+<li><a href="https://alexnisnevich.github.io/untrusted/">Untrusted</a> - 🕸🎮 - Use JavaScript to guide Dr. Eval through a machine continuum!</li>
+<li><a href="https://vim-adventures.com/">Vim Adventures</a> - 🕸🎮 - An online game based on VIM&#39;s keyboard shortcuts. It&#39;s the &quot;Zelda meets text editing&quot; game. So come have some fun and learn some VIM!</li>
+<li><a href="https://frontendmasters.com/courses/production-node-aws/">Zero to Production Node.js on Amazon Web Services</a> - 💰🕸📱 - Equip yourself with the knowledge to build, test, deploy, and scale Node.js web applications in production on Amazon Web Services. - <em>Kevin Whinnery (Twilio Node Module) via Frontend Masters</em></li>
 </ul>
 <h2 id="webpack"><a href="https://webpack.js.org/">Webpack</a></h2>
 <ul>
-<li><a href="https://frontendmasters.com/courses/modern-web-apps/">Building Web Apps (with React, Ampersand, ES6 and Webpack)</a> -  🕸📱  Everything you need to build and deploy a maintainable single page app. Build an app from scratch using React, Ampersand, ES6 (ES2015), and Webpack.</li>
-<li><a href="https://frontendmasters.com/courses/performance-webpack/">Web Performance with Webpack</a> -  🕸📱  Make websites load instantly using Webpack for lazy loading JavaScript with code splitting, removing unused code with tree shaking and prefetching assets.</li>
-<li><a href="https://frontendmasters.com/courses/webpack/">Webpack 2 Deep Dive</a> -  🕸📱  Building and deploying complex front-end applications can get complicated. Webpack simplifies this with tons of features catering to all JavaScript apps.</li>
-<li><a href="https://frontendmasters.com/courses/webpack-fundamentals/">Webpack 4 Fundamentals</a> -  🕸📱  Learn the core concepts of Webpack 4. Start from scratch by adding Webpack with npm and build up a pipeline with popular loaders from the Webpack ecosystem!</li>
-<li><a href="https://frontendmasters.com/courses/webpack-plugins/">Webpack Plugins System</a> -  🕸📱  Learn the Webpack 4 plugin system, tour the Webpack source code and learn to build custom plugins and custom Webpack loaders.</li>
+<li><a href="https://frontendmasters.com/courses/performance-webpack/">Web Performance with Webpack</a> - 💰🕸📱 - Make websites load instantly using Webpack for lazy loading JavaScript with code splitting, removing unused code with tree shaking and prefetching assets. - <em>Sean Larkin (Microsoft) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/webpack/">Webpack 2 Deep Dive</a> - 💰🕸📱 - Building and deploying complex front-end applications can get complicated. Webpack simplifies this with tons of features catering to all JavaScript apps. - <em>Kent C. Dodds (PayPal) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/webpack-fundamentals/">Webpack 4 Fundamentals</a> - 💰🕸📱 - Learn the core concepts of Webpack 4. Start from scratch by adding Webpack with npm and build up a pipeline with popular loaders from the Webpack ecosystem! - <em>Sean Larkin (Microsoft) via Frontend Masters</em></li>
+<li><a href="https://frontendmasters.com/courses/webpack-plugins/">Webpack Plugins System</a> - 💰🕸📱 - Learn the Webpack 4 plugin system, tour the Webpack source code and learn to build custom plugins and custom Webpack loaders. - <em>Sean Larkin (Microsoft) via Frontend Masters</em></li>
 </ul>
 <h2 id="git"><a href="https://git-scm.com/">Git</a></h2>
 <ul>
-<li><a href="https://frontendmasters.com/courses/git-in-depth/">Git In-depth</a> -  🕸📱  A deep dive into git, this course is for developers who use it every day and want to learn inner workings and use advanced techniques in git.</li>
+<li><a href="https://git-game.com/">Git Games</a> - 🕸🎮 - A terminal based game that teaches both new and advances users some pretty cool features of the git scm (source control management) system</li>
+<li><a href="https://frontendmasters.com/courses/git-in-depth/">Git In-depth</a> - 💰🕸📱 - A deep dive into git, this course is for developers who use it every day and want to learn inner workings and use advanced techniques in git. - <em>Nina Zakharenko (Microsoft) via Frontend Masters</em></li>
+<li><a href="https://learngitbranching.js.org/">Learn Git Branching</a> - 🕸🎮 - &quot;The most visual and interactive way to learn Git on the web&quot;</li>
+<li><a href="https://next.xyz/">Next from Codeevolve</a> - 🕸 - Learn to code with interactive exercises and quizzes</li>
 </ul>
 <h2 id="visual-studio-code"><a href="https://code.visualstudio.com/">Visual Studio Code</a></h2>
 <ul>
-<li><a href="https://frontendmasters.com/courses/visual-studio-code/">Visual Studio Code</a> -  🕸📱  Visual Studio Code is a modern, full-featured code editor built from the ground for the needs of web developers - JavaScript developers in particular.</li>
+<li><a href="https://frontendmasters.com/courses/visual-studio-code/">Visual Studio Code</a> - 💰🕸📱 - Visual Studio Code is a modern, full-featured code editor built from the ground for the needs of web developers - JavaScript developers in particular. - <em>Mike North (LinkedIn) via Frontend Masters</em></li>
 </ul>
 <h2 id="chrome-developer-tools"><a href="https://developers.google.com/web/tools/chrome-devtools/">Chrome Developer Tools</a></h2>
 <ul>
-<li><a href="https://frontendmasters.com/courses/chrome-dev-tools/">Mastering Chrome Developer Tools</a> -  🕸📱  Learn to use ALL the built-in Chrome developer tools to debug and optimize websites and web applications!</li>
+<li><a href="https://frontendmasters.com/courses/chrome-dev-tools/">Mastering Chrome Developer Tools</a> - 💰🕸📱 - Learn to use ALL the built-in Chrome developer tools to debug and optimize websites and web applications! - <em>Jon Kuperman (Adobe) via Frontend Masters</em></li>
 </ul>
 <h1 id="general-programming"><a href="https://en.wikipedia.org/wiki/Computer_programming">General Programming</a></h1>
 <p>General computer programming skills &amp; techniques</p>
 <ul>
-<li><a href="https://tomorrowcorporation.com/humanresourcemachine">Human Resource Machine</a> -  💰📱🎮  A mobile game that teaches you how low-level programming (i.e., Assembler) works<!-- END_LIST -->
+<li><a href="https://tomorrowcorporation.com/humanresourcemachine">Human Resource Machine</a> - 💰📱🎮 - A mobile game that teaches you how low-level programming (i.e., Assembler) works</li>
+<li><a href="https://www.khanacademy.org/">Khan Academy</a> - 🕸 - Learn anything for free, forever.</li>
+</ul>
+<h1 id="data-science"><a href="https://en.wikipedia.org/wiki/Data_science">Data Science</a></h1>
+<p>The scientific methods, processes, algorithms and systems used to extract knowledge and insights from data</p>
+<ul>
+<li><a href="https://www.codecademy.com/">Codeacademy</a> - 🕸🎓 - Free platform for online learning web technologies, computer programming and data science.</li>
+<li><a href="https://www.sololearn.com/">Solo Learn</a> - 🕸 - Learn to code for free using challenges. Offers lessons for multiple programming languages.</li>
+</ul>
+<h1 id="practice-platform">Practice Platform</h1>
+<p>Collections of exercises to help you sharpen your skills and learn at your own pace. Good for practice once you&#39;ve mastered the basics</p>
+<ul>
+<li><a href="http://cyber-dojo.org/">Cyber Dojo</a> - 🕸🎮 - Hone your programming skills in a huge range of languages, writing code to pass tests</li>
+<li><a href="https://edabit.com/">Edabit</a> - 🕸💪 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress</li>
+<li><a href="https://tech.io/">TechIO</a> - 🕸🏗💪 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises</li>
+</ul>
+<h1 id="learning-platforms-and-bootcamps"><a href="https://en.wikipedia.org/wiki/Coding_bootcamp">Learning platforms and bootcamps</a></h1>
+<p>Curated and structured education that leads to leveling up your skills through exercises, projects and quizzes</p>
+<ul>
+<li><a href="https://www.codecademy.com/">Codeacademy</a> - 🕸🎓 - Free platform for online learning web technologies, computer programming and data science.</li>
+<li><a href="https://www.freecodecamp.org/">Free Code Camp</a> - 🕸 - The king of free coding camps. Learn to code and help nonprofits. Extensive curriculum.</li>
+<li><a href="https://www.khanacademy.org/">Khan Academy</a> - 🕸 - Learn anything for free, forever.</li>
+<li><a href="https://nodeschool.io/">Node School</a> - 🕸 - Open source workshops that teach web software skills. Do them on your own or at a workshop nearby.</li>
+<li><a href="https://www.sololearn.com/">Solo Learn</a> - 🕸 - Learn to code for free using challenges. Offers lessons for multiple programming languages.</li>
+<li><a href="https://www.theodinproject.com/">The Odin Project</a> - 🕸 - A full stack (and open source) Ruby/JS bootcamp<!-- END_LIST -->
 
 </li>
 </ul>

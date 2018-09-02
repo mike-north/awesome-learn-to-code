@@ -10,6 +10,7 @@ import allBootcamps from './sites/bootcamps';
 import allGames from './sites/games';
 import allPlaygrounds from './sites/playgrounds';
 import allPracticePlatforms from './sites/practice-platforms';
+import allTutorials from './sites/tutorials';
 import allVideoCourses from './sites/video-course';
 
 export interface Resource {
@@ -82,6 +83,7 @@ const ALL_SITES: Resource[] = [
   ...allVideoCourses,
   ...allBootcamps,
   ...allPracticePlatforms,
+  ...allTutorials,
 ];
 
 function siteMap(sites: Resource[]): { [k: string]: Resource[] } {
