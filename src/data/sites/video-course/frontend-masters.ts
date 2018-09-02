@@ -1020,7 +1020,7 @@ const NORMALIZED_DATA: Resource[] = SCRAPED_DATA.map(raw => {
       name: 'Frontend Masters',
       url: 'https://frontendmasters.com',
     },
-    platforms: ['web', 'ios', 'android'],
+    platforms: [],
     type: ['video', 'course'],
     categoryIds: detectCategories(raw),
   };
