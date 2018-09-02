@@ -81,6 +81,7 @@ A curated list of sites, tools, resources and other things that help when learni
   | 📱  | Mobile   |
   | 🎮  | Game     |
   | 🏗  | Playground |
+  | 👍 | Practice |
 
 </details>
 
