@@ -7,7 +7,7 @@ const r: Resource = {
   name: 'Khan Academy',
   platforms: ['web'],
   price: 0,
-  type: 'learning-platform',
+  type: 'tutorial',
   url: 'https://www.khanacademy.org/',
 };
 
