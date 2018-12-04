@@ -4,10 +4,25 @@ cache:
     - ~/.npm
 notifications:
   email: false
+
 node_js:
   - '10'
-after_success:
-  - yarn travis-deploy-once "yarn semantic-release"
+
+stages:
+  - 'Tests'
+  - name: 'Deploy'
+    if: branch = master AND type = push
+
+jobs:
+  fail_fast: true
+  include:
+    - stage: 'Tests'
+      name: 'Conventional Commits'
+      script: commitlint-travis
+    - name: 'Basic Tests'
+    - stage: 'Deploy'
+      name: 'Publish'
+      script: yarn semantic-release
 
 script: yarn test:ci
 branches:
