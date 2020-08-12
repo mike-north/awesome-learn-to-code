@@ -128,6 +128,7 @@ Programming languages
 * [Codewars](https://www.codewars.com/) - 🕸💪 - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - 🕸🎮 - Games and Programming Challenges to Code Better
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸💪 - Hone your programming skills in a huge range of languages, writing code to pass tests
+* [workat.tech](https://workat.tech/courses/intro-to-programming-in-c-c++-ouv5e6upwyde) - 🕸💪 - Learn to code through an interactive course with content, quizzes and coding playground.
 
 ## [C++](https://en.cppreference.com/w/)
 
