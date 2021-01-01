@@ -115,6 +115,7 @@ Programming languages
 * [Human Resource Machine](https://tomorrowcorporation.com/humanresourcemachine) - 💰📱🎮 - A mobile game that teaches you how low-level programming (i.e., Assembler) works
 * [Shenzhen I/O](https://store.steampowered.com/app/504210/SHENZHEN_IO/) - ❖🎮 - BUILD CIRCUITS. WRITE CODE. RTFM.
 * [TIS-100](https://store.steampowered.com/app/370360/TIS100/) - 💰❖🎮 - Rewrite corrupted code segments to repair the TIS-100 and unlock its secrets.
+* [Godbolt](https://godbolt.org) - 🕸🏗 - Easily inspect generated assembly for many language/compiler/optimization-level/system-architecture combinations.
 
 ## [Bash](https://www.gnu.org/software/bash/)
 
