@@ -26,6 +26,7 @@ A curated list of sites, tools, resources and other things that help when learni
    * [F#](#f#)
    * [Fortran](#fortran)
    * [Go](#go)
+   * [GraphQL](#graphql)
    * [Groovy](#groovy)
    * [Haskell](#haskell)
    * [Java](#java)
@@ -229,6 +230,10 @@ Programming languages
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸💪 - Hone your programming skills in a huge range of languages, writing code to pass tests
 * [Go Playground](https://play.go-lang.org/) - 🕸🏗 - Run and share Go snippets from the comfort of your browser
 * [TechIO](https://tech.io/) - 🕸🏗💪 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises
+
+## [GraphQL](https://graphql.org/)
+
+* [The GraphQL Guide](https://graphql.guide/) – 💰🕸📱 – A comprehensive book on GraphQL, including a beginner introduction and advanced client and server topics.
 
 ## [Groovy](http://groovy-lang.org/)
 
