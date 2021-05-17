@@ -74,7 +74,7 @@ A curated list of sites, tools, resources and other things that help when learni
 
   | Icon | Meaning  |
   | ---:| :---|
-  | 💰  | Not Free | 
+  | 💰  | Not Free |
   | ❖  | Windows   |
   |   | OS        |
   | 🕸  | Web      |
@@ -175,6 +175,7 @@ Programming languages
 * [CodePen](https://codepen.io/) - 🕸🏗 - A social development environment for front-end designers and developers.
 * [CodeSandbox](https://codesandbox.io/) - 🕸🏗 - The online editor for React, Vue, Angular, Preact and Svelte apps
 * [CodinGame](https://www.codingame.com/) - 🕸🎮 - Games and Programming Challenges to Code Better
+* [DevProjects](https://www.codementor.io/projects/html_css) - 🕸💪 - A list of free real-world HTML/CSS projects, often with solutions submitted by other developers and a community with discussion boards.
 * [Flexbox Defense](http://www.flexboxdefense.com/) - 🕸🎮 - Use flexbox to move your defenses into position and defend against waves of incoming enemies
 * [Flexbox Froggy](https://flexboxfroggy.com/) - 🕸🎮 - A game for learning CSS flexbox
 * [Introduction to HTML5 and CSS3](https://frontendmasters.com/courses/introduction-html5-css3/) - 💰📼 - Christopher Schmitt, author of HTML5 Cookbook, covers HTML5 features such as audio, video and geolocation and then dives into many of CSS3′s features. - *Christopher Schmitt (Frontend Masters) via Frontend Masters*
@@ -251,6 +252,7 @@ Programming languages
 * [Codewars](https://www.codewars.com/) - 🕸💪 - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - 🕸🎮 - Games and Programming Challenges to Code Better
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸💪 - Hone your programming skills in a huge range of languages, writing code to pass tests
+* [DevProjects](https://www.codementor.io/projects/java) - 🕸💪 - Free, unique, and ever-growing list of Java projects for engineers of all level.
 * [Edabit](https://edabit.com/) - 🕸💪 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress
 * [Next from Codeevolve](https://next.xyz/) - 🕸 - Learn to code with interactive exercises and quizzes
 * [Robocode](http://robocode.sourceforge.net/) - ❖🎮 - Develop a robot battle tank to battle against others in Java or .NET
@@ -272,6 +274,7 @@ Programming languages
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸💪 - Hone your programming skills in a huge range of languages, writing code to pass tests
 * [Data Structures and Algorithms in JavaScript](https://frontendmasters.com/courses/data-structures-algorithms/) - 💰📼 - Learn the most common data structures and algorithms in Computer Science in-depth taught with JavaScript. - *Bianca Gandolfo (Bitovi) via Frontend Masters*
 * [Deep JavaScript Foundations](https://frontendmasters.com/courses/javascript-foundations/) - 💰📼 - Master JavaScript deeply learning scope and closure, functions, the prototype system, closure, types, coercion and new ES6 features in JavaScript! - *Kyle Simpson (You Don't Know JS) via Frontend Masters*
+* [DevProjects](https://www.codementor.io/projects/javascript) - 🕸💪 - Free, unique, and ever-growing list of JavaScript projects with solutions from other developers and a discussion board for questions and answers.
 * [ES6: The Right Parts](https://frontendmasters.com/courses/es6-right-parts/) - 💰📼 - Learn new ES6 JavaScript language features like arrow function, destructuring, generators & more to write cleaner and more productive, readable programs. - *Kyle Simpson (You Don't Know JS) via Frontend Masters*
 * [Edabit](https://edabit.com/) - 🕸💪 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress
 * [Free Code Camp](https://www.freecodecamp.org/) - 🕸🎓 - The king of free coding camps. Learn to code and help nonprofits. Extensive curriculum.
@@ -388,6 +391,7 @@ Frameworks for building web applications that run in the browser
 * [Codewars](https://www.codewars.com/) - 🕸💪 - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - 🕸🎮 - Games and Programming Challenges to Code Better
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸💪 - Hone your programming skills in a huge range of languages, writing code to pass tests
+* [DevProjects](https://www.codementor.io/projects/php) - 🕸💪 - Strengthen your coding skills by building free, real-world PHP projects.
 * [Edabit](https://edabit.com/) - 🕸💪 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress
 * [PhpFiddle](http://phpfiddle.org/) - 🕸🏗 - Php/MySQL execution environment in your web browser
 * [Solo Learn](https://www.sololearn.com/) - 🕸 - Learn to code for free using challenges. Offers lessons for multiple programming languages.
@@ -401,6 +405,7 @@ Frameworks for building web applications that run in the browser
 * [Codewars](https://www.codewars.com/) - 🕸💪 - Improve your skills by training with others on real code challenges
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸💪 - Hone your programming skills in a huge range of languages, writing code to pass tests
 * [DataCamp Light](https://cdn.datacamp.com/dcl-react/standalone-example.html) - 🕸🏗 - Embeddable R and Python examples
+* [DevProjects](https://www.codementor.io/projects/python) - 🕸💪 - Free and unique Python projects that focus on both web development and data analysis.
 * [Edabit](https://edabit.com/) - 🕸💪 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress
 * [Next from Codeevolve](https://next.xyz/) - 🕸 - Learn to code with interactive exercises and quizzes
 * [Python Fiddle](http://python-fiddle.com/) - 🕸🏗 - Python IDE for the web
@@ -456,6 +461,7 @@ Frameworks for building web applications that run in the browser
 * [Codewars](https://www.codewars.com/) - 🕸💪 - Improve your skills by training with others on real code challenges
 * [CodinGame](https://www.codingame.com/) - 🕸🎮 - Games and Programming Challenges to Code Better
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸💪 - Hone your programming skills in a huge range of languages, writing code to pass tests
+* [DevProjects](https://www.codementor.io/projects/swift) - 🕸💪 - Free mobile app projects that fit developers of all levels of competencies.
 * [Edabit](https://edabit.com/) - 🕸💪 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress
 * [Solo Learn](https://www.sololearn.com/) - 🕸 - Learn to code for free using challenges. Offers lessons for multiple programming languages.
 * [Swift Playgrounds](https://www.apple.com/swift/playgrounds/) - 📱🎮 - Learn swift by playing games on your iPad
@@ -528,6 +534,7 @@ Collections of exercises to help you sharpen your skills and learn at your own p
 
 * [Codewars](https://www.codewars.com/) - 🕸💪 - Improve your skills by training with others on real code challenges
 * [Cyber Dojo](http://cyber-dojo.org/) - 🕸💪 - Hone your programming skills in a huge range of languages, writing code to pass tests
+* [DevProjects](https://www.codementor.io/projects) - 🕸💪 - Learn and improve your programming skills by building free, unique, real-world projects
 * [Edabit](https://edabit.com/) - 🕸💪 - Work through a wide array of bite-sized programming challenges, that increase in difficulty as you progress
 * [TechIO](https://tech.io/) - 🕸🏗💪 - Design, share, and learn from community-sourced tutorials quizzes and interactive exercises
 
