@@ -541,6 +541,7 @@ Curated and structured education that leads to leveling up your skills through e
 * [Node School](https://nodeschool.io/) - 🕸 - Open source workshops that teach web software skills. Do them on your own or at a workshop nearby.
 * [Solo Learn](https://www.sololearn.com/) - 🕸 - Learn to code for free using challenges. Offers lessons for multiple programming languages.
 * [The Odin Project](https://www.theodinproject.com/) - 🕸🎓 - A full stack (and open source) Ruby/JS bootcamp
+* [Code With Mosh](https://www.codewithmosh.com/) - 🕸🎓 - A subscription learning platform where users can learn languages such as C#, Python, Javascript, etc.
 <!-- END_LIST -->
 
 ## Sources
